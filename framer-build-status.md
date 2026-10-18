@@ -16,14 +16,15 @@ Built by Claude through Framer Agent in the Framer project **Nuanced Checkbox** 
 
 ## Placeholders
 
-Filled on 2026-10-18 with real install photos and Higgsfield stills, or written around honestly. No ratings, prices, specs or warranty terms were invented. Still needed from the owner:
+Final scan (2026-10-18): no "PLACEHOLDER" text on any page, and none in the live CMS. The one draft Reviews item is unpublished.
 
-- Real Google rating and review count, and real reviews (the one Reviews item stays a draft)
-- Warranty terms and system specs (FAQ answers now point to the free design visit)
-- Owner name and photo (Home shows the logo instead), and the About founding story (hidden)
-- Neighborhoods and cities for each project (left blank), and occasions (all "Other")
-- Palm Tree House: the EverLights logo is cropped off the photo; confirm it is our install
-- Omaha and Lincoln ZIPs are written as "ZIP codes starting with 681 / 685"; confirm the exact list
+Owner details added: founder Scot Ballan (Home and About), 12-month system warranty (How It Works and the FAQ), business ZIP 68116 (Omaha service-area page and the JSON-LD address). No Google rating appears anywhere.
+
+Photos: Palm Tree House was replaced by Three-Car Ranch. Four owner photos were added as projects (Three-Car Ranch, Modern Two-Story, Two-Story in Purple, Ranch in Amber), plus a red roofline close-up on How It Works. House numbers are blurred and EXIF/GPS is stripped. Sources are in `assets/photos/`.
+
+Still from the owner: real reviews and rating once they exist, project neighborhoods and cities, the founding story, and the exact Omaha and Lincoln ZIP lists.
+
+Fixed during validation: 13 lines of text had lost their text style during earlier rewrites (rendering as black Inter); the Home trust strip was squeezed into a narrow column; the phone nav pushed its menu button off-screen (the CTA is now hidden on phone, where the sticky bottom bar covers it).
 
 ## Hero film: properties to fill on ScrollVideoHero (Home)
 
