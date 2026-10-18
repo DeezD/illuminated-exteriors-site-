@@ -636,7 +636,7 @@ export default function BookingForm(props: Props) {
 }
 
 BookingForm.defaultProps = {
-    endpoint: "",
+    endpoint: "https://formsubmit.co/ajax/info@illuminated-exteriors.com",
     serviceAreas:
         "680* Omaha metro\n681* Omaha\n683* Southeast Nebraska\n684* Lincoln area\n685* Lincoln\n515* Southwest Iowa",
     outsideMode: "confirm",

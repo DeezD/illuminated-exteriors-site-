@@ -16,7 +16,7 @@ A family project, kept in its own repository: nothing here belongs to or touches
 | Lighting system | Likely **EverLights** (a gallery file is named "EverLights Ad Palm Tree House"). Confirm with the owner. |
 | Teams | Nebraska Cornhuskers (scarlet and cream), Creighton Bluejays (blue and white) |
 
-**Gallery honesty flag:** at least two current gallery images ("EverLights Ad Palm Tree House", "Downward Facing FL Rambler") look like manufacturer marketing photos rather than Omaha installs. In the new site, "Our Work" shows only their own jobs; manufacturer images, if used at all, go on How It Works with a credit.
+**Gallery:** the owner confirmed (2026-10-18) that all current gallery photos are their own installs, including the palm-tree house and the "FL Rambler." Use them in "Our Work."
 
 **Trademarks:** scene names use colors ("Red & White Game Day"), not team names or logos. Using "Huskers" or "Bluejays" in ads implies a university affiliation; skip it unless they hold a license.
 
@@ -95,6 +95,6 @@ Follow `framer-ai-prompts.md` steps 1–5. In short: add the fonts and color sty
 
 - **Image sequence instead of scrubbing an MP4:** seeking video on scroll stutters on iOS Safari; frames don't.
 - **Game Day team colors:** with pre-rendered loops, the visitor picks from produced scenes rather than any color. Free color choice needs the real-time WebGL house from the earlier prototype; it's a possible phase 2.
-- **Form endpoint (email):** set Endpoint to `https://formsubmit.co/ajax/<their email>`. FormSubmit is free and needs no account; the first submission sends a one-time activation email to that address, and every request after that arrives as an email with the photo attached. The subject line is "Free design request · <name> · <area>". Without an endpoint, the form shows its error state and logs a console warning.
+- **Form endpoint (email):** Endpoint defaults to `https://formsubmit.co/ajax/info@illuminated-exteriors.com`. FormSubmit is free and needs no account; the first submission sends a one-time activation email to info@, which someone must click, and every request after that arrives as an email with the photo attached. The subject line is "Free design request · <name> · <area>". Without an endpoint, the form shows its error state and logs a console warning.
 - **Service area:** defaults to ZIP prefixes for the Omaha metro, Lincoln and southwest Iowa. ZIPs outside the list can still send ("we'll confirm we can reach you"), so no lead is lost on the 50-mile boundary; the email marks them `in_service_area: no, confirm`.
 - **defaultProps:** used for Framer's property defaults; React may log a deprecation notice in development only.
