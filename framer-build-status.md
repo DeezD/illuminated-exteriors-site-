@@ -14,15 +14,16 @@ Built by Claude through Framer Agent in the Framer project **Nuanced Checkbox** 
 | Breakpoints | Desktop 1200, Tablet 810, Phone 390 on every page and the layout |
 | SEO | Site default and per-page titles and descriptions; JSON-LD in Custom Code (end of head), unverifiable fields removed |
 
-## Placeholders (search the project for "PLACEHOLDER")
+## Placeholders
 
-- Palm Tree House photo carries an EverLights ad logo: confirm it's our install before featuring it (taken off Home)
-- Neighborhoods, cities, occasions (all "Other"), install dates, review quotes
-- FAQ answers on pricing range, track look, app, install time, warranty, weather, HOA
-- Service-area ZIPs for Omaha and Lincoln
-- Trust strip (Google rating and count, licensed and insured, certified installer), owner name and photo, About founding story, map
-- Image slots for Higgsfield P1 (phone in hand) and M1, D1, plus the Day/Night slider images (D1 and K2)
-- Reviews: one draft item, not published
+Filled on 2026-10-18 with real install photos and Higgsfield stills, or written around honestly. No ratings, prices, specs or warranty terms were invented. Still needed from the owner:
+
+- Real Google rating and review count, and real reviews (the one Reviews item stays a draft)
+- Warranty terms and system specs (FAQ answers now point to the free design visit)
+- Owner name and photo (Home shows the logo instead), and the About founding story (hidden)
+- Neighborhoods and cities for each project (left blank), and occasions (all "Other")
+- Palm Tree House: the EverLights logo is cropped off the photo; confirm it is our install
+- Omaha and Lincoln ZIPs are written as "ZIP codes starting with 681 / 685"; confirm the exact list
 
 ## Hero film: properties to fill on ScrollVideoHero (Home)
 
