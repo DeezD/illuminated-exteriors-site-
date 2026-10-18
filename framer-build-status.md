@@ -1,6 +1,6 @@
 # Framer build status (2026-10-18)
 
-Built by Claude through Framer Agent in the Framer project **Nuanced Checkbox** (`framer.com/projects/Nuanced-Checkbox--SQQ83ci9vo5eq1VVPoHH`). Branching isn't available on this Framer plan, so the work sits in the project's main version. **Nothing has been published.**
+Built by Claude through Framer Agent in the Framer project **Nuanced Checkbox** (`framer.com/projects/Nuanced-Checkbox--SQQ83ci9vo5eq1VVPoHH`). Branching isn't available on this Framer plan, so the work sits in the project's main version. **Published to production on 2026-10-18 (version 8781015f1) at https://nuanced-checkbox-084836.framer.app, on the owner's go-ahead.**
 
 ## What's in the project
 
