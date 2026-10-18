@@ -16,7 +16,8 @@ Built by Claude through Framer Agent in the Framer project **Nuanced Checkbox** 
 
 ## Placeholders (search the project for "PLACEHOLDER")
 
-- Project titles 4–6, neighborhoods, cities, occasions (all "Other"), install dates, review quotes
+- Palm Tree House photo carries an EverLights ad logo: confirm it's our install before featuring it (taken off Home)
+- Neighborhoods, cities, occasions (all "Other"), install dates, review quotes
 - FAQ answers on pricing range, track look, app, install time, warranty, weather, HOA
 - Service-area ZIPs for Omaha and Lincoln
 - Trust strip (Google rating and count, licensed and insured, certified installer), owner name and photo, About founding story, map
@@ -32,9 +33,11 @@ Built by Claude through Framer Agent in the Framer project **Nuanced Checkbox** 
 | Poster 16:9 / Poster 9:16 / Lit still | Posters from `make-frames.sh`; Lit still = K2 |
 | Intro to, Copy lights at, each chapter's Starts at | Printed by `scripts/make-film.sh` |
 
-Until those are set, the hero shows its still state.
+**Scroll film: live (2026-10-18).** Frames are hosted at `https://illuminated-exteriors-media.higgsfield.app/hero/16x9/{n}.webp` (330) and `/hero/9x16/{n}.webp` (150), set on the Home hero with Intro to 0.210, Copy lights at 0.163 and chapters at 0.344 / 0.530 / 0.710 / 0.890 (from `make-film.sh`). Segments: V1, V2, V3, V5 by MiniMax H3; V4 (Christmas → red & white) failed twice on MiniMax, so it is a 6 s cross-fade between the neighbouring clips. The 9:16 set is a portrait crop of the 16:9 film. Tested in Chromium at 1440 and 390: all frames load, the canvas scrubs, no horizontal scroll.
 
-**Higgsfield stills placed (2026-10-18):** hero poster F0 and lit still F1; Day/Night slider F0 → F1; scene stills Everyday F1, Red & White F4, Blue & White F5, Halloween F2, Christmas F3. Birthday and July 4th have no still yet. The scroll film itself needs the video segments rendered first.
+The frame host is published, so it also appears on Higgsfield's community feed (owner approved). Its files are served with `max-age=0`; moving them to the now-public GitHub repo via jsDelivr would add long-term caching.
+
+**Higgsfield stills placed (2026-10-18):** hero poster F0 and lit still F1; Day/Night slider F0 → F1; scene stills Everyday F1, Red & White F4, Blue & White F5, Halloween F2, Christmas F3. Birthday and July 4th stills and the W1 night-sky background (closing section, Free Design and city pages) were added later the same day.
 
 ## Not done
 
