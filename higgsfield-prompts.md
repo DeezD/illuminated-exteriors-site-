@@ -2,7 +2,17 @@
 
 Prepared 2026-10-18. Higgsfield project: **"Illuminated Exteriors – Website Visuals"** (all outputs go to its default folder). Account balance at start: 2,862 credits (Ultra). Nano Banana 2.1 at 4K quoted **3 credits for 4 images**, so stills are cheap; check the quote before each video job.
 
-**Status (2026-10-18):** K1 round 1 → owner picked option 2 and asked for a more frontal view. Round 2 (4 frontal options, edits of option 2) is generated and awaiting a pick. That pick becomes **F0** below.
+**Status (2026-10-18):** keyframes generated, awaiting owner approval before the video segments run.
+
+| Frame | Higgsfield job ID | Note |
+|---|---|---|
+| F0 sunset, lights off | `0e160da7-cc75-441f-b175-d64cc16f943a` | Owner pick (frontal round, option 4) |
+| F1 blue hour, warm white | `f74ca7bc-1628-4250-bd07-509bb5caaee2` | Option A (used for F2–F3) |
+| F1 alternate | `3700ad72-0055-40f7-8613-8ac97f6f7af0` | Option B |
+| F2 Halloween | `ef2c393d-4cad-4a28-a905-6079e0253554` | Edit of F1 option A |
+| F3 Christmas | `56641842-bcc3-4cc2-9e1e-bae80f13a121` | Edit of F1 option A |
+| F4 red & white | `d23d6bf3-78b3-4d26-837b-9cb4054913a1` | Edit of F3 (keeps the snow) |
+| F5 blue & white | `9ec7b89c-8ff0-4011-8543-8c4ff71e505f` | Edit of F3 (keeps the snow) |
 
 **References in Higgsfield** (imported from the public images on illuminated-exteriors.com, used for architectural style and lighting-channel look only, never copied):
 `GU4A8773-HDR-3.jpg`, `Jakubowski Color.jpg`, `Midwestern Metal Build Home.jpg`, `Fry.JPG`. The purple-lit colonial photo sent in chat couldn't be uploaded from this environment (network block); upload it through the Higgsfield web app if wanted.

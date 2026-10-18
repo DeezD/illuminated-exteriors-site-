@@ -98,3 +98,13 @@ Follow `framer-ai-prompts.md` steps 1–5. In short: add the fonts and color sty
 - **Form endpoint (email):** Endpoint defaults to `https://formsubmit.co/ajax/info@illuminated-exteriors.com`. FormSubmit is free and needs no account; the first submission sends a one-time activation email to info@, which someone must click, and every request after that arrives as an email with the photo attached. The subject line is "Free design request · <name> · <area>". Without an endpoint, the form shows its error state and logs a console warning.
 - **Service area:** defaults to ZIP prefixes for the Omaha metro, Lincoln and southwest Iowa. ZIPs outside the list can still send ("we'll confirm we can reach you"), so no lead is lost on the 50-mile boundary; the email marks them `in_service_area: no, confirm`.
 - **defaultProps:** used for Framer's property defaults; React may log a deprecation notice in development only.
+
+## Connecting Framer (so Claude can build in the project)
+
+Framer's official route is **Framer Agent** (framer.com/agents/external), not a plugin:
+
+1. In Claude Code on your computer (or a cloud session whose network allows Framer), run `npx @framer/agent setup`.
+2. Run the `/framer` skill, then approve access to the project in the browser window it opens.
+3. Claude can then edit the canvas, components and CMS. Every agent change lands on a Framer branch you review and merge, and nothing publishes until you say so.
+
+Cloud sessions block framer.com by default. To use it there, add `framer.com` and `*.framer.com` under the environment's Network access → Allowed domains (https://code.claude.com/docs/en/cloud-environments#network-access).
