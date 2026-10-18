@@ -26,6 +26,13 @@ Still from the owner: real reviews and rating once they exist, project neighborh
 
 Fixed during validation: 13 lines of text had lost their text style during earlier rewrites (rendering as black Inter); the Home trust strip was squeezed into a narrow column; the phone nav pushed its menu button off-screen (the CTA is now hidden on phone, where the sticky bottom bar covers it).
 
+## Audit (2026-10-18, second pass)
+
+- Home "Real homes" now features Three-Car Ranch, Modern Farmhouse and Modern Two-Story.
+- Fixed: About value blurbs overlapped on phone (now stacked); Free Design phone header wordmark collided with the phone number (smaller on phone); "Locally owned by Scot Ballan" was too dim over the photo (now moonstone).
+- Checked: no internal links to missing pages; one phone number (402-699-6256) and one email everywhere; no unstyled text; every live project has photo and alt text; all 480 scroll-film frames return 200 from the frame host.
+- Canvas screenshots show CMS lists on tablet/phone as a single template card ("Title", "City"); this is the screenshot tool, not the site (Our Work shows the same), and desktop renders every item.
+
 ## Hero film: properties to fill on ScrollVideoHero (Home)
 
 | Property | Value |
