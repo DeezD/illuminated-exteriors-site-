@@ -34,6 +34,8 @@ Built by Claude through Framer Agent in the Framer project **Nuanced Checkbox** 
 
 Until those are set, the hero shows its still state.
 
+**Higgsfield stills placed (2026-10-18):** hero poster F0 and lit still F1; Day/Night slider F0 → F1; scene stills Everyday F1, Red & White F4, Blue & White F5, Halloween F2, Christmas F3. Birthday and July 4th have no still yet. The scroll film itself needs the video segments rendered first.
+
 ## Not done
 
 - Redirects `/m/bookings` and `/m/account` → `/free-design`: the current Framer plan doesn't include redirects
