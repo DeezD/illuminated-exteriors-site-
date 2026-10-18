@@ -1,4 +1,6 @@
-// Scroll-scrubbed cinematic hero ("Arrival, 6:12 PM").
+// Scroll-scrubbed cinematic hero: one house, one locked camera. Scroll sets the
+// sun, the roofline lights up, then the year plays through its chapters
+// (Halloween, Christmas, red-and-white game days, blue-and-white game days).
 //
 // The Higgsfield hero film is exported as a WebP image sequence (scripts/make-frames.sh)
 // and drawn to a canvas as the visitor scrolls. An image sequence scrubs smoothly
@@ -15,16 +17,21 @@
 
 import { useEffect, useRef, useState, type CSSProperties } from "react"
 import { addPropertyControls, ControlType, RenderTarget } from "framer"
-import { motion } from "framer-motion"
+import { motion, AnimatePresence } from "framer-motion"
 import { color, font, ease, dur, monoLabel, cssEase } from "./tokens.tsx"
 import { useDeviceTier } from "./useDeviceTier.tsx"
-import { useStore } from "./store.tsx"
+import { useStore, setState } from "./store.tsx"
 import { FrameSequence, drawCover } from "./frameSequence.tsx"
 import MagneticButton from "./MagneticButton.tsx"
 
 type Img = { src: string; srcSet?: string; alt?: string }
 
+// One stop in the film after the ignition: the scene shown from `at` (0-1 of
+// the scroll) onward. scripts/make-film.sh prints the `at` values for a cut.
+type Chapter = { at: number; label: string; time: string; title: string; body: string; cta: string; swatch: string }
+
 type Props = {
+    chapters: Chapter[]
     desktopFrames: string
     desktopCount: number
     mobileFrames: string
@@ -79,7 +86,14 @@ const CSS = `
 .ie-hero__overlay{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;
   padding:0 max(24px,env(safe-area-inset-right,0px)) 48px max(24px,env(safe-area-inset-left,0px))}
 .ie-hero__inner{width:100%;max-width:1320px;margin:0 auto}
-.ie-hero__copy{max-width:680px}
+.ie-hero__stack{display:grid}
+.ie-hero__stack > *{grid-area:1/1}
+.ie-hero__copy{max-width:680px;align-self:end}
+.ie-hero__chapter{max-width:560px;align-self:end}
+.ie-hero__chaptitle{font-family:${font.display};font-weight:400;font-size:clamp(36px,4.6vw,68px);line-height:1;
+  letter-spacing:-.01em;margin:0 0 16px;color:#EEF1F4;text-wrap:balance}
+.ie-hero__dots{display:inline-flex;gap:3px}
+.ie-hero__dots i{width:7px;height:7px;border-radius:50%;display:block}
 .ie-hero__eyebrow{display:flex;align-items:center;gap:12px;margin:0 0 18px;color:${color.goldBright}}
 .ie-hero__eyebrow::before{content:"";width:28px;height:1px;background:${color.gold};box-shadow:0 0 8px ${color.gold}}
 .ie-hero__title{font-family:${font.display};font-weight:400;font-size:clamp(44px,6vw,92px);line-height:.98;
@@ -91,7 +105,7 @@ const CSS = `
 .ie-hero__hud{position:absolute;right:max(24px,env(safe-area-inset-right,0px));display:flex;gap:16px;align-items:baseline}
 .ie-hero__clock{color:${color.moonstone};font-variant-numeric:tabular-nums}
 .ie-hero__cue{position:absolute;right:max(24px,env(safe-area-inset-right,0px));bottom:48px;width:1px;height:56px;
-  background:linear-gradient(${color.gold},rgba(217,180,106,0));transform-origin:top;transition:opacity .4s}
+  background:linear-gradient(${color.gold},rgba(217,180,106,0));transform-origin:top;opacity:0;transition:opacity .4s}
 @keyframes ie-cue{0%{transform:scaleY(0)}60%{transform:scaleY(1)}100%{transform:scaleY(1);opacity:0}}
 .ie-hero__cue.is-on{animation:ie-cue 1.6s ${cssEase.ignite} infinite}
 @media (max-width:809px){
@@ -124,10 +138,19 @@ export default function ScrollVideoHero(props: Props) {
     const [lit, setLit] = useState(!animated)
     const [scrolled, setScrolled] = useState(false)
     const [minutes, setMinutes] = useState(toMinutes(animated ? p.clockFrom : p.clockTo))
+    const [chapter, setChapter] = useState(-1) // -1 = the ignition, before the first season
 
     // Keep the latest values reachable from the animation loop without restarting it.
-    const live = useRef({ paused, revealAt: p.revealAt, from: toMinutes(p.clockFrom), to: toMinutes(p.clockTo) })
-    live.current = { paused, revealAt: p.revealAt, from: toMinutes(p.clockFrom), to: toMinutes(p.clockTo) }
+    const chapterStarts = p.chapters.map((c) => c.at)
+    const liveValues = {
+        paused,
+        revealAt: p.revealAt,
+        from: toMinutes(p.clockFrom),
+        to: toMinutes(p.clockTo),
+        chapterStarts,
+    }
+    const live = useRef(liveValues)
+    live.current = liveValues
 
     useEffect(() => {
         if (!animated) {
@@ -155,6 +178,7 @@ export default function ScrollVideoHero(props: Props) {
         let lastMinute = -1
         let isLit = false
         let hasScrolled = false
+        let lastChapter = -1
         const mountedAt = performance.now()
 
         const schedule = () => {
@@ -187,10 +211,21 @@ export default function ScrollVideoHero(props: Props) {
                 isLit = true
                 setLit(true)
             }
-            const m = Math.round(live.current.from + (live.current.to - live.current.from) * cur)
+            // The clock runs across the ignition only; each season chapter shows its own date.
+            const starts = live.current.chapterStarts
+            const ignitionEnd = starts.length ? starts[0] : 1
+            const m = Math.round(live.current.from + (live.current.to - live.current.from) * clamp01(cur / ignitionEnd))
             if (m !== lastMinute) {
                 lastMinute = m
                 setMinutes(m)
+            }
+            let ci = -1
+            starts.forEach((at, i) => {
+                if (cur >= at) ci = i
+            })
+            if (ci !== lastChapter) {
+                lastChapter = ci
+                setChapter(ci)
             }
             if (cur !== target || intro < 1 || seq.loadedCount < count) schedule()
         }
@@ -243,6 +278,12 @@ export default function ScrollVideoHero(props: Props) {
     const length = animated ? (mobile ? Math.max(160, p.scrollLength * 0.7) : p.scrollLength) : 100
     const Heading = p.headingTag
     const reduce = device.reducedMotion
+    const active = animated && chapter >= 0 ? p.chapters[chapter] : null
+
+    // Carry the season on screen into the booking form (pre-fills "first scene").
+    useEffect(() => {
+        if (active) setState({ scene: active.label })
+    }, [active])
 
     const lineMotion = (i: number) => ({
         initial: false as const,
@@ -289,9 +330,15 @@ export default function ScrollVideoHero(props: Props) {
                 <div className="ie-hero__scrim" aria-hidden="true" />
 
                 <div className="ie-hero__hud" style={{ top: p.hudTop, ...monoLabel }} aria-hidden="true">
-                    <span className="ie-hero__hudlabel">{p.hudLabel}</span>
+                    <span className="ie-hero__hudlabel">{active ? active.label : p.hudLabel}</span>
                     <span className="ie-hero__clock">
-                        {clock.time} <span style={{ color: color.dim }}>{clock.meridiem}</span>
+                        {active ? (
+                            active.time
+                        ) : (
+                            <>
+                                {clock.time} <span style={{ color: color.dim }}>{clock.meridiem}</span>
+                            </>
+                        )}
                     </span>
                 </div>
                 {animated ? (
@@ -299,8 +346,15 @@ export default function ScrollVideoHero(props: Props) {
                 ) : null}
 
                 <div className="ie-hero__overlay">
-                    <div className="ie-hero__inner">
-                        <div className="ie-hero__copy">
+                    <div className="ie-hero__inner ie-hero__stack">
+                        <div
+                            className="ie-hero__copy"
+                            style={{
+                                opacity: active ? 0 : 1,
+                                visibility: active ? "hidden" : "visible",
+                                transition: `opacity .5s ${cssEase.dusk}, visibility .5s`,
+                            }}
+                        >
                             {p.eyebrow ? (
                                 <motion.p className="ie-hero__eyebrow" style={monoLabel} {...lineMotion(0)}>
                                     <span style={{ color: color.goldBright }}>{p.eyebrow}</span>
@@ -338,6 +392,44 @@ export default function ScrollVideoHero(props: Props) {
                                 ) : null}
                             </motion.div>
                         </div>
+
+                        <AnimatePresence mode="wait">
+                            {active ? (
+                                <motion.div
+                                    key={chapter}
+                                    className="ie-hero__chapter"
+                                    initial={reduce ? false : { opacity: 0, y: 24 }}
+                                    animate={{
+                                        opacity: 1,
+                                        y: 0,
+                                        transition: { duration: dur.reveal, ease: ease.ignite },
+                                    }}
+                                    exit={{ opacity: 0, y: -12, transition: { duration: dur.quick, ease: ease.fade } }}
+                                    aria-live="polite"
+                                >
+                                    <p className="ie-hero__eyebrow" style={monoLabel}>
+                                        <span className="ie-hero__dots" aria-hidden="true">
+                                            {active.swatch
+                                                .split(",")
+                                                .map((c) => c.trim())
+                                                .filter(Boolean)
+                                                .map((c) => (
+                                                    <i key={c} style={{ background: c, boxShadow: `0 0 8px ${c}` }} />
+                                                ))}
+                                        </span>
+                                        <span style={{ color: color.goldBright }}>{active.label}</span>
+                                    </p>
+                                    <h2 className="ie-hero__chaptitle">{active.title}</h2>
+                                    <p className="ie-hero__lede">{active.body}</p>
+                                    <MagneticButton
+                                        {...MagneticButton.defaultProps}
+                                        label={active.cta || p.primaryLabel}
+                                        link={p.primaryLink}
+                                        variant="primary"
+                                    />
+                                </motion.div>
+                            ) : null}
+                        </AnimatePresence>
                     </div>
                 </div>
             </div>
@@ -346,17 +438,55 @@ export default function ScrollVideoHero(props: Props) {
 }
 
 ScrollVideoHero.defaultProps = {
+    chapters: [
+        {
+            at: 0.349,
+            label: "Halloween",
+            time: "Oct 31 · 7:30 PM",
+            title: "Halloween, without the ladder.",
+            body: "Pumpkin orange and violet, flickering like embers. Set it once in the app and it's there every year.",
+            cta: "Put Halloween on my house",
+            swatch: "#FF7417,#8B3DFF",
+        },
+        {
+            at: 0.53,
+            label: "Christmas",
+            time: "Dec 24 · 6:00 PM",
+            title: "The lights are already up.",
+            body: "Classic red, green and warm white, with no tangled strands and no cold afternoon on the roof.",
+            cta: "Put Christmas on my house",
+            swatch: "#FF2B3A,#25C25A,#FFD7A0",
+        },
+        {
+            at: 0.711,
+            label: "Red & White Game Day",
+            time: "Game day · 6:30 PM",
+            title: "Scarlet and cream, all season.",
+            body: "Your roofline in red and white for every home game, on a schedule, so it's lit before kickoff.",
+            cta: "Put Red & White on my house",
+            swatch: "#E41C38,#F5F1E7",
+        },
+        {
+            at: 0.892,
+            label: "Blue & White Game Day",
+            time: "Tip-off · 7:00 PM",
+            title: "Then blue and white for hoops season.",
+            body: "One tap switches the whole house. Warm white the rest of the week, and every color in between.",
+            cta: "Put Blue & White on my house",
+            swatch: "#005CA9,#F2F4FF",
+        },
+    ],
     desktopFrames: "",
-    desktopCount: 180,
+    desktopCount: 330,
     mobileFrames: "",
-    mobileCount: 120,
+    mobileCount: 250,
     framePad: 4,
-    scrollLength: 280,
+    scrollLength: 720,
     focusX: 0.62,
     mobileFocusX: 0.5,
-    introTo: 0.32,
+    introTo: 0.217,
     introSeconds: 3.6,
-    revealAt: 0.26,
+    revealAt: 0.169,
     eyebrow: "Permanent roofline lighting · Omaha & Elkhorn",
     headline: "Invisible by day.",
     emphasis: "Unforgettable by night.",
@@ -373,6 +503,23 @@ ScrollVideoHero.defaultProps = {
 }
 
 addPropertyControls(ScrollVideoHero, {
+    chapters: {
+        type: ControlType.Array,
+        title: "Chapters",
+        maxCount: 8,
+        control: {
+            type: ControlType.Object,
+            controls: {
+                at: { type: ControlType.Number, title: "Starts at", min: 0, max: 1, step: 0.005 },
+                label: { type: ControlType.String, title: "Label" },
+                time: { type: ControlType.String, title: "HUD time" },
+                title: { type: ControlType.String, title: "Title" },
+                body: { type: ControlType.String, title: "Body", displayTextArea: true },
+                cta: { type: ControlType.String, title: "CTA" },
+                swatch: { type: ControlType.String, title: "Colors" },
+            },
+        },
+    },
     desktopFrames: {
         type: ControlType.String,
         title: "Frames 16:9",

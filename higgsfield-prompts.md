@@ -2,7 +2,7 @@
 
 Prepared 2026-10-18. Higgsfield project: **"Illuminated Exteriors – Website Visuals"** (all outputs go to its default folder). Account balance at start: 2,862 credits (Ultra). Nano Banana 2.1 at 4K quoted **3 credits for 4 images**, so stills are cheap; check the quote before each video job.
 
-**Status:** K1 (4 options) generated 2026-10-18 and awaiting selection. Everything below K1 waits on that choice.
+**Status (2026-10-18):** K1 round 1 → owner picked option 2 and asked for a more frontal view. Round 2 (4 frontal options, edits of option 2) is generated and awaiting a pick. That pick becomes **F0** below.
 
 **References in Higgsfield** (imported from the public images on illuminated-exteriors.com, used for architectural style and lighting-channel look only, never copied):
 `GU4A8773-HDR-3.jpg`, `Jakubowski Color.jpg`, `Midwestern Metal Build Home.jpg`, `Fry.JPG`. The purple-lit colonial photo sent in chat couldn't be uploaded from this environment (network block); upload it through the Higgsfield web app if wanted.
@@ -68,6 +68,49 @@ unless asked, snow unless asked, string lights, inflatable decorations, lawn orn
 lens flares, oversaturated colors, plastic CGI look, warped or curved roof lines,
 misaligned or uneven pixel spacing, lights inside windows, visible cables or clips.
 ```
+
+---
+
+## The Year in One Scroll (owner's vision, 2026-10-18)
+
+The house stays put. As the visitor scrolls, the sun sets and the roofline lights up, then the year plays through: **Halloween → Christmas → red-and-white game day → blue-and-white game day.** This replaces the separate scene-loop section on desktop; the `OccasionScenes` chips stay below the hero as the "pick any scene" control.
+
+**Why a locked camera:** every segment starts and ends on a shared still, so the cuts are invisible and scrubbing backward works. The site adds a slow 1.00 → 1.06 zoom with CSS for a sense of travel, which avoids the house drifting between AI shots.
+
+**Season logic:** autumn leaves arrive for Halloween; snow arrives at Christmas and stays through both game days (winter football bowl season and basketball season). This keeps the environment consistent and avoids snow disappearing and reappearing.
+
+### Keyframes (stills, Nano Banana 2.1, 4K, 16:9, each an edit of the previous)
+
+| ID | Edit of | Prompt (append "Keep the house, framing and camera identical. Nothing else changes." + master style) |
+|---|---|---|
+| F0 | — | The chosen frontal sunset frame, lights off |
+| F1 | F0 | Blue hour, 6:46 PM: deep navy sky, faint stars. Every roofline LED pixel on in warm 2700K white with a soft wash on the siding below the eaves; windows warmer; three low path lights on the walkway |
+| F2 | F1 | Full night on Halloween: scattered autumn leaves on the lawn and walkway, three carved pumpkins glowing on the porch steps. Roofline pixels in alternating groups of three, pumpkin orange and violet |
+| F3 | F2 | Christmas Eve night: a fresh blanket of snow on the roofs, lawn and shrubs, light snow falling, a green wreath on the front door; pumpkins and leaves gone. Roofline pixels in alternating pairs of red, green and warm white |
+| F4 | F3 | Same snowy winter night, no falling snow, wreath gone. Roofline pixels in alternating groups of five, scarlet red and warm cream white. No logos, letters or team names anywhere |
+| F5 | F4 | Same snowy winter night. Roofline pixels in alternating groups of five, royal blue and bright white. No logos, letters or team names anywhere |
+
+### Segments (videos, MiniMax H3, 2K, 16:9, no audio; start image → end image)
+
+| ID | Start → end | Length | Motion prompt (camera locked for every segment: "Locked-off tripod shot, the camera does not move, no zoom") |
+|---|---|---|---|
+| V1 | F0 → F1 | 10 s | The sun finishes setting and the sky deepens to navy. At about 3 seconds the roofline pixels switch on one at a time, racing outward from the front-door gable along every eave and rake until the whole roofline glows warm white by about 7 seconds; windows warm; path lights fade up |
+| V2 | F1 → F2 | 6 s | A few autumn leaves drift down; the pumpkins flicker on. The roofline color sweeps from the center outward, warm white turning to orange and violet |
+| V3 | F2 → F3 | 6 s | Snow begins to fall and settles on the roofs and lawn; the leaves and pumpkins disappear under it; the wreath appears. The roofline color sweeps to red, green and warm white |
+| V4 | F3 → F4 | 6 s | The snowfall eases and stops. The roofline color sweeps to scarlet and cream |
+| V5 | F4 → F5 | 6 s | Still winter night. The roofline color sweeps to royal blue and white |
+
+Every color change is a smooth sweep, never a flash (stay under 3 flashes per second).
+
+**Cost at today's prices:** keyframes ≈ 1 credit each; segments 2 credits/second → 68 credits for 16:9. A 9:16 phone set (outpaint F0–F5 to 9:16, then the same five segments) adds about 68 more. Budget about 150 credits for both, plus one retry per segment if needed (about 300 worst case).
+
+### Assembly
+
+```bash
+bash scripts/make-film.sh film-16x9.mp4 1.5 V1.mp4 V2.mp4 V3.mp4 V4.mp4 V5.mp4
+DESKTOP_FRAMES=330 bash scripts/make-frames.sh hero film-16x9.mp4 film-9x16.mp4
+```
+`make-film.sh` holds each lit scene for 1.5 s and prints the "Intro to", "Copy lights at" and chapter "Starts at" values to paste into the hero. The hero's defaults already match a 10 + 4×6-second cut with 1.5 s holds.
 
 ---
 
