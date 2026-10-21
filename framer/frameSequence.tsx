@@ -1,5 +1,5 @@
-// Loads an image sequence progressively and draws the nearest available frame
-// to a canvas. Presentation-free: ScrollVideoHero owns layout and scroll.
+// Loads an image sequence progressively and draws it to a canvas.
+// Presentation-free: ScrollVideoHero owns layout and scroll.
 //
 // Load order is coarse-to-fine (first, last, then every 64th, 32nd ... frame),
 // so scrubbing works within a second on a slow connection and sharpens as the
@@ -30,9 +30,15 @@ export function progressiveOrder(count: number): number[] {
     return order
 }
 
+// A decoded frame. ImageBitmap where supported (decoded once, so drawing never
+// stalls the main thread, which matters most in Safari), otherwise the <img>.
+export type Frame = { source: CanvasImageSource; width: number; height: number }
+
 export class FrameSequence {
-    private images: (HTMLImageElement | null)[]
+    private frames: (Frame | null)[]
+    private queue: number[] = []
     private cancelled = false
+    private focusIndex = -1
     loadedCount = 0
     onFrameLoaded: ((index: number) => void) | null = null
 
@@ -42,24 +48,18 @@ export class FrameSequence {
         private pad: number,
         private concurrency = 6,
     ) {
-        this.images = new Array(count).fill(null)
+        this.frames = new Array(count).fill(null)
     }
 
     start() {
-        const queue = progressiveOrder(this.count)
+        this.queue = progressiveOrder(this.count)
         const worker = async () => {
-            while (queue.length && !this.cancelled) {
-                const i = queue.shift() as number
-                const img = new Image()
-                img.decoding = "async"
-                img.src = frameUrl(this.pattern, i, this.pad)
-                try {
-                    await img.decode()
-                } catch {
-                    continue // a missing frame falls back to its nearest neighbour
-                }
+            while (this.queue.length && !this.cancelled) {
+                const i = this.queue.shift() as number
+                const frame = await this.load(i)
                 if (this.cancelled) return
-                this.images[i] = img
+                if (!frame) continue // a missing frame falls back to its nearest neighbour
+                this.frames[i] = frame
                 this.loadedCount++
                 this.onFrameLoaded?.(i)
             }
@@ -67,33 +67,68 @@ export class FrameSequence {
         for (let k = 0; k < this.concurrency; k++) worker()
     }
 
-    cancel() {
-        this.cancelled = true
+    private async load(i: number): Promise<Frame | null> {
+        const img = new Image()
+        img.decoding = "async"
+        img.src = frameUrl(this.pattern, i, this.pad)
+        try {
+            await img.decode()
+        } catch {
+            return null
+        }
+        if (typeof createImageBitmap === "function") {
+            try {
+                const bmp = await createImageBitmap(img)
+                return { source: bmp, width: bmp.width, height: bmp.height }
+            } catch {
+                // fall through to the <img>
+            }
+        }
+        return { source: img, width: img.naturalWidth, height: img.naturalHeight }
     }
 
-    nearest(index: number): HTMLImageElement | null {
-        if (this.images[index]) return this.images[index]
+    // Load the frames around `index` next, so the part of the film the visitor is
+    // looking at sharpens first. Only re-sorts when the focus moves a few frames.
+    focus(index: number) {
+        if (Math.abs(index - this.focusIndex) < 6 || !this.queue.length) return
+        this.focusIndex = index
+        this.queue.sort((a, b) => Math.abs(a - index) - Math.abs(b - index))
+    }
+
+    cancel() {
+        this.cancelled = true
+        this.frames.forEach((f) => {
+            if (f && "close" in f.source) (f.source as ImageBitmap).close()
+        })
+    }
+
+    get(index: number): Frame | null {
+        return this.frames[index] ?? null
+    }
+
+    nearest(index: number): Frame | null {
+        if (this.frames[index]) return this.frames[index]
         for (let d = 1; d < this.count; d++) {
-            const a = this.images[index - d]
+            const a = this.frames[index - d]
             if (a) return a
-            const b = this.images[index + d]
+            const b = this.frames[index + d]
             if (b) return b
         }
         return null
     }
 }
 
-// Draws `img` to fill the canvas like CSS object-fit: cover, anchored by focusX/Y (0-1).
+// Draws a frame to fill the canvas like CSS object-fit: cover, anchored by focusX/Y (0-1).
 export function drawCover(
     ctx: CanvasRenderingContext2D,
-    img: HTMLImageElement,
+    frame: Frame,
     w: number,
     h: number,
     focusX = 0.5,
     focusY = 0.5,
 ) {
-    const scale = Math.max(w / img.naturalWidth, h / img.naturalHeight)
-    const dw = img.naturalWidth * scale
-    const dh = img.naturalHeight * scale
-    ctx.drawImage(img, (w - dw) * focusX, (h - dh) * focusY, dw, dh)
+    const scale = Math.max(w / frame.width, h / frame.height)
+    const dw = frame.width * scale
+    const dh = frame.height * scale
+    ctx.drawImage(frame.source, (w - dw) * focusX, (h - dh) * focusY, dw, dh)
 }

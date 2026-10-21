@@ -55,3 +55,21 @@ The frame host is published, so it also appears on Higgsfield's community feed (
 - Visual check in Framer's preview: preview needs a publish, and screenshot images are hosted on `framerusercontent.com`, which this environment blocks. Instead, the code components were tested locally in Chromium at 1440, 810 and 390 (no horizontal scroll, the form reaches step 3 and sends), and Home desktop was measured in Framer with no overflow.
 - Logo: the live site's logo comes through as a flat JPG, so the nav uses a gold and blue text wordmark for now
 - The "10% off your first service" newsletter offer from the old site isn't carried over yet
+
+## Scroll smoothness fix (2026-10-21)
+
+Owner reported the live scroll film feels glitchy. Cause: 330 desktop frames at ~69 KB each (~22 MB), served with `max-age=0`, and only 150 phone frames. Until every frame arrived, the hero showed the nearest loaded frame and jumped; on phones each frame step was large.
+
+**Code (in `framer/ScrollVideoHero.tsx` and `framer/frameSequence.tsx`, replace both files in Framer verbatim):**
+- Blends the two frames either side of the exact scroll position instead of snapping (no visible steps even with a short or partly loaded sequence).
+- Loads the frames nearest the visitor's scroll position first.
+- Decodes frames to ImageBitmaps ahead of time (no Safari decode stalls mid-scroll).
+- Frame-rate-independent easing (same feel on 60 Hz and 120 Hz phones).
+- Doesn't clear the canvas when the phone toolbar shows or hides.
+- Measured on a 20-frame test sequence while scrolling slowly: steps larger than 3 dropped from 6 to 0; the biggest step went from 3.73 to 2.50.
+
+**Assets (still to do):**
+- Re-export desktop at 1280 px, quality 60 (target ~30–35 KB per frame, ~11 MB total): `DESKTOP_FRAMES=330` with width 1280 in `make-frames.sh`.
+- Phone: 240 frames at 720 px (currently 150), so steps are smaller.
+- Serve frames with long caching (`Cache-Control: public, max-age=31536000, immutable`), e.g. jsDelivr from this repo's `assets/` or any CDN that allows it; the current host sends `max-age=0`.
+- In Framer Site Settings, keep any "smooth scroll" option off; it fights the scroll-scrubbed canvas.

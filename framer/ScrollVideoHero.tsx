@@ -21,7 +21,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { color, font, ease, dur, monoLabel, cssEase } from "./tokens.tsx"
 import { useDeviceTier } from "./useDeviceTier.tsx"
 import { useStore, setState } from "./store.tsx"
-import { FrameSequence, drawCover } from "./frameSequence.tsx"
+import { FrameSequence, drawCover, type Frame } from "./frameSequence.tsx"
 import MagneticButton from "./MagneticButton.tsx"
 
 type Img = { src: string; srcSet?: string; alt?: string }
@@ -171,8 +171,10 @@ export default function ScrollVideoHero(props: Props) {
         let intro = 0
         let introStart = 0
         let cur = 0
-        let drawnIdx = -1
-        let drawnImg: HTMLImageElement | null = null
+        let drawnPos = -1
+        let drawnA: Frame | null = null
+        let drawnB: Frame | null = null
+        let lastNow = 0
         let raf = 0
         let visible = true
         let lastMinute = -1
@@ -195,15 +197,33 @@ export default function ScrollVideoHero(props: Props) {
                 intro = live.current.paused ? 1 : clamp01((now - introStart) / (p.introSeconds * 1000))
             }
             const target = Math.max(scrollP, easeInOutCubic(intro) * p.introTo)
-            cur += (target - cur) * 0.18
-            if (Math.abs(target - cur) < 0.0005) cur = target
+            // Frame-rate independent easing: the same feel at 60 Hz and 120 Hz.
+            const dt = lastNow ? Math.min(64, now - lastNow) : 16.7
+            lastNow = now
+            cur += (target - cur) * (1 - Math.pow(1 - 0.16, dt / 16.7))
+            if (Math.abs(target - cur) < 0.0002) cur = target
 
-            const idx = Math.round(cur * (count - 1))
-            const img = seq.nearest(idx)
-            if (img && (idx !== drawnIdx || img !== drawnImg)) {
-                drawCover(ctx!, img, canvas!.width, canvas!.height, focusX, 0.5)
-                drawnIdx = idx
-                drawnImg = img
+            // Blend the two frames either side of the exact position, so a short
+            // sequence (or one still loading) glides instead of stepping.
+            const pos = cur * (count - 1)
+            const i0 = Math.floor(pos)
+            const f = pos - i0
+            seq.focus(i0)
+            const a = seq.nearest(i0)
+            const b = f > 0.02 ? seq.get(Math.min(count - 1, i0 + 1)) : null
+            if (a && (Math.abs(pos - drawnPos) > 0.01 || a !== drawnA || b !== drawnB)) {
+                const w = canvas!.width
+                const h = canvas!.height
+                ctx!.globalAlpha = 1
+                drawCover(ctx!, a, w, h, focusX, 0.5)
+                if (b && b !== a) {
+                    ctx!.globalAlpha = f
+                    drawCover(ctx!, b, w, h, focusX, 0.5)
+                    ctx!.globalAlpha = 1
+                }
+                drawnPos = pos
+                drawnA = a
+                drawnB = b
                 setReady(true)
             }
 
@@ -233,9 +253,14 @@ export default function ScrollVideoHero(props: Props) {
         const resize = () => {
             const r = canvas.getBoundingClientRect()
             const d = Math.min(window.devicePixelRatio || 1, dprCap)
-            canvas.width = Math.max(1, Math.round(r.width * d))
-            canvas.height = Math.max(1, Math.round(r.height * d))
-            drawnIdx = -1
+            const w = Math.max(1, Math.round(r.width * d))
+            const h = Math.max(1, Math.round(r.height * d))
+            // Setting the size clears the canvas, so only do it on a real change
+            // (not on every toolbar show/hide during a phone scroll).
+            if (w === canvas.width && h === canvas.height) return
+            canvas.width = w
+            canvas.height = h
+            drawnPos = -1
             schedule()
         }
         const onScroll = () => {
