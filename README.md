@@ -27,6 +27,7 @@ A family project, kept in its own repository: nothing here belongs to or touches
 | `framer/` | Framer code components (TypeScript and React, framer-motion only; no other dependencies) |
 | `framer-ai-prompts.md` | Step-by-step Framer build: design system, CMS, Framer AI prompts per section and page, SEO, launch checklist |
 | `higgsfield-prompts.md` | Production prompts for every visual: the hero film, scene loops, the day/night pair and supporting stills |
+| `motion-library.md` | Five product-story loops inspired by JellyFish's site, with their Higgsfield IDs and placement |
 | `scripts/make-frames.sh` | Turns the Higgsfield renders into web assets (frame sequences, loops, stills) |
 
 ## Architecture
@@ -45,6 +46,7 @@ DayNightSlider      before/after comparison; touch-safe; real range input for ke
 BookingForm         3 steps, ZIP service-area check + waitlist, draft save, multipart POST
 LumenCursor         warm halo over night imagery only; system cursor always stays
 MotionToggle        global Pause motion (WCAG 2.2.2)
+LoopFeature         feature band: one seamless loop + label/title/body (see motion-library.md)
 ```
 
 Presentation lives in the components; logic that isn't UI (state, tiering, frame loading) lives in the shared modules. Components talk only through `store.tsx`: picking a scene in `OccasionScenes` personalizes every `MagneticButton` that has Personalize on, and pre-fills the form.
