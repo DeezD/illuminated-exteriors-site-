@@ -33,6 +33,26 @@ Fixed during validation: 13 lines of text had lost their text style during earli
 - Checked: no internal links to missing pages; one phone number (402-699-6256) and one email everywhere; no unstyled text; every live project has photo and alt text; all 480 scroll-film frames return 200 from the frame host.
 - Canvas screenshots show CMS lists on tablet/phone as a single template card ("Title", "City"); this is the screenshot tool, not the site (Our Work shows the same), and desktop renders every item.
 
+## Smoothness fix and motion loops: live (2026-10-24)
+
+Published to production (version 66e395acb) on the owner's "go".
+
+**Scroll film**
+- `ScrollVideoHero.tsx` and `frameSequence.tsx` replaced verbatim in Framer.
+- New frames are at `https://illuminated-exteriors-media.higgsfield.app/hero/v2/16x9/{n}.webp` (330 frames at 1280 px, quality 60, 14 MB, down from 23 MB) and `/hero/v2/9x16/{n}.webp` (240 frames, up from 150, at 720 px, 7.8 MB). The phone set is cut from the desktop frames at the same crop as before (x 601, width 507).
+- A `_headers` file on the host serves `/hero/v2/*` and `/loops/v1/*` with `Cache-Control: public, max-age=31536000, immutable`. The old `/hero/16x9` and `/hero/9x16` sets stay up, unused.
+- Framer has no site-wide smooth-scroll setting in this project (no smooth-scroll code in Custom Code or components), so nothing fights the canvas.
+
+**Motion loops**: all five MiniMax videos completed, with no retries.
+- They were converted with `make-frames.sh loop` (H.264, 1280 px, no audio): 0.5 to 1.2 MB each.
+- Flash test: 0 flashes per second in every quarter-frame region (WCAG 2.3.1). The houses hold their shape (checked on contact sheets).
+- The videos are hosted on Framer's CDN (`framerusercontent.com/assets/…`), because the Higgsfield host doesn't answer byte-range requests, which iPhone Safari needs for video.
+- `LoopFeature.tsx` was added verbatim. Bands:
+  - Home: Invisible by day (after the scroll film, media left), Light show (after Every Occasion, right), Warm to cool (after the phone section, left).
+  - How It Works: The light (after The lights, left), Zones (after The app, right).
+- Home's old "Day and Night" slider section is hidden (not deleted): it had the same headline as the Invisible by day band. The slider still appears on How It Works.
+- None of the loops appear in Our Work.
+
 ## Hero film: properties to fill on ScrollVideoHero (Home)
 
 | Property | Value |
