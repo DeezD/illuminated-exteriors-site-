@@ -21,7 +21,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { color, font, ease, dur, monoLabel, cssEase } from "./tokens.tsx"
 import { useDeviceTier } from "./useDeviceTier.tsx"
 import { useStore, setState } from "./store.tsx"
-import { FrameSequence, drawCover, type Frame } from "./frameSequence.tsx"
+import { FrameSequence, drawCover, packSource, patternSource, type Frame } from "./frameSequence.tsx"
 import MagneticButton from "./MagneticButton.tsx"
 
 type Img = { src: string; srcSet?: string; alt?: string }
@@ -32,6 +32,8 @@ type Chapter = { at: number; label: string; time: string; title: string; body: s
 
 type Props = {
     chapters: Chapter[]
+    desktopPacks: string[]
+    mobilePacks: string[]
     desktopFrames: string
     desktopCount: number
     mobileFrames: string
@@ -127,10 +129,16 @@ export default function ScrollVideoHero(props: Props) {
     const paused = useStore((s) => s.motionPaused)
 
     const mobile = device.narrow
-    const useMobileSet = mobile && !!p.mobileFrames
+    // Frame packs uploaded to Framer win over URL patterns; phones fall back to
+    // the desktop set if no 9:16 set is given.
+    const desktopPacks = (p.desktopPacks ?? []).filter(Boolean)
+    const mobilePacks = (p.mobilePacks ?? []).filter(Boolean)
+    const useMobileSet = mobile && (mobilePacks.length > 0 || !!p.mobileFrames)
+    const packs = useMobileSet ? mobilePacks : desktopPacks
     const pattern = useMobileSet ? p.mobileFrames : p.desktopFrames
     const count = useMobileSet ? p.mobileCount : p.desktopCount
-    const animated = !isEditor && !!pattern && count > 1 && (device.tier === "high" || device.tier === "medium")
+    const sourceKey = packs.length ? packs.join("|") : pattern
+    const animated = !isEditor && !!sourceKey && count > 1 && (device.tier === "high" || device.tier === "medium")
 
     const sectionRef = useRef<HTMLElement>(null)
     const canvasRef = useRef<HTMLCanvasElement>(null)
@@ -158,12 +166,15 @@ export default function ScrollVideoHero(props: Props) {
             setMinutes(toMinutes(p.clockTo))
             return
         }
+        // Wait for the device check so a phone never starts on the desktop set.
+        if (!device.ready) return
         const section = sectionRef.current
         const canvas = canvasRef.current
         const ctx = canvas?.getContext("2d", { alpha: false })
         if (!section || !canvas || !ctx) return
 
-        const seq = new FrameSequence(pattern, count, p.framePad, device.tier === "high" ? 6 : 4, mobile ? 40 : 70)
+        const source = packs.length ? packSource(packs, count) : patternSource(pattern, count, p.framePad)
+        const seq = new FrameSequence(source, device.tier === "high" ? 6 : 4, mobile ? 40 : 70)
         const dprCap = device.tier === "high" ? 2 : 1.5
         const focusX = mobile ? p.mobileFocusX : p.focusX
 
@@ -295,7 +306,7 @@ export default function ScrollVideoHero(props: Props) {
             if (raf) cancelAnimationFrame(raf)
         }
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [animated, pattern, count, p.framePad, device.tier, mobile, p.introTo, p.introSeconds])
+    }, [animated, sourceKey, count, p.framePad, device.ready, device.tier, mobile, p.introTo, p.introSeconds])
 
     const poster = (mobile && p.mobilePoster?.src ? p.mobilePoster : p.poster) as Img | undefined
     const still = p.finalFrame?.src ? p.finalFrame : poster
@@ -463,6 +474,8 @@ export default function ScrollVideoHero(props: Props) {
 }
 
 ScrollVideoHero.defaultProps = {
+    desktopPacks: [],
+    mobilePacks: [],
     chapters: [
         {
             at: 0.349,
@@ -544,6 +557,18 @@ addPropertyControls(ScrollVideoHero, {
                 swatch: { type: ControlType.String, title: "Colors" },
             },
         },
+    },
+    desktopPacks: {
+        type: ControlType.Array,
+        title: "Packs 16:9",
+        control: { type: ControlType.File, allowedFileTypes: ["bin", "iefp", "dat", "txt"] },
+        description: "Frame packs from make-packs.py, in file-name order. Used instead of Frames 16:9.",
+    },
+    mobilePacks: {
+        type: ControlType.Array,
+        title: "Packs 9:16",
+        control: { type: ControlType.File, allowedFileTypes: ["bin", "iefp", "dat", "txt"] },
+        description: "Phone frame packs, in file-name order.",
     },
     desktopFrames: {
         type: ControlType.String,

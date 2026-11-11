@@ -30,6 +30,76 @@ export function progressiveOrder(count: number): number[] {
     return order
 }
 
+// Where frames come from. Either a URL pattern ("…/{n}.webp", one file per
+// frame) or a few "frame packs" (scripts/make-packs.py) uploaded to Framer, so the
+// whole film lives inside the Framer project with nothing hosted elsewhere.
+export type FrameSource = { count: number; url(index: number): Promise<string>; dispose(): void }
+
+export function patternSource(pattern: string, count: number, pad: number): FrameSource {
+    return { count, url: async (i) => frameUrl(pattern, i, pad), dispose() {} }
+}
+
+// Must match layout() in scripts/make-packs.py: pack 0 holds every 8th frame and
+// the last; the remaining frames are split into equal runs across the other packs.
+export function packLayout(count: number, packs: number): number[] {
+    const owner = new Array(count).fill(0)
+    const rest: number[] = []
+    for (let i = 0; i < count; i++) if (!(i % 8 === 0 || i === count - 1)) rest.push(i)
+    const runs = packs - 1
+    const size = runs ? Math.ceil(rest.length / runs) : 0
+    rest.forEach((i, k) => (owner[i] = 1 + Math.floor(k / size)))
+    return owner
+}
+
+export function packSource(packUrls: string[], count: number): FrameSource {
+    const owner = packLayout(count, packUrls.length)
+    const loaded = new Map<number, Promise<Map<number, string>>>()
+    const objectUrls: string[] = []
+
+    const loadPack = (p: number) => {
+        let pending = loaded.get(p)
+        if (!pending) {
+            pending = fetch(packUrls[p])
+                .then((r) => {
+                    if (!r.ok) throw new Error(`frame pack ${p + 1}: HTTP ${r.status}`)
+                    return r.arrayBuffer()
+                })
+                .then((buf) => {
+                    const view = new DataView(buf)
+                    const magic = String.fromCharCode(...new Uint8Array(buf, 0, 4))
+                    if (magic !== "IEFP") throw new Error(`frame pack ${p + 1}: not a frame pack`)
+                    const headerLength = view.getUint32(4, true)
+                    const header = JSON.parse(new TextDecoder().decode(new Uint8Array(buf, 8, headerLength)))
+                    const base = 8 + headerLength
+                    const urls = new Map<number, string>()
+                    for (const [index, offset, length] of header.frames as [number, number, number][]) {
+                        const blob = new Blob([new Uint8Array(buf, base + offset, length)], { type: header.type })
+                        const u = URL.createObjectURL(blob)
+                        objectUrls.push(u)
+                        urls.set(index, u)
+                    }
+                    return urls
+                })
+            loaded.set(p, pending)
+            pending.catch(() => loaded.delete(p)) // allow a retry on the next request
+        }
+        return pending
+    }
+
+    return {
+        count,
+        async url(i) {
+            const urls = await loadPack(owner[i] ?? 0)
+            const u = urls.get(i)
+            if (!u) throw new Error(`frame ${i + 1} missing from pack ${owner[i] + 1}`)
+            return u
+        },
+        dispose() {
+            objectUrls.forEach((u) => URL.revokeObjectURL(u))
+        },
+    }
+}
+
 // A drawable frame: a pre-decoded ImageBitmap near the scroll position (so
 // drawing never stalls, which matters most in Safari), otherwise the <img>.
 export type Frame = { source: CanvasImageSource; width: number; height: number }
@@ -44,16 +114,17 @@ export class FrameSequence {
     loadedCount = 0
     onFrameLoaded: ((index: number) => void) | null = null
 
+    readonly count: number
+
     constructor(
-        private pattern: string,
-        readonly count: number,
-        private pad: number,
+        private source: FrameSource,
         private concurrency = 6,
         // Decoded bitmaps are big (a 1280x720 frame is ~3.7 MB), so only a window
         // around the scroll position is kept decoded; the rest stay compressed.
         private maxBitmaps = 60,
     ) {
-        this.images = new Array(count).fill(null)
+        this.count = source.count
+        this.images = new Array(this.count).fill(null)
     }
 
     start() {
@@ -63,8 +134,8 @@ export class FrameSequence {
                 const i = this.queue.shift() as number
                 const img = new Image()
                 img.decoding = "async"
-                img.src = frameUrl(this.pattern, i, this.pad)
                 try {
+                    img.src = await this.source.url(i)
                     await img.decode()
                 } catch {
                     continue // a missing frame falls back to its nearest neighbour
@@ -116,6 +187,7 @@ export class FrameSequence {
         this.cancelled = true
         this.bitmaps.forEach((bmp) => bmp.close())
         this.bitmaps.clear()
+        this.source.dispose()
     }
 
     get(index: number): Frame | null {

@@ -13,9 +13,16 @@ export type DeviceInfo = {
     finePointer: boolean // mouse or trackpad with real hover
     reducedMotion: boolean
     narrow: boolean // under 810px, Framer's tablet breakpoint
+    ready: boolean // false until the browser has been checked (first render only)
 }
 
-const SSR_DEFAULT: DeviceInfo = { tier: "medium", finePointer: false, reducedMotion: false, narrow: false }
+const SSR_DEFAULT: DeviceInfo = {
+    tier: "medium",
+    finePointer: false,
+    reducedMotion: false,
+    narrow: false,
+    ready: false,
+}
 
 function detect(): DeviceInfo {
     const mq = (q: string) => window.matchMedia(q).matches
@@ -35,7 +42,7 @@ function detect(): DeviceInfo {
     let tier: Tier = finePointer && !narrow ? "high" : "medium"
     if (saveData || slowNet || lowMemory || fewCores) tier = "low"
     if (reducedMotion) tier = "still"
-    return { tier, finePointer, reducedMotion, narrow }
+    return { tier, finePointer, reducedMotion, narrow, ready: true }
 }
 
 export function useDeviceTier(): DeviceInfo {
