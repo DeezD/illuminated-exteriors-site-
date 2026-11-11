@@ -79,3 +79,30 @@ Reading the table:
 
 - `screens/`: full-page captures `<page>-<width>.jpg` and first-screen captures `<page>-<width>-fold.png` for all 23 pages at 390, 810 and 1440, plus hero scroll states, menu, form steps, reduced motion and focus rings (about 60 MB).
 - `lighthouse/`: the ten HTML reports. `data/`: crawl, accessibility-check and hero-harness measurements.
+
+## Follow-up: what was changed (2026-11-11, not yet published)
+
+| # | Status | What changed |
+|---|---|---|
+| 1 | Owner | Clears on Basic + custom domain (see `DOMAIN-GODADDY.md`). Re-check `x-robots-tag` and canonicals after the domain is live. |
+| 2 | Fixed | City template, phone: project cards set to fit content (were `1fr` in an auto-height stack); photo 280 px. Verified by canvas screenshot. |
+| 3 | Fixed | New hero props **Nav height** (76) and **Phone bar** (80): the stage sits below the sticky nav and the chapter buttons clear the phone bar. HUD top 96 → 24 to match. |
+| 4 | Fixed | `frameSequence.tsx`: frames stay as compressed blobs; only a ±35 (desktop) / ±20 (phone) window is decoded, plus quarter-size coarse frames for fast flings. Harness, real packs: peak renderer memory 1,020 → 567 MB desktop, 875 → 434 MB phone; scroll long tasks 15–17 → 0. |
+| 5 | Fixed | Only pack 1 loads up front (1.0 MB phone, 1.8 MB desktop); the rest loads on first scroll, or ~6.6 s after load on desktop. |
+| 6 | Owner | Send one real test request after the domain is live and click FormSubmit's activation email. |
+| 7 | Partly | Project pages: per-project title and meta description from `{{Title}}`. City copy and project details still need the owner's local facts. |
+| 8 | Open | FAQ accordion answers still mount on click (Framer component). Left as is; low impact. |
+| 9 | Fixed | Montserrat switched from Fontshare to Google Fonts in the H3, Body and Small text styles. |
+| 10 | Partly | Empty City label on Home cards now hidden. Re-tagging projects ("Other") and reviews need the owner. |
+| 11 | Fixed | Closing-section text has a dark text shadow; phone hero scrim starts higher; Free Design's photo caption hidden on phones (see 17). |
+| 12 | Fixed | Alt text written onto every Projects night photo and Service Areas hero image (from the Photo Alt Text field). |
+| 13 | Fixed | Hero poster is a `<picture>` with the phone poster as a `<source>`, so it's in the server HTML. Poster re-encode to WebP not done. |
+| 14 | Kept | Desktop scroll is already 600 vh in Framer (phone 420 vh). Left as designed. |
+| 15 | Fixed | Portrait tablets (under 1200 px wide) get the 9:16 film. |
+| 16 | Fixed | Success heading "Request received."; phone number is a tap-to-call link; photo over 10 MB shows a message; closing lede no longer repeats the form heading. "Weekend" visits: owner to confirm. |
+| 17 | Fixed | `/free-design` on phones: install photo hidden so the form follows the bullets. |
+| 18 | Partly | Consent checkbox 22 px with a 42 px tap row. Footer links unchanged. |
+| 19 | Fixed | Favicon and Apple touch icon (company logo) and a social share image (real install photo). |
+| 20 | Fixed | Failed frames count as settled; the animation loop no longer depends on every frame loading. |
+
+Framer publish preview after these changes: 0 errors, 0 warnings, 22 changes. Not published.

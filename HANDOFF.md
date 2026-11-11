@@ -13,7 +13,7 @@ For the new owner of the Framer site. Prepared 2026-11-11.
 | Original 4K images and source videos | `IE-media-masters.zip` (and trimmed copies in the shared Drive folder) | No: keep for future edits |
 | Code backup, docs and these instructions | `IE-site-handoff.zip` | No: a backup copy |
 
-Already done: the scroll film and photos are hosted in Framer, the FAQs were moved into the pages as regular content, and the Reviews collection was removed (backup in `assets/cms-backup/`). Nothing on the site depends on Higgsfield, GitHub or anyone else's account.
+An outside audit (`audit/2026-11-11-fable-audit.md`) was run and its fixes applied: lighter, faster hero; phone layout fixes; alt text, favicon and share image. Already done: the scroll film and photos are hosted in Framer, the FAQs were moved into the pages as regular content, and the Reviews collection was removed (backup in `assets/cms-backup/`). Nothing on the site depends on Higgsfield, GitHub or anyone else's account.
 
 ## Steps (in order)
 
@@ -61,6 +61,10 @@ Requests go to info@illuminated-exteriors.com through FormSubmit (free). The ver
 - Real project neighborhoods for Our Work
 - Scot's story for the About section
 - Exact service ZIP codes (the form currently accepts 680–681, 683–685 and 515 prefixes)
+- Per city page: two or three true local sentences (neighborhoods, a local install). The 8 city pages are otherwise identical, so search engines give them little weight
+- Re-tag each project's **Occasion** (7 of 9 say "Other") and fill **City**, so Our Work's filter and card labels work
+- Light system brand and what the 12-month warranty covers
+- Confirm whether design visits happen on weekends (the form offers "Weekend"; the footer says Mon–Fri)
 
 ## Editing the visuals later
 
