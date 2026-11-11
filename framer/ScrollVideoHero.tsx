@@ -32,8 +32,19 @@ type Chapter = { at: number; label: string; time: string; title: string; body: s
 
 type Props = {
     chapters: Chapter[]
-    desktopPacks: string[]
-    mobilePacks: string[]
+    // Frame packs (scripts/make-packs.py), one file per slot, in file-name order.
+    desktopPack1: string
+    desktopPack2: string
+    desktopPack3: string
+    desktopPack4: string
+    desktopPack5: string
+    desktopPack6: string
+    mobilePack1: string
+    mobilePack2: string
+    mobilePack3: string
+    mobilePack4: string
+    mobilePack5: string
+    mobilePack6: string
     desktopFrames: string
     desktopCount: number
     mobileFrames: string
@@ -118,6 +129,34 @@ const CSS = `
 @media (prefers-reduced-motion:reduce){.ie-hero__canvas,.ie-hero__cue{transition:none;animation:none}}
 `
 
+const PACK_SLOTS = 6
+
+// The filled pack slots, in order (empty slots are skipped).
+function packList(p: Props, prefix: "desktopPack" | "mobilePack"): string[] {
+    const out: string[] = []
+    for (let k = 1; k <= PACK_SLOTS; k++) {
+        const url = (p as unknown as Record<string, string | undefined>)[`${prefix}${k}`]
+        if (url) out.push(url)
+    }
+    return out
+}
+
+// One file control per pack; each slot appears once the previous one is filled.
+function packControls(prefix: string, label: string) {
+    const controls: Record<string, object> = {}
+    for (let k = 1; k <= PACK_SLOTS; k++) {
+        controls[`${prefix}${k}`] = {
+            type: ControlType.File,
+            title: `Pack ${label} #${k}`,
+            allowedFileTypes: ["bin", "iefp", "dat", "txt"],
+            ...(k === 1
+                ? { description: "Frame packs from make-packs.py, in file-name order. Used instead of Frames." }
+                : { hidden: (props: Record<string, unknown>) => !props[`${prefix}${k - 1}`] }),
+        }
+    }
+    return controls
+}
+
 /**
  * @framerSupportedLayoutWidth any-prefer-fixed
  * @framerSupportedLayoutHeight auto
@@ -131,8 +170,8 @@ export default function ScrollVideoHero(props: Props) {
     const mobile = device.narrow
     // Frame packs uploaded to Framer win over URL patterns; phones fall back to
     // the desktop set if no 9:16 set is given.
-    const desktopPacks = (p.desktopPacks ?? []).filter(Boolean)
-    const mobilePacks = (p.mobilePacks ?? []).filter(Boolean)
+    const desktopPacks = packList(p, "desktopPack")
+    const mobilePacks = packList(p, "mobilePack")
     const useMobileSet = mobile && (mobilePacks.length > 0 || !!p.mobileFrames)
     const packs = useMobileSet ? mobilePacks : desktopPacks
     const pattern = useMobileSet ? p.mobileFrames : p.desktopFrames
@@ -474,8 +513,6 @@ export default function ScrollVideoHero(props: Props) {
 }
 
 ScrollVideoHero.defaultProps = {
-    desktopPacks: [],
-    mobilePacks: [],
     chapters: [
         {
             at: 0.349,
@@ -558,18 +595,8 @@ addPropertyControls(ScrollVideoHero, {
             },
         },
     },
-    desktopPacks: {
-        type: ControlType.Array,
-        title: "Packs 16:9",
-        control: { type: ControlType.File, allowedFileTypes: ["bin", "iefp", "dat", "txt"] },
-        description: "Frame packs from make-packs.py, in file-name order. Used instead of Frames 16:9.",
-    },
-    mobilePacks: {
-        type: ControlType.Array,
-        title: "Packs 9:16",
-        control: { type: ControlType.File, allowedFileTypes: ["bin", "iefp", "dat", "txt"] },
-        description: "Phone frame packs, in file-name order.",
-    },
+    ...packControls("desktopPack", "16:9"),
+    ...packControls("mobilePack", "9:16"),
     desktopFrames: {
         type: ControlType.String,
         title: "Frames 16:9",

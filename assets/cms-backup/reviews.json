@@ -1,0 +1,41 @@
+{
+  "collection": "Reviews",
+  "exported": "2026-11-11T02:56:30.737Z",
+  "fields": [
+    {
+      "name": "Quote",
+      "type": "string"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "City",
+      "type": "string"
+    },
+    {
+      "name": "Rating",
+      "type": "number"
+    },
+    {
+      "name": "Source",
+      "type": "enum"
+    },
+    {
+      "name": "Link",
+      "type": "link"
+    }
+  ],
+  "items": [
+    {
+      "slug": "placeholder-paste-a-real-google-or-facebook-review-here-word-for-word.",
+      "draft": true,
+      "Quote": "PLACEHOLDER: paste a real Google or Facebook review here, word for word.",
+      "Name": "PLACEHOLDER First L.",
+      "City": "PLACEHOLDER",
+      "Rating": 5,
+      "Source": "Google"
+    }
+  ]
+}

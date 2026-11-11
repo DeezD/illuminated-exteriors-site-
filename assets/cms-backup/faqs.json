@@ -1,0 +1,109 @@
+{
+  "collection": "FAQs",
+  "exported": "2026-11-11T02:56:30.815Z",
+  "fields": [
+    {
+      "name": "Question",
+      "type": "string"
+    },
+    {
+      "name": "Answer",
+      "type": "formattedText"
+    },
+    {
+      "name": "Category",
+      "type": "enum"
+    },
+    {
+      "name": "Show On Home",
+      "type": "boolean"
+    },
+    {
+      "name": "Order",
+      "type": "number"
+    }
+  ],
+  "items": [
+    {
+      "slug": "how-much-does-permanent-roofline-lighting-cost",
+      "draft": false,
+      "Question": "How much does permanent roofline lighting cost?",
+      "Answer": "<p dir=\"auto\">Every home is priced on three things: the length of your roofline, the number of stories, and the controller and zones you choose. Book a free design and we’ll give you an exact quote for your house.</p>",
+      "Category": "Cost",
+      "Show On Home": true,
+      "Order": 1
+    },
+    {
+      "slug": "can-you-see-the-lights-during-the-day",
+      "draft": false,
+      "Question": "Can you see the lights during the day?",
+      "Answer": "<p dir=\"auto\">The track sits tucked under your roofline and is chosen to blend with your trim, so in daylight it stays out of the way. At your free design visit we’ll show you how it looks against your house.</p>",
+      "Category": "The lights",
+      "Show On Home": true,
+      "Order": 2
+    },
+    {
+      "slug": "do-i-control-the-lights-from-my-phone",
+      "draft": false,
+      "Question": "Do I control the lights from my phone?",
+      "Answer": "<p dir=\"auto\">Yes. You run your lights from an app on your phone: pick a color or a scene, or set a schedule. We set it up with you on install day and show you how it works.</p>",
+      "Category": "The app",
+      "Show On Home": true,
+      "Order": 3
+    },
+    {
+      "slug": "what-areas-do-you-serve",
+      "draft": false,
+      "Question": "What areas do you serve?",
+      "Answer": "<p dir=\"auto\">Omaha, Elkhorn and homes within about 50 miles. Outside that? Send your ZIP code with your design request and we’ll confirm whether we can reach you.</p>",
+      "Category": "Installation",
+      "Show On Home": true,
+      "Order": 4
+    },
+    {
+      "slug": "how-long-does-installation-take",
+      "draft": false,
+      "Question": "How long does installation take?",
+      "Answer": "<p dir=\"auto\">It depends on the size of your roofline. We’ll give you a time estimate for your home along with your free design quote.</p>",
+      "Category": "Installation",
+      "Show On Home": true,
+      "Order": 5
+    },
+    {
+      "slug": "what-does-the-warranty-cover",
+      "draft": false,
+      "Question": "What does the warranty cover?",
+      "Answer": "<p dir=\"auto\">Your system comes with a 12-month warranty. At your free design visit we’ll walk you through exactly what it covers, in writing, before you sign anything.</p>",
+      "Category": "Installation",
+      "Show On Home": false,
+      "Order": 6
+    },
+    {
+      "slug": "how-do-the-lights-hold-up-in-nebraska-winters",
+      "draft": false,
+      "Question": "How do the lights hold up in Nebraska winters?",
+      "Answer": "<p dir=\"auto\">Permanent lights are built to stay up year-round, through snow, ice and summer heat. Ask us at your free design visit for the weather ratings of the system we install.</p>",
+      "Category": "Weather and durability",
+      "Show On Home": false,
+      "Order": 7
+    },
+    {
+      "slug": "will-my-hoa-allow-permanent-lights",
+      "draft": false,
+      "Question": "Will my HOA allow permanent lights?",
+      "Answer": "<p dir=\"auto\">Check your HOA’s guidelines first. If they need an approval request, ask us at your free design visit for photos and product details to include with it.</p>",
+      "Category": "HOA and neighbors",
+      "Show On Home": false,
+      "Order": 8
+    },
+    {
+      "slug": "how-do-i-get-started",
+      "draft": false,
+      "Question": "How do I get started?",
+      "Answer": "<p dir=\"auto\">Request a free design. We visit at dusk, measure your roofline and show you scenes on your own house. Call 402-699-6256, Monday to Friday, 9 AM to 5 PM.</p>",
+      "Category": "Cost",
+      "Show On Home": false,
+      "Order": 9
+    }
+  ]
+}
