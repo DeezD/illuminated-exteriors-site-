@@ -163,7 +163,7 @@ export default function ScrollVideoHero(props: Props) {
         const ctx = canvas?.getContext("2d", { alpha: false })
         if (!section || !canvas || !ctx) return
 
-        const seq = new FrameSequence(pattern, count, p.framePad, device.tier === "high" ? 6 : 4)
+        const seq = new FrameSequence(pattern, count, p.framePad, device.tier === "high" ? 6 : 4, mobile ? 40 : 70)
         const dprCap = device.tier === "high" ? 2 : 1.5
         const focusX = mobile ? p.mobileFocusX : p.focusX
 
@@ -211,12 +211,12 @@ export default function ScrollVideoHero(props: Props) {
             seq.focus(i0)
             const a = seq.nearest(i0)
             const b = f > 0.02 ? seq.get(Math.min(count - 1, i0 + 1)) : null
-            if (a && (Math.abs(pos - drawnPos) > 0.01 || a !== drawnA || b !== drawnB)) {
+            if (a && (Math.abs(pos - drawnPos) > 0.01 || a.source !== drawnA?.source || b?.source !== drawnB?.source)) {
                 const w = canvas!.width
                 const h = canvas!.height
                 ctx!.globalAlpha = 1
                 drawCover(ctx!, a, w, h, focusX, 0.5)
-                if (b && b !== a) {
+                if (b && b.source !== a.source) {
                     ctx!.globalAlpha = f
                     drawCover(ctx!, b, w, h, focusX, 0.5)
                     ctx!.globalAlpha = 1

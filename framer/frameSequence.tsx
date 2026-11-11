@@ -30,12 +30,14 @@ export function progressiveOrder(count: number): number[] {
     return order
 }
 
-// A decoded frame. ImageBitmap where supported (decoded once, so drawing never
-// stalls the main thread, which matters most in Safari), otherwise the <img>.
+// A drawable frame: a pre-decoded ImageBitmap near the scroll position (so
+// drawing never stalls, which matters most in Safari), otherwise the <img>.
 export type Frame = { source: CanvasImageSource; width: number; height: number }
 
 export class FrameSequence {
-    private frames: (Frame | null)[]
+    private images: (HTMLImageElement | null)[]
+    private bitmaps = new Map<number, ImageBitmap>()
+    private pendingBitmaps = new Set<number>()
     private queue: number[] = []
     private cancelled = false
     private focusIndex = -1
@@ -47,8 +49,11 @@ export class FrameSequence {
         readonly count: number,
         private pad: number,
         private concurrency = 6,
+        // Decoded bitmaps are big (a 1280x720 frame is ~3.7 MB), so only a window
+        // around the scroll position is kept decoded; the rest stay compressed.
+        private maxBitmaps = 60,
     ) {
-        this.frames = new Array(count).fill(null)
+        this.images = new Array(count).fill(null)
     }
 
     start() {
@@ -56,62 +61,77 @@ export class FrameSequence {
         const worker = async () => {
             while (this.queue.length && !this.cancelled) {
                 const i = this.queue.shift() as number
-                const frame = await this.load(i)
+                const img = new Image()
+                img.decoding = "async"
+                img.src = frameUrl(this.pattern, i, this.pad)
+                try {
+                    await img.decode()
+                } catch {
+                    continue // a missing frame falls back to its nearest neighbour
+                }
                 if (this.cancelled) return
-                if (!frame) continue // a missing frame falls back to its nearest neighbour
-                this.frames[i] = frame
+                this.images[i] = img
                 this.loadedCount++
+                if (Math.abs(i - this.focusIndex) <= this.maxBitmaps / 2) this.decode(i)
                 this.onFrameLoaded?.(i)
             }
         }
         for (let k = 0; k < this.concurrency; k++) worker()
     }
 
-    private async load(i: number): Promise<Frame | null> {
-        const img = new Image()
-        img.decoding = "async"
-        img.src = frameUrl(this.pattern, i, this.pad)
-        try {
-            await img.decode()
-        } catch {
-            return null
-        }
-        if (typeof createImageBitmap === "function") {
-            try {
-                const bmp = await createImageBitmap(img)
-                return { source: bmp, width: bmp.width, height: bmp.height }
-            } catch {
-                // fall through to the <img>
-            }
-        }
-        return { source: img, width: img.naturalWidth, height: img.naturalHeight }
+    private decode(i: number) {
+        const img = this.images[i]
+        if (!img || this.bitmaps.has(i) || this.pendingBitmaps.has(i) || typeof createImageBitmap !== "function") return
+        this.pendingBitmaps.add(i)
+        createImageBitmap(img)
+            .then((bmp) => {
+                this.pendingBitmaps.delete(i)
+                if (this.cancelled || Math.abs(i - this.focusIndex) > this.maxBitmaps / 2) return bmp.close()
+                this.bitmaps.set(i, bmp)
+                this.onFrameLoaded?.(i)
+            })
+            .catch(() => this.pendingBitmaps.delete(i))
     }
 
-    // Load the frames around `index` next, so the part of the film the visitor is
-    // looking at sharpens first. Only re-sorts when the focus moves a few frames.
+    // Load and decode the frames around `index` next, and release decoded frames
+    // that have fallen out of the window. Only acts when the focus moves a few frames.
     focus(index: number) {
-        if (Math.abs(index - this.focusIndex) < 6 || !this.queue.length) return
+        if (Math.abs(index - this.focusIndex) < 4) return
         this.focusIndex = index
-        this.queue.sort((a, b) => Math.abs(a - index) - Math.abs(b - index))
+        if (this.queue.length) this.queue.sort((a, b) => Math.abs(a - index) - Math.abs(b - index))
+        const half = this.maxBitmaps / 2
+        this.bitmaps.forEach((bmp, i) => {
+            if (Math.abs(i - index) > half) {
+                bmp.close()
+                this.bitmaps.delete(i)
+            }
+        })
+        for (let d = 0; d <= half; d++) {
+            if (index + d < this.count) this.decode(index + d)
+            if (d && index - d >= 0) this.decode(index - d)
+        }
     }
 
     cancel() {
         this.cancelled = true
-        this.frames.forEach((f) => {
-            if (f && "close" in f.source) (f.source as ImageBitmap).close()
-        })
+        this.bitmaps.forEach((bmp) => bmp.close())
+        this.bitmaps.clear()
     }
 
     get(index: number): Frame | null {
-        return this.frames[index] ?? null
+        const bmp = this.bitmaps.get(index)
+        if (bmp) return { source: bmp, width: bmp.width, height: bmp.height }
+        const img = this.images[index]
+        return img ? { source: img, width: img.naturalWidth, height: img.naturalHeight } : null
     }
 
     nearest(index: number): Frame | null {
-        if (this.frames[index]) return this.frames[index]
+        const exact = this.get(index)
+        if (exact) return exact
         for (let d = 1; d < this.count; d++) {
-            const a = this.frames[index - d]
+            const a = index - d >= 0 ? this.get(index - d) : null
             if (a) return a
-            const b = this.frames[index + d]
+            const b = index + d < this.count ? this.get(index + d) : null
             if (b) return b
         }
         return null
