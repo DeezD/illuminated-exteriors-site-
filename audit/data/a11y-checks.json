@@ -1,0 +1,610 @@
+{
+ "homePhoneGeo": {
+  "heroTop": 0,
+  "heroH": 3545,
+  "vh": 844,
+  "barBox": {
+   "top": 769,
+   "bottom": 844,
+   "h": 75,
+   "pos": "fixed"
+  },
+  "ctaTop": 796,
+  "ctaBottom": 888,
+  "ledeBottom": 766,
+  "badge": {
+   "l": 230,
+   "t": 786,
+   "r": 370,
+   "b": 824
+  }
+ },
+ "hero1-lit": null,
+ "hero2-halloween": {
+  "title": "Halloween, without the ladder.",
+  "ctaTop": 765,
+  "ctaBottom": 812,
+  "ctaRight": 297.40625,
+  "ctaW": 273.40625,
+  "titleTop": 575
+ },
+ "hero3-christmas": {
+  "title": "The lights are already up.",
+  "ctaTop": 765,
+  "ctaBottom": 812,
+  "ctaRight": 293.984375,
+  "ctaW": 269.984375,
+  "titleTop": 611
+ },
+ "hero4-redwhite": {
+  "title": "Scarlet and cream, all season.",
+  "ctaTop": 765,
+  "ctaBottom": 812,
+  "ctaRight": 312.1875,
+  "ctaW": 288.1875,
+  "titleTop": 599
+ },
+ "hero5-bluewhite": {
+  "title": "Then blue and white for hoops season.",
+  "ctaTop": 765,
+  "ctaBottom": 812,
+  "ctaRight": 316.890625,
+  "ctaW": 292.890625,
+  "titleTop": 575
+ },
+ "heroScrollScreens": 4.2,
+ "burger": {
+  "tag": "BUTTON",
+  "role": null,
+  "aria": "Open menu",
+  "tabindex": "0",
+  "w": 44,
+  "h": 44,
+  "x": 348,
+  "y": 38,
+  "html": "<button aria-label=\"Open menu\" class=\"framer-8wjkiz\" data-framer-name=\"Menu Button\" data-highlight=\"true\" data-reset=\"button\" tabindex=\"0\" style=\"opacity: 1;\"><svg class=\"framer-grV1P framer-ugzlk5\" r"
+ },
+ "menuLinks": [
+  [
+   "ILLUMINATED EXTERIORS",
+   245,
+   18
+  ],
+  [
+   "Our Work",
+   130,
+   52
+  ],
+  [
+   "How It Works",
+   177,
+   52
+  ],
+  [
+   "FAQ",
+   53,
+   52
+  ],
+  [
+   "About",
+   81,
+   52
+  ],
+  [
+   "Free Design",
+   154,
+   52
+  ],
+  [
+   "Call 402-699-6256",
+   154,
+   20
+  ]
+ ],
+ "contrast:home": {
+  "n": 139,
+  "fails": [],
+  "combos": [
+   "rgb(242, 213, 154) on 5,7,11 = 14.17 @14px"
+  ],
+  "overMedia": [
+   "Our Work | rgb(201, 209, 217) 40px",
+   "How It Works | rgb(201, 209, 217) 40px",
+   "FAQ | rgb(201, 209, 217) 40px",
+   "About | rgb(201, 209, 217) 40px",
+   "Free Design | rgb(201, 209, 217) 40px",
+   "Call 402-699-6256 | rgb(201, 209, 217) 17px",
+   "Serving Omaha, Elkhorn and homes within  | rgb(125, 135, 148) 14px",
+   "6:33 PM | rgb(201, 209, 217) 11.5px",
+   "PM | rgb(125, 135, 148) 11.5px",
+   "PERMANENT ROOFLINE LIGHTING · OMAHA & EL | rgb(242, 213, 154) 11.5px",
+   "Invisible by day. | rgb(238, 241, 244) 44px",
+   "Unforgettable by night. | rgb(242, 213, 154) 44px",
+   "One install along your roofline. Warm wh | rgb(201, 209, 217) 15px",
+   "Get a Free Design | rgb(26, 18, 9) 15px",
+   "See every occasion | rgb(201, 209, 217) 15px",
+   "INVISIBLE BY DAY | rgb(242, 213, 154) 11.5px",
+   "You’ll forget it’s there. Until sunset. | rgb(238, 241, 244) 32px",
+   "The track is painted to match your trim, | rgb(201, 209, 217) 16px",
+   "EVERY OCCASION | rgb(242, 213, 154) 11.5px",
+   "365 nights. One install. | rgb(238, 241, 244) 38px",
+   "Warm white for an ordinary Tuesday. Red  | rgb(201, 209, 217) 16px",
+   "Red & White Game Day | rgb(242, 213, 154) 16px",
+   "Blue & White Game Day | rgb(242, 213, 154) 16px",
+   "Birthday | rgb(242, 213, 154) 16px",
+   "Halloween | rgb(242, 213, 154) 16px"
+  ]
+ },
+ "contrast:faq": {
+  "n": 53,
+  "fails": [],
+  "combos": [
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @14px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @40px",
+   "rgb(242, 213, 154) on 5,7,11 = 14.17 @40px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @17px",
+   "rgb(125, 135, 148) on 5,7,11 = 5.53 @14px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @44px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @38px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @19px",
+   "rgb(201, 209, 217) on 14,22,38 = 11.71 @38px",
+   "rgb(201, 209, 217) on 14,22,38 = 11.71 @16px",
+   "rgb(201, 209, 217) on 14,22,38 = 11.71 @22px",
+   "rgb(26, 18, 9) on 217,180,106 = 9.42 @15px",
+   "rgb(217, 180, 106) on 5,7,11 = 10.26 @14px",
+   "rgb(74, 163, 255) on 5,7,11 = 7.66 @14px",
+   "rgb(125, 135, 148) on 5,7,11 = 5.53 @11.5px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @15px",
+   "rgb(242, 213, 154) on 5,7,11 = 14.17 @15px",
+   "rgb(5, 7, 11) on 217,180,106 = 10.26 @15px"
+  ],
+  "overMedia": [
+   "❚❚ PAUSE MOTION | rgb(201, 209, 217) 11.5px",
+   "❚❚ | rgb(201, 209, 217) 12px"
+  ]
+ },
+ "contrast:free-design": {
+  "n": 19,
+  "fails": [],
+  "combos": [
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @11px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @13px"
+  ],
+  "overMedia": [
+   "FREE · NO OBLIGATION | rgb(242, 213, 154) 11.5px",
+   "Book your free design. | rgb(201, 209, 217) 44px",
+   "Free and no obligation. | rgb(201, 209, 217) 16px",
+   "We visit at dusk and show you scenes on  | rgb(201, 209, 217) 16px",
+   "A reply within one business day. | rgb(201, 209, 217) 16px",
+   "ONE OF OUR INSTALLS | rgb(125, 135, 148) 11.5px",
+   "Tell us about your home. | rgb(238, 241, 244) 30px",
+   "STEP 1 OF 3 · YOUR ADDRESS | rgb(125, 135, 148) 11.5px",
+   "Company website | rgb(230, 234, 238) 14px",
+   "Street address | rgb(230, 234, 238) 14px",
+   "ZIP code | rgb(230, 234, 238) 14px",
+   "Continue | rgb(26, 18, 9) 15px",
+   "Free and no obligation. We use your deta | rgb(125, 135, 148) 12px",
+   "© 2026 Illuminated Exteriors · Mon–Fri 9 | rgb(125, 135, 148) 14px",
+   "❚❚ PAUSE MOTION | rgb(201, 209, 217) 11.5px",
+   "❚❚ | rgb(201, 209, 217) 12px"
+  ]
+ },
+ "contrast:our-work": {
+  "n": 48,
+  "fails": [],
+  "combos": [
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @14px",
+   "rgb(242, 213, 154) on 5,7,11 = 14.17 @40px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @40px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @17px",
+   "rgb(125, 135, 148) on 5,7,11 = 5.53 @14px",
+   "rgb(242, 213, 154) on 5,7,11 = 14.17 @11.5px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @44px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @16px",
+   "rgb(125, 135, 148) on 5,7,11 = 5.53 @11.5px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @18px",
+   "rgb(217, 180, 106) on 5,7,11 = 10.26 @14px",
+   "rgb(74, 163, 255) on 5,7,11 = 7.66 @14px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @15px"
+  ],
+  "overMedia": [
+   "❚❚ PAUSE MOTION | rgb(201, 209, 217) 11.5px",
+   "❚❚ | rgb(201, 209, 217) 12px",
+   "Call | rgb(242, 213, 154) 15px",
+   "Free Design | rgb(5, 7, 11) 15px"
+  ]
+ },
+ "contrast:areas/omaha": {
+  "n": 59,
+  "fails": [],
+  "combos": [
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @14px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @40px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @17px",
+   "rgb(125, 135, 148) on 5,7,11 = 5.53 @14px",
+   "rgb(242, 213, 154) on 5,7,11 = 14.17 @11.5px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @44px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @16px",
+   "rgb(26, 18, 9) on 217,180,106 = 9.42 @15px",
+   "rgb(230, 234, 238) on 14,22,38 = 14.95 @14px"
+  ],
+  "overMedia": [
+   "REAL HOMES NEARBY | rgb(242, 213, 154) 11.5px",
+   "Recent installs. | rgb(201, 209, 217) 38px",
+   "FL Rambler | rgb(201, 209, 217) 18px",
+   "Three-Car Ranch | rgb(201, 209, 217) 18px",
+   "Midwestern Metal Build Home | rgb(201, 209, 217) 18px",
+   "Common questions. | rgb(201, 209, 217) 38px",
+   "How much does permanent roofline lightin | rgb(201, 209, 217) 19px",
+   "Can you see the lights during the day? | rgb(201, 209, 217) 19px",
+   "Do I control the lights from my phone? | rgb(201, 209, 217) 19px",
+   "What areas do you serve? | rgb(201, 209, 217) 19px",
+   "How long does installation take? | rgb(201, 209, 217) 19px",
+   "All questions | rgb(242, 213, 154) 15px",
+   "FREE DESIGN | rgb(242, 213, 154) 11.5px",
+   "See your house lit before you decide. | rgb(201, 209, 217) 38px",
+   "We visit at dusk, measure your roofline  | rgb(201, 209, 217) 16px",
+   "Your home, after dark. Let's design it. | rgb(238, 241, 244) 30px",
+   "STEP 1 OF 3 · YOUR ADDRESS | rgb(125, 135, 148) 11.5px",
+   "Street address | rgb(230, 234, 238) 14px",
+   "ZIP code | rgb(230, 234, 238) 14px",
+   "Continue | rgb(26, 18, 9) 15px",
+   "Free and no obligation. We use your deta | rgb(125, 135, 148) 12px",
+   "ILLUMINATED EXTERIORS | rgb(217, 180, 106) 14px",
+   "EXTERIORS | rgb(74, 163, 255) 14px",
+   "Permanent roofline lighting for homes in | rgb(125, 135, 148) 14px",
+   "EXPLORE | rgb(125, 135, 148) 11.5px"
+  ]
+ },
+ "contrast:how-it-works": {
+  "n": 64,
+  "fails": [],
+  "combos": [
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @14px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @40px",
+   "rgb(242, 213, 154) on 5,7,11 = 14.17 @40px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @17px",
+   "rgb(125, 135, 148) on 5,7,11 = 5.53 @14px",
+   "rgb(242, 213, 154) on 5,7,11 = 14.17 @11.5px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @44px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @16px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @38px",
+   "rgb(125, 135, 148) on 5,7,11 = 5.53 @11.5px",
+   "rgb(238, 241, 244) on 5,7,11 = 17.78 @32px",
+   "rgb(242, 213, 154) on 14,22,38 = 12.71 @11.5px",
+   "rgb(201, 209, 217) on 14,22,38 = 11.71 @38px",
+   "rgb(201, 209, 217) on 14,22,38 = 11.71 @16px",
+   "rgb(26, 18, 9) on 217,180,106 = 9.42 @15px",
+   "rgb(217, 180, 106) on 5,7,11 = 10.26 @14px",
+   "rgb(74, 163, 255) on 5,7,11 = 7.66 @14px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @15px",
+   "rgb(242, 213, 154) on 5,7,11 = 14.17 @15px",
+   "rgb(5, 7, 11) on 217,180,106 = 10.26 @15px"
+  ],
+  "overMedia": [
+   "1:00 PM | rgb(201, 209, 217) 11.5px",
+   "6:46 PM | rgb(242, 213, 154) 11.5px",
+   "❚❚ PAUSE MOTION | rgb(201, 209, 217) 11.5px",
+   "❚❚ | rgb(201, 209, 217) 12px"
+  ]
+ },
+ "contrast:about": {
+  "n": 47,
+  "fails": [],
+  "combos": [
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @14px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @40px",
+   "rgb(242, 213, 154) on 5,7,11 = 14.17 @40px",
+   "rgb(242, 213, 154) on 5,7,11 = 14.17 @11.5px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @44px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @16px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @19px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @38px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @17px",
+   "rgb(26, 18, 9) on 217,180,106 = 9.42 @15px",
+   "rgb(217, 180, 106) on 5,7,11 = 10.26 @14px",
+   "rgb(74, 163, 255) on 5,7,11 = 7.66 @14px",
+   "rgb(125, 135, 148) on 5,7,11 = 5.53 @14px",
+   "rgb(125, 135, 148) on 5,7,11 = 5.53 @11.5px",
+   "rgb(201, 209, 217) on 5,7,11 = 13.06 @15px",
+   "rgb(242, 213, 154) on 5,7,11 = 14.17 @15px",
+   "rgb(5, 7, 11) on 217,180,106 = 10.26 @15px"
+  ],
+  "overMedia": [
+   "Free Design | rgb(201, 209, 217) 40px",
+   "Call 402-699-6256 | rgb(201, 209, 217) 17px",
+   "Serving Omaha, Elkhorn and homes within  | rgb(125, 135, 148) 14px",
+   "❚❚ PAUSE MOTION | rgb(201, 209, 217) 11.5px",
+   "❚❚ | rgb(201, 209, 217) 12px"
+  ]
+ },
+ "tab:home": [
+  "A \"ILLUMINATED EXTERIORS\" y=29 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Our Work\" y=29 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"How It Works\" y=29 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"FAQ\" y=29 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"402-699-6256\" y=29 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Get a Free Design\" y=15 inView=true ring=shadow ti=0",
+  "A \"Get a Free Design\" y=881 inView=true ring=shadow ti=0",
+  "A \"See every occasion →\" y=889 inView=true ring=shadow ti=0",
+  "BUTTON \"Red & White Game Day\" y=6458 inView=true ring=outline rgb(242, 213, 154) 2px",
+  "BUTTON \"Blue & White Game Day\" y=6484 inView=true ring=outline rgb(242, 213, 154) 2px",
+  "BUTTON \"Birthday\" y=6511 inView=true ring=outline rgb(242, 213, 154) 2px",
+  "BUTTON \"Halloween\" y=6511 inView=true ring=outline rgb(242, 213, 154) 2px",
+  "BUTTON \"Christmas\" y=6511 inView=true ring=outline rgb(242, 213, 154) 2px",
+  "BUTTON \"Everyday\" y=6590 inView=true ring=outline rgb(242, 213, 154) 2px",
+  "BUTTON \"Red & White Game Day\" y=6590 inView=true ring=outline rgb(242, 213, 154) 2px",
+  "BUTTON \"Blue & White Game Day\" y=6642 inView=true ring=outline rgb(242, 213, 154) 2px",
+  "BUTTON \"Birthday\" y=6642 inView=true ring=outline rgb(242, 213, 154) 2px",
+  "BUTTON \"July 4th\" y=6642 inView=true ring=outline rgb(242, 213, 154) 2px",
+  "BUTTON \"Halloween\" y=6694 inView=true ring=outline rgb(242, 213, 154) 2px",
+  "BUTTON \"Christmas\" y=6694 inView=true ring=outline rgb(242, 213, 154) 2px",
+  "A \"Get a Free Design\" y=6796 inView=true ring=shadow ti=0",
+  "A \"Three-Car Ranch JULY 4TH\" y=12164 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Modern Farmhouse OTHER\" y=12164 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Modern Two-Story JULY 4TH\" y=12164 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"See all our work\" y=12732 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Start my free design\" y=13418 inView=true ring=shadow ti=0",
+  "BUTTON \"How much does permanent roofline\" y=13901 inView=true ring=outline rgb(16, 16, 16) 1px ti=0",
+  "BUTTON \"Can you see the lights during th\" y=13977 inView=true ring=outline rgb(16, 16, 16) 1px ti=0",
+  "BUTTON \"Do I control the lights from my \" y=14054 inView=true ring=outline rgb(16, 16, 16) 1px ti=0",
+  "BUTTON \"What areas do you serve?\" y=14130 inView=true ring=outline rgb(16, 16, 16) 1px ti=0",
+  "BUTTON \"How long does installation take?\" y=14207 inView=true ring=outline rgb(16, 16, 16) 1px ti=0",
+  "A \"All questions\" y=14332 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"402-699-6256\" y=14905 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "INPUT \"street\" y=14830 inView=true ring=shadow",
+  "INPUT \"zip\" y=14948 inView=true ring=shadow",
+  "BUTTON \"Continue\" y=15048 inView=true ring=outline rgb(242, 213, 154) 2px",
+  "A \"Our Work\" y=15402 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"How It Works\" y=15435 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"FAQ\" y=15468 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"About\" y=15501 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Get a Free Design\" y=15534 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"402-699-6256\" y=15402 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"info@illuminated-exteriors.com\" y=15435 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Facebook\" y=15501 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Elkhorn\" y=15402 inView=true ring=outline rgb(16, 16, 16) 1px"
+ ],
+ "tab:faq": [
+  "A \"ILLUMINATED EXTERIORS\" y=29 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Our Work\" y=29 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"How It Works\" y=29 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"FAQ\" y=29 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"402-699-6256\" y=29 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Get a Free Design\" y=15 inView=true ring=shadow ti=0",
+  "A \"Cost\" y=536 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Installation\" y=571 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"The lights\" y=606 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"The app\" y=641 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Weather and durability\" y=676 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"HOA and neighbors\" y=711 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "BUTTON \"How much does permanent roofline\" y=573 inView=true ring=outline rgb(16, 16, 16) 1px ti=0",
+  "BUTTON \"How do I get started?\" y=649 inView=true ring=outline rgb(16, 16, 16) 1px ti=0",
+  "BUTTON \"What areas do you serve?\" y=858 inView=true ring=outline rgb(16, 16, 16) 1px ti=0",
+  "BUTTON \"How long does installation take?\" y=935 inView=false ring=outline rgb(16, 16, 16) 1px ti=0",
+  "BUTTON \"What does the warranty cover?\" y=1011 inView=true ring=outline rgb(16, 16, 16) 1px ti=0",
+  "BUTTON \"Can you see the lights during th\" y=1220 inView=true ring=outline rgb(16, 16, 16) 1px ti=0",
+  "BUTTON \"Do I control the lights from my \" y=1428 inView=true ring=outline rgb(16, 16, 16) 1px ti=0",
+  "BUTTON \"How do the lights hold up in Neb\" y=1637 inView=true ring=outline rgb(16, 16, 16) 1px ti=0",
+  "BUTTON \"Will my HOA allow permanent ligh\" y=1845 inView=true ring=outline rgb(16, 16, 16) 1px ti=0",
+  "A \"402-699-6256\" y=2345 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Get a Free Design\" y=2422 inView=true ring=shadow ti=0",
+  "A \"Our Work\" y=2698 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"How It Works\" y=2731 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"FAQ\" y=2764 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"About\" y=2797 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Get a Free Design\" y=2830 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"402-699-6256\" y=2698 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"info@illuminated-exteriors.com\" y=2731 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Facebook\" y=2797 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Elkhorn\" y=2698 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Omaha\" y=2731 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Papillion\" y=2764 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Bellevue\" y=2797 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Gretna\" y=2830 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Bennington\" y=2863 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Council Bluffs\" y=2896 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Lincoln\" y=2929 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "BUTTON \"❚❚ PAUSE MOTION\" y=3029 inView=true ring=outline rgb(242, 213, 154) 2px"
+ ],
+ "faqAccordion": [
+  "H3 role=null ti=null exp=null cursor=pointer hl=null",
+  "DIV role=null ti=null exp=null cursor=pointer hl=null",
+  "BUTTON role=null ti=0 exp=null cursor=pointer hl=true",
+  "DIV role=null ti=null exp=null cursor=auto hl=null",
+  "DIV role=null ti=null exp=null cursor=auto hl=null"
+ ],
+ "faqAfterClick": "What does the warranty cover?\n\nYour system comes with a 12-month warranty. At your free design visit we’ll walk you through exactly what it covers, in writing, before you sign anything.",
+ "tab:our-work": [
+  "A \"ILLUMINATED EXTERIORS\" y=29 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Our Work\" y=29 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"How It Works\" y=29 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"FAQ\" y=29 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"402-699-6256\" y=29 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Get a Free Design\" y=15 inView=true ring=shadow ti=0",
+  "SELECT \"All Everyday Game Day Birthday J\" y=519 inView=true ring=NONE",
+  "A \"FL Rambler OTHER\" y=637 inView=false ring=outline rgb(16, 16, 16) 1px",
+  "A \"Stone-Front Home OTHER\" y=1018 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Modern Two-Story JULY 4TH\" y=1368 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Three-Car Ranch JULY 4TH\" y=637 inView=false ring=outline rgb(16, 16, 16) 1px",
+  "A \"Two-Story with Porch OTHER\" y=1018 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Two-Story in Purple OTHER\" y=1368 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Midwestern Metal Build Home OTHE\" y=637 inView=false ring=outline rgb(16, 16, 16) 1px",
+  "A \"Modern Farmhouse OTHER\" y=1018 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Ranch in Amber OTHER\" y=1368 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Our Work\" y=1951 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"How It Works\" y=1984 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"FAQ\" y=2017 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"About\" y=2050 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Get a Free Design\" y=2083 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"402-699-6256\" y=1951 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"info@illuminated-exteriors.com\" y=1984 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Facebook\" y=2050 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Elkhorn\" y=1951 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Omaha\" y=1984 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Papillion\" y=2017 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Bellevue\" y=2050 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Gretna\" y=2083 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Bennington\" y=2116 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Council Bluffs\" y=2149 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Lincoln\" y=2182 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "BUTTON \"❚❚ PAUSE MOTION\" y=2282 inView=true ring=outline rgb(242, 213, 154) 2px",
+  "A \"Create a free website with Frame\" y=2316 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "BODY",
+  "A \"ILLUMINATED EXTERIORS\" y=1503 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"Our Work\" y=1503 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"How It Works\" y=1503 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"FAQ\" y=1503 inView=true ring=outline rgb(16, 16, 16) 1px",
+  "A \"402-699-6256\" y=1503 inView=true ring=outline rgb(16, 16, 16) 1px"
+ ],
+ "reduced": {
+  "heroVh": 100,
+  "canvas": false,
+  "videos": [],
+  "mediaReqs": 4,
+  "sample": [
+   "16x9/0001.webp",
+   "16x9/0330.webp",
+   "16x9/0257.webp",
+   "16x9/0129.webp"
+  ],
+  "pageH": 9837
+ },
+ "formIds": {
+  "streetCount": 1,
+  "forms": 1,
+  "titleIds": 1
+ },
+ "formErrors1": [
+  "Add your street number and name so we can find your roofline.",
+  "Enter your 5-digit ZIP code."
+ ],
+ "formFocusAfterError": "ie-street",
+ "formOutside": [
+  "90210 may be just outside our usual area (within 50 miles of Omaha and Elkhorn). Continue anyway and we'll confirm we can reach you."
+ ],
+ "formInside": [
+  "✓ Great, we light homes in Omaha metro."
+ ],
+ "step2": "Tell us about your home.\n\nSTEP 2 OF 3 · YOUR HOME\n\nCompany website\n\nStep 2 of 3: Your home\nHow many stories?\n1\n2\n3 or more\nFirst scene you'd like to see\nNot sure yet\nEveryday\nRed & White Game Day\nBlue & White Game Day\nBirthday\nJuly 4th\nHalloween\nChristmas\nPhoto of the front of your home (optional)\n\nHelps us sketch your design before we visit.\n\nAnything we should know? (optional)\n← Back\nContinue\n\nFree and no obligation. We use your details only to plan your design.",
+ "step2Targets": [
+  [
+   "text",
+   "",
+   163,
+   20
+  ],
+  [
+   "radio",
+   "stories",
+   39,
+   44
+  ],
+  [
+   "radio",
+   "stories",
+   42,
+   44
+  ],
+  [
+   "radio",
+   "stories",
+   103,
+   44
+  ],
+  [
+   "select-one",
+   "scene",
+   304,
+   50
+  ],
+  [
+   "file",
+   "photo",
+   304,
+   20
+  ],
+  [
+   "textarea",
+   "notes",
+   304,
+   96
+  ],
+  [
+   "button",
+   "← Back",
+   59,
+   44
+  ],
+  [
+   "submit",
+   "Continue",
+   123,
+   50
+  ]
+ ],
+ "step3": "Tell us about your home.\n\nSTEP 3 OF 3 · HOW TO REACH YOU\n\nCompany website\n\nStep 3 of 3: How to reach you\nName\nPhone\nEmail\nBest time for a design visit\nWeekday evening\nWeekend\nAnytime\nText me about my design. Message and data rates may apply; reply STOP to opt out.\n← Back\nSend my request\n\nFree and no obligation. We use your details only to plan your design.",
+ "step3Targets": [
+  [
+   "text",
+   "",
+   163,
+   20
+  ],
+  [
+   "text",
+   "name",
+   304,
+   50
+  ],
+  [
+   "tel",
+   "phone",
+   304,
+   50
+  ],
+  [
+   "email",
+   "email",
+   304,
+   50
+  ],
+  [
+   "radio",
+   "bestTime",
+   163,
+   44
+  ],
+  [
+   "radio",
+   "bestTime",
+   103,
+   44
+  ],
+  [
+   "radio",
+   "bestTime",
+   96,
+   44
+  ],
+  [
+   "checkbox",
+   "",
+   13,
+   18
+  ],
+  [
+   "button",
+   "← Back",
+   59,
+   44
+  ],
+  [
+   "submit",
+   "Send my request",
+   183,
+   50
+  ]
+ ],
+ "endpoint": "not submitted (read-only audit)"
+}

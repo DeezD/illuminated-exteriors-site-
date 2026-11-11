@@ -1,0 +1,6430 @@
+[
+ {
+  "page": "home",
+  "w": 390,
+  "title": "Permanent Roofline Lighting in Omaha · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 390,
+  "clientW": 390,
+  "scrollH": 12538,
+  "bodyScrollW": 390,
+  "heads": [
+   "H1: Invisible by day. Unforgettable by night.",
+   "H2: You’ll forget it’s there. Until sunset.",
+   "H2: 365 nights. One install.",
+   "H2: Make the birthday unmissable.",
+   "H2: Change the night from the couch.",
+   "H2: Cozy at 7. Bright at midnight.",
+   "H2: Real homes. Real neighbors.",
+   "H2: Three visits. Zero ladders for you.",
+   "H3: Free design",
+   "H3: Install day",
+   "H3: Walkthrough",
+   "H3: How pricing works",
+   "H2: Before you ask.",
+   "H3: How much does permanent roofline lighting cost?",
+   "H3: Can you see the lights during the day?",
+   "H3: Do I control the lights from my phone?",
+   "H3: What areas do you serve?",
+   "H3: How long does installation take?",
+   "H2: Your home, after dark. Let’s design it.",
+   "H2: Your home, after dark. Let's design it."
+  ],
+  "allH1": 1,
+  "imgCount": 11,
+  "visImgs": 11,
+  "noAlt": [
+   "cBLGSnf3ZmBvlBKk1suIfpZV2w.webp?width=720&height=1278 390x692@390",
+   "qDsfD2UAHQE0S5f634I4EgXfR5g.webp?width=1600&height=900 390x219@350",
+   "XBFSOyWW9kx59yBNTpDP16sDBY.png?scale-down-to=1024&width=5504 390x217@390",
+   "3eD08l14Bvk0Sx5IMN0vmG8Qs.webp?width=1600&height=900 390x219@350",
+   "iqIVLCkbDMqWFYLvTs7vL9UsNw.webp?width=1600&height=900 390x219@350",
+   "vVMZYjwUHNIwvi1yl47IgnjNylI.jpg?scale-down-to=1024&width=240 280x210@280",
+   "7aARq6ndlPNEOnKYt7zt5wVRpvw.jpg?scale-down-to=1024&width=240 280x186@280",
+   "Ov0tWMRbLab5ZA1oZzbykAmIo.jpg?scale-down-to=1024&width=2400& 280x210@280"
+  ],
+  "alts": [
+   "Illustration: a hand holding a phone on a porch at night, the roofline lit warm ",
+   "Illustration of a lit home under a wide night sky",
+   "Illuminated Exteriors logo"
+  ],
+  "overTop": [
+   "A.framer-hnorg6 framer-lux5qc L316 R596 \"Modern Farmhouse\n\nCITY\n\nOTHER\"",
+   "A.framer-hnorg6 framer-lux5qc L612 R892 \"Modern Two-Story\n\nCITY\n\nJULY 4\"",
+   "DIV.framer-3nvdub L-200 R590 \"\"",
+   "P.ie-form__trap L-9979 R-9978 \"Company website\""
+  ],
+  "smallCount": 31,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "./"
+   },
+   {
+    "t": "Call 402-699-6256",
+    "w": 154,
+    "h": 20,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "See every occasion →",
+    "w": 163,
+    "h": 31,
+    "tag": "A",
+    "href": "#occasions"
+   },
+   {
+    "t": "Red & White Game Day",
+    "w": 188,
+    "h": 26,
+    "tag": "BUTTON",
+    "href": null
+   },
+   {
+    "t": "Blue & White Game Day",
+    "w": 193,
+    "h": 26,
+    "tag": "BUTTON",
+    "href": null
+   },
+   {
+    "t": "Birthday",
+    "w": 69,
+    "h": 26,
+    "tag": "BUTTON",
+    "href": null
+   },
+   {
+    "t": "Halloween",
+    "w": 85,
+    "h": 26,
+    "tag": "BUTTON",
+    "href": null
+   },
+   {
+    "t": "Christmas",
+    "w": 82,
+    "h": 26,
+    "tag": "BUTTON",
+    "href": null
+   },
+   {
+    "t": "See all our work",
+    "w": 149,
+    "h": 18,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "All questions",
+    "w": 126,
+    "h": 18,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 140,
+    "h": 24,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "text",
+    "w": 163,
+    "h": 20,
+    "tag": "INPUT",
+    "href": null
+   },
+   {
+    "t": "Our Work",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 100,
+    "h": 19,
+    "tag": "A",
+    "href": "./how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "About",
+    "w": 47,
+    "h": 19,
+    "tag": "A",
+    "href": "./about"
+   },
+   {
+    "t": "Get a Free Design",
+    "w": 134,
+    "h": 19,
+    "tag": "A",
+    "href": "./free-design"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "info@illuminated-exteriors.com",
+    "w": 237,
+    "h": 19,
+    "tag": "A",
+    "href": "mailto:info@illuminated-exteriors.com"
+   },
+   {
+    "t": "Facebook",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "https://www.facebook.com/illuminatedexteriors"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 59,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 56,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 52,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 91,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 55,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/lincoln"
+   },
+   {
+    "t": "Call",
+    "w": 173,
+    "h": 43,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "Free Design",
+    "w": 173,
+    "h": 43,
+    "tag": "A",
+    "href": "./free-design"
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   11.5,
+   12,
+   13.5,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   30,
+   32,
+   38,
+   40,
+   44
+  ],
+  "tiny": [
+   "11.5px \"6:33 PM\"",
+   "11.5px \"PM\"",
+   "11.5px \"PERMANENT ROOFLINE LIGHTING · \"",
+   "11.5px \"INVISIBLE BY DAY\"",
+   "11.5px \"EVERY OCCASION\"",
+   "11.5px \"EVERYDAY · WARM WHITE · STEADY\"",
+   "11.5px \"EVERYDAY\"",
+   "11.5px \"LIGHT SHOW\"",
+   "11.5px \"8:30 PM · CONTROL\"",
+   "11.5px \"NIGHTLY · SUNSET → 11 PM · WAR\""
+  ],
+  "text": "ILLUMINATED EXTERIORS Our Work How It Works FAQ About Free Design Call 402-699-6256 Serving Omaha, Elkhorn and homes within about 50 miles. 6:33 PM PERMANENT ROOFLINE LIGHTING · OMAHA & ELKHORN Invisible by day. Unforgettable by night. One install along your roofline. Warm white on an ordinary Tuesday, red and white on game day, a show for the birthday, and every holiday after that. You change it from your phone, and nobody climbs a ladder again. Get a Free Design See every occasion → INVISIBLE BY DAY You’ll forget it’s there. Until sunset. The track is painted to match your trim, so by day your roofline looks untouched. At dusk, it comes alive. EVERY OCCASION 365 nights. One install. Warm white for an ordinary Tuesday. Red & White Game Day on Saturdays, Blue & White Game Day for hoops season, a light show for the Birthday, then Halloween, Christmas and every night in between, all from your phone. Everyday Red & White Game Day Blue & White Game Day Birthday July 4th Halloween Christmas EVERYDAY · WARM WHITE · STEADY Get a Free Design LIGHT SHOW Make the birthday unmissable. Choose a pattern, pick the colors, and the whole roofline celebrates. Set it for one night or every year. 8:30 PM · CONTROL Change the night from the couch. Set warm white for every evening, team colors every Sunday, and the birthday show at 7 PM sharp. Schedules run themselves, and you can change anything in seconds from your phone. NIGHTLY · SUNSET → 11 PM · WARM WHITE SUNDAYS · GAME DAY COLORS DEC 1–31 · CHRISTMAS TWINKLE WARM TO COOL Cozy at 7. Bright at midnight. Pick any white from candle-warm to crisp daylight. Schedule warm white for the evening and a brighter, cooler white after midnight for security. 9:15 PM · REAL HOMES Real homes. Real neighbors. Three-Car Ranch CITY JULY 4TH Modern Farmhouse CITY OTHER Modern Two-Story CITY JULY 4TH FREE DESIGN VISIT AT DUSK OMAHA, ELKHORN + ABOUT 50 MILES MON–FRI · 9 AM–5 PM See all our work 10:00 PM · THE PROCESS Three visits. Zero ladders for you. STEP 01 Free design We visit at dusk, measure your roofline and show you scenes on your own house. STEP 02 Install day The trim-matched track goes up and disappears into your fascia. STEP 03 Walkthrough We set up the app with you and program your first scenes. How pricing works Every home is quoted on three things: ROOFLINE LENGTH NUMBER OF STORIES CONTROLLER AND ZONES Start my free design 10:45 PM · QUICK ANSWERS Before you ask. How much does permanent roofline lighting cost? Can you see the lights during the day? Do I control the lights from my phone? What areas do you serve? How long does installation take? All questions 11:59 PM Your home, after dark. Let’s design it. Tell us about your house. We’ll reply within one business day to set up a free design visit at dusk. 402-699-6256 MON–FRI · 9 AM–5 PM FREE · NO OBLIGATION Locally owned by Scot Ballan, serving Omaha, Elkhorn and nearby. Your home, after dark. Let's design it. STEP 1 OF 3 · YOUR ADDRESS Company website Street address ZIP code Continue Free and no obligation. We use your details only to plan your design. ILLUMINATED EXTERIORS Permanent roofline lighting for homes in Omaha, Elkhorn and within about 50 miles. EXPLORE Our Work How It Works FAQ About Get a Free Design CONTACT 402-699-6256 info@illuminated-exteriors.com Mon–Fri · 9 AM–5 PM Facebook SERVICE AREAS Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln © 2026 Illuminated Exteriors ❚❚ PAUSE MOTION Call Free Design Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:0 nav:1 main:0 footer:1",
+  "links": [
+   "./",
+   "./our-work",
+   "./how-it-works",
+   "./faq",
+   "./about",
+   "./free-design",
+   "tel:+14026996256",
+   "/free-design",
+   "#occasions",
+   "./our-work/three-car-ranch",
+   "./our-work/modern-farmhouse",
+   "./our-work/modern-two-story",
+   "mailto:info@illuminated-exteriors.com",
+   "https://www.facebook.com/illuminatedexteriors",
+   "./areas/elkhorn",
+   "./areas/omaha",
+   "./areas/papillion",
+   "./areas/bellevue",
+   "./areas/gretna",
+   "./areas/bennington",
+   "./areas/council-bluffs",
+   "./areas/lincoln",
+   "https://www.framer.com"
+  ],
+  "reqCount": 294,
+  "bytes": 11112182,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "events.framer.com": 2,
+   "framerusercontent.com": 43,
+   "fonts.gstatic.com": 3,
+   "framer.com": 1,
+   "illuminated-exteriors-media.higgsfield.app": 244
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED",
+   "https://framerusercontent.com/assets/kKerVgfmKBm1By2NqaZAwuDnSjY.mp4 net::ERR_ABORTED",
+   "https://framerusercontent.com/assets/SDIPBAu1YlHqSSzm4GsBPTl0.mp4 net::ERR_ABORTED",
+   "https://framerusercontent.com/assets/HUCqlG75gwNCgrPnatj2GimNYU.mp4 net::ERR_ABORTED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "1152KB media https://framerusercontent.com/assets/kKerVgfmKBm1By2NqaZAwuDnSjY.mp4",
+   "1026KB media https://framerusercontent.com/assets/HUCqlG75gwNCgrPnatj2GimNYU.mp4",
+   "509KB media https://framerusercontent.com/assets/SDIPBAu1YlHqSSzm4GsBPTl0.mp4",
+   "52KB image https://illuminated-exteriors-media.higgsfield.app/hero/v2/16x9/0001.webp",
+   "44KB image https://illuminated-exteriors-media.higgsfield.app/hero/v2/16x9/0330.webp",
+   "42KB image https://illuminated-exteriors-media.higgsfield.app/hero/v2/9x16/0002.webp",
+   "41KB image https://illuminated-exteriors-media.higgsfield.app/hero/v2/16x9/0257.webp",
+   "40KB image https://illuminated-exteriors-media.higgsfield.app/hero/v2/9x16/0001.webp"
+  ]
+ },
+ {
+  "page": "home",
+  "w": 810,
+  "title": "Permanent Roofline Lighting in Omaha · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 810,
+  "clientW": 810,
+  "scrollH": 17392,
+  "bodyScrollW": 810,
+  "heads": [
+   "H1: Invisible by day. Unforgettable by night.",
+   "H2: You’ll forget it’s there. Until sunset.",
+   "H2: 365 nights. One install.",
+   "H2: Make the birthday unmissable.",
+   "H2: Change the night from the couch.",
+   "H2: Cozy at 7. Bright at midnight.",
+   "H2: Real homes. Real neighbors.",
+   "H2: Three visits. Zero ladders for you.",
+   "H3: Free design",
+   "H3: Install day",
+   "H3: Walkthrough",
+   "H3: How pricing works",
+   "H2: Before you ask.",
+   "H3: How much does permanent roofline lighting cost?",
+   "H3: Can you see the lights during the day?",
+   "H3: Do I control the lights from my phone?",
+   "H3: What areas do you serve?",
+   "H3: How long does installation take?",
+   "H2: Your home, after dark. Let’s design it.",
+   "H2: Your home, after dark. Let's design it."
+  ],
+  "allH1": 1,
+  "imgCount": 12,
+  "visImgs": 12,
+  "noAlt": [
+   "0qNi2i06PMR33PssYs39VUM.png?scale-down-to=1024&width=5504&he 809x452@810",
+   "qDsfD2UAHQE0S5f634I4EgXfR5g.webp?width=1600&height=900 810x455@405",
+   "XBFSOyWW9kx59yBNTpDP16sDBY.png?scale-down-to=1024&width=5504 809x452@810",
+   "YjoP0NxgRy3WduIvNexsioJkIPg.png?scale-down-to=1024&width=550 809x452@810",
+   "3eD08l14Bvk0Sx5IMN0vmG8Qs.webp?width=1600&height=900 810x455@300",
+   "iqIVLCkbDMqWFYLvTs7vL9UsNw.webp?width=1600&height=900 810x455@405",
+   "vVMZYjwUHNIwvi1yl47IgnjNylI.jpg?scale-down-to=512&width=2400 232x174@233",
+   "7aARq6ndlPNEOnKYt7zt5wVRpvw.jpg?scale-down-to=512&width=2400 232x154@233",
+   "Ov0tWMRbLab5ZA1oZzbykAmIo.jpg?scale-down-to=512&width=2400&h 232x174@233"
+  ],
+  "alts": [
+   "Illustration: a hand holding a phone on a porch at night, the roofline lit warm ",
+   "Illustration of a lit home under a wide night sky",
+   "Illuminated Exteriors logo"
+  ],
+  "overTop": [
+   "DIV.framer-3nvdub L-200 R1010 \"\"",
+   "P.ie-form__trap L-9967 R-9966 \"Company website\""
+  ],
+  "smallCount": 29,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "./"
+   },
+   {
+    "t": "Call 402-699-6256",
+    "w": 154,
+    "h": 20,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "See every occasion →",
+    "w": 163,
+    "h": 31,
+    "tag": "A",
+    "href": "#occasions"
+   },
+   {
+    "t": "Red & White Game Day",
+    "w": 188,
+    "h": 26,
+    "tag": "BUTTON",
+    "href": null
+   },
+   {
+    "t": "Blue & White Game Day",
+    "w": 193,
+    "h": 26,
+    "tag": "BUTTON",
+    "href": null
+   },
+   {
+    "t": "Birthday",
+    "w": 69,
+    "h": 26,
+    "tag": "BUTTON",
+    "href": null
+   },
+   {
+    "t": "Halloween",
+    "w": 85,
+    "h": 26,
+    "tag": "BUTTON",
+    "href": null
+   },
+   {
+    "t": "Christmas",
+    "w": 82,
+    "h": 26,
+    "tag": "BUTTON",
+    "href": null
+   },
+   {
+    "t": "See all our work",
+    "w": 149,
+    "h": 18,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "All questions",
+    "w": 126,
+    "h": 18,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 140,
+    "h": 24,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "text",
+    "w": 163,
+    "h": 20,
+    "tag": "INPUT",
+    "href": null
+   },
+   {
+    "t": "Our Work",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 100,
+    "h": 19,
+    "tag": "A",
+    "href": "./how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "About",
+    "w": 47,
+    "h": 19,
+    "tag": "A",
+    "href": "./about"
+   },
+   {
+    "t": "Get a Free Design",
+    "w": 134,
+    "h": 19,
+    "tag": "A",
+    "href": "./free-design"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "info@illuminated-exteriors.com",
+    "w": 237,
+    "h": 19,
+    "tag": "A",
+    "href": "mailto:info@illuminated-exteriors.com"
+   },
+   {
+    "t": "Facebook",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "https://www.facebook.com/illuminatedexteriors"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 59,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 56,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 52,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 91,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 55,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/lincoln"
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   9,
+   11,
+   11.5,
+   12,
+   13.5,
+   14,
+   15,
+   16,
+   17,
+   18,
+   20,
+   30,
+   32,
+   38,
+   40,
+   48,
+   48.6
+  ],
+  "tiny": [
+   "11px \"Serving Omaha, Elkhorn and hom\"",
+   "11.5px \"BLUE HOUR\"",
+   "11.5px \"6:33 PM\"",
+   "11.5px \"PM\"",
+   "11.5px \"PERMANENT ROOFLINE LIGHTING · \"",
+   "11.5px \"INVISIBLE BY DAY\"",
+   "11.5px \"EVERY OCCASION\"",
+   "11.5px \"EVERYDAY · WARM WHITE · STEADY\"",
+   "11.5px \"EVERYDAY\"",
+   "11.5px \"LIGHT SHOW\""
+  ],
+  "text": "ILLUMINATED EXTERIORS Our Work How It Works FAQ About Free Design Call 402-699-6256 Serving Omaha, Elkhorn and homes within about 50 miles. BLUE HOUR 6:33 PM PERMANENT ROOFLINE LIGHTING · OMAHA & ELKHORN Invisible by day. Unforgettable by night. One install along your roofline. Warm white on an ordinary Tuesday, red and white on game day, a show for the birthday, and every holiday after that. You change it from your phone, and nobody climbs a ladder again. Get a Free Design See every occasion → INVISIBLE BY DAY You’ll forget it’s there. Until sunset. The track is painted to match your trim, so by day your roofline looks untouched. At dusk, it comes alive. EVERY OCCASION 365 nights. One install. Warm white for an ordinary Tuesday. Red & White Game Day on Saturdays, Blue & White Game Day for hoops season, a light show for the Birthday, then Halloween, Christmas and every night in between, all from your phone. Everyday Red & White Game Day Blue & White Game Day Birthday July 4th Halloween Christmas EVERYDAY · WARM WHITE · STEADY Get a Free Design LIGHT SHOW Make the birthday unmissable. Choose a pattern, pick the colors, and the whole roofline celebrates. Set it for one night or every year. 8:30 PM · CONTROL Change the night from the couch. Set warm white for every evening, team colors every Sunday, and the birthday show at 7 PM sharp. Schedules run themselves, and you can change anything in seconds from your phone. NIGHTLY · SUNSET → 11 PM · WARM WHITE SUNDAYS · GAME DAY COLORS DEC 1–31 · CHRISTMAS TWINKLE WARM TO COOL Cozy at 7. Bright at midnight. Pick any white from candle-warm to crisp daylight. Schedule warm white for the evening and a brighter, cooler white after midnight for security. 9:15 PM · REAL HOMES Real homes. Real neighbors. Three-Car Ranch JULY 4TH Modern Farmhouse OTHER Modern Two-Story JULY 4TH FREE DESIGN VISIT AT DUSK OMAHA, ELKHORN + ABOUT 50 MILES MON–FRI · 9 AM–5 PM See all our work 10:00 PM · THE PROCESS Three visits. Zero ladders for you. STEP 01 Free design We visit at dusk, measure your roofline and show you scenes on your own house. STEP 02 Install day The trim-matched track goes up and disappears into your fascia. STEP 03 Walkthrough We set up the app with you and program your first scenes. How pricing works Every home is quoted on three things: ROOFLINE LENGTH NUMBER OF STORIES CONTROLLER AND ZONES Start my free design 10:45 PM · QUICK ANSWERS Before you ask. How much does permanent roofline lighting cost? Can you see the lights during the day? Do I control the lights from my phone? What areas do you serve? How long does installation take? All questions 11:59 PM Your home, after dark. Let’s design it. Tell us about your house. We’ll reply within one business day to set up a free design visit at dusk. 402-699-6256 MON–FRI · 9 AM–5 PM FREE · NO OBLIGATION Locally owned by Scot Ballan, serving Omaha, Elkhorn and nearby. Your home, after dark. Let's design it. STEP 1 OF 3 · YOUR ADDRESS Company website Street address ZIP code Continue Free and no obligation. We use your details only to plan your design. ILLUMINATED EXTERIORS Permanent roofline lighting for homes in Omaha, Elkhorn and within about 50 miles. EXPLORE Our Work How It Works FAQ About Get a Free Design CONTACT 402-699-6256 info@illuminated-exteriors.com Mon–Fri · 9 AM–5 PM Facebook SERVICE AREAS Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln © 2026 Illuminated Exteriors ❚❚ PAUSE MOTION Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:0 nav:1 main:0 footer:1",
+  "links": [
+   "./",
+   "./our-work",
+   "./how-it-works",
+   "./faq",
+   "./about",
+   "./free-design",
+   "tel:+14026996256",
+   "/free-design",
+   "#occasions",
+   "./our-work/three-car-ranch",
+   "./our-work/modern-farmhouse",
+   "./our-work/modern-two-story",
+   "mailto:info@illuminated-exteriors.com",
+   "https://www.facebook.com/illuminatedexteriors",
+   "./areas/elkhorn",
+   "./areas/omaha",
+   "./areas/papillion",
+   "./areas/bellevue",
+   "./areas/gretna",
+   "./areas/bennington",
+   "./areas/council-bluffs",
+   "./areas/lincoln",
+   "https://www.framer.com"
+  ],
+  "reqCount": 356,
+  "bytes": 16231348,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "framerusercontent.com": 44,
+   "fonts.gstatic.com": 3,
+   "events.framer.com": 2,
+   "framer.com": 1,
+   "illuminated-exteriors-media.higgsfield.app": 305
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED",
+   "https://framerusercontent.com/assets/kKerVgfmKBm1By2NqaZAwuDnSjY.mp4 net::ERR_ABORTED",
+   "https://framerusercontent.com/assets/SDIPBAu1YlHqSSzm4GsBPTl0.mp4 net::ERR_ABORTED",
+   "https://framerusercontent.com/assets/HUCqlG75gwNCgrPnatj2GimNYU.mp4 net::ERR_ABORTED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "1152KB media https://framerusercontent.com/assets/kKerVgfmKBm1By2NqaZAwuDnSjY.mp4",
+   "1026KB media https://framerusercontent.com/assets/HUCqlG75gwNCgrPnatj2GimNYU.mp4",
+   "509KB media https://framerusercontent.com/assets/SDIPBAu1YlHqSSzm4GsBPTl0.mp4",
+   "52KB image https://illuminated-exteriors-media.higgsfield.app/hero/v2/16x9/0001.webp",
+   "52KB image https://illuminated-exteriors-media.higgsfield.app/hero/v2/16x9/0001.webp",
+   "52KB image https://illuminated-exteriors-media.higgsfield.app/hero/v2/16x9/0004.webp",
+   "52KB image https://illuminated-exteriors-media.higgsfield.app/hero/v2/16x9/0005.webp",
+   "52KB image https://illuminated-exteriors-media.higgsfield.app/hero/v2/16x9/0005.webp"
+  ]
+ },
+ {
+  "page": "home",
+  "w": 1440,
+  "title": "Permanent Roofline Lighting in Omaha · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 1440,
+  "clientW": 1440,
+  "scrollH": 15777,
+  "bodyScrollW": 1440,
+  "heads": [
+   "H1: Invisible by day. Unforgettable by night.",
+   "H2: You’ll forget it’s there. Until sunset.",
+   "H2: 365 nights. One install.",
+   "H2: Make the birthday unmissable.",
+   "H2: Change the night from the couch.",
+   "H2: Cozy at 7. Bright at midnight.",
+   "H2: Real homes. Real neighbors.",
+   "H2: Three visits. Zero ladders for you.",
+   "H3: Free design",
+   "H3: Install day",
+   "H3: Walkthrough",
+   "H3: How pricing works",
+   "H2: Before you ask.",
+   "H3: How much does permanent roofline lighting cost?",
+   "H3: Can you see the lights during the day?",
+   "H3: Do I control the lights from my phone?",
+   "H3: What areas do you serve?",
+   "H3: How long does installation take?",
+   "H2: Your home, after dark. Let’s design it.",
+   "H2: Your home, after dark. Let's design it."
+  ],
+  "allH1": 1,
+  "imgCount": 12,
+  "visImgs": 12,
+  "noAlt": [
+   "0qNi2i06PMR33PssYs39VUM.png?scale-down-to=2048&width=5504&he 1440x803@1440",
+   "qDsfD2UAHQE0S5f634I4EgXfR5g.webp?width=1600&height=900 1440x810@648",
+   "XBFSOyWW9kx59yBNTpDP16sDBY.png?scale-down-to=2048&width=5504 1440x803@1440",
+   "YjoP0NxgRy3WduIvNexsioJkIPg.png?scale-down-to=2048&width=550 1440x803@1440",
+   "3eD08l14Bvk0Sx5IMN0vmG8Qs.webp?width=1600&height=900 1440x810@480",
+   "iqIVLCkbDMqWFYLvTs7vL9UsNw.webp?width=1600&height=900 1440x810@648",
+   "vVMZYjwUHNIwvi1yl47IgnjNylI.jpg?scale-down-to=512&width=2400 384x288@384",
+   "7aARq6ndlPNEOnKYt7zt5wVRpvw.jpg?scale-down-to=512&width=2400 384x255@384",
+   "Ov0tWMRbLab5ZA1oZzbykAmIo.jpg?scale-down-to=512&width=2400&h 384x288@384"
+  ],
+  "alts": [
+   "Illustration: a hand holding a phone on a porch at night, the roofline lit warm ",
+   "Illustration of a lit home under a wide night sky",
+   "Illuminated Exteriors logo"
+  ],
+  "overTop": [
+   "DIV.framer-3nvdub L-200 R1640 \"\"",
+   "P.ie-form__trap L-9247 R-9246 \"Company website\""
+  ],
+  "smallCount": 32,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "./"
+   },
+   {
+    "t": "Our Work",
+    "w": 74,
+    "h": 19,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 102,
+    "h": 19,
+    "tag": "A",
+    "href": "./how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 104,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "See every occasion →",
+    "w": 163,
+    "h": 31,
+    "tag": "A",
+    "href": "#occasions"
+   },
+   {
+    "t": "Red & White Game Day",
+    "w": 188,
+    "h": 26,
+    "tag": "BUTTON",
+    "href": null
+   },
+   {
+    "t": "Blue & White Game Day",
+    "w": 193,
+    "h": 26,
+    "tag": "BUTTON",
+    "href": null
+   },
+   {
+    "t": "Birthday",
+    "w": 69,
+    "h": 26,
+    "tag": "BUTTON",
+    "href": null
+   },
+   {
+    "t": "Halloween",
+    "w": 85,
+    "h": 26,
+    "tag": "BUTTON",
+    "href": null
+   },
+   {
+    "t": "Christmas",
+    "w": 82,
+    "h": 26,
+    "tag": "BUTTON",
+    "href": null
+   },
+   {
+    "t": "See all our work",
+    "w": 149,
+    "h": 18,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "All questions",
+    "w": 126,
+    "h": 18,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 140,
+    "h": 24,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "text",
+    "w": 163,
+    "h": 20,
+    "tag": "INPUT",
+    "href": null
+   },
+   {
+    "t": "Our Work",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 100,
+    "h": 19,
+    "tag": "A",
+    "href": "./how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "About",
+    "w": 47,
+    "h": 19,
+    "tag": "A",
+    "href": "./about"
+   },
+   {
+    "t": "Get a Free Design",
+    "w": 134,
+    "h": 19,
+    "tag": "A",
+    "href": "./free-design"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "info@illuminated-exteriors.com",
+    "w": 237,
+    "h": 19,
+    "tag": "A",
+    "href": "mailto:info@illuminated-exteriors.com"
+   },
+   {
+    "t": "Facebook",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "https://www.facebook.com/illuminatedexteriors"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 59,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 56,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 52,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 91,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 55,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/lincoln"
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   11.5,
+   12,
+   13.5,
+   14,
+   15,
+   16,
+   17,
+   18,
+   20,
+   22,
+   42,
+   51.84,
+   60,
+   66.24,
+   86.4
+  ],
+  "tiny": [
+   "11.5px \"BLUE HOUR\"",
+   "11.5px \"6:33 PM\"",
+   "11.5px \"PM\"",
+   "11.5px \"PERMANENT ROOFLINE LIGHTING · \"",
+   "11.5px \"INVISIBLE BY DAY\"",
+   "11.5px \"EVERY OCCASION\"",
+   "11.5px \"EVERYDAY · WARM WHITE · STEADY\"",
+   "11.5px \"EVERYDAY\"",
+   "11.5px \"LIGHT SHOW\"",
+   "11.5px \"8:30 PM · CONTROL\""
+  ],
+  "text": "ILLUMINATED EXTERIORS Our Work How It Works FAQ 402-699-6256 Get a Free Design BLUE HOUR 6:33 PM PERMANENT ROOFLINE LIGHTING · OMAHA & ELKHORN Invisible by day. Unforgettable by night. One install along your roofline. Warm white on an ordinary Tuesday, red and white on game day, a show for the birthday, and every holiday after that. You change it from your phone, and nobody climbs a ladder again. Get a Free Design See every occasion → INVISIBLE BY DAY You’ll forget it’s there. Until sunset. The track is painted to match your trim, so by day your roofline looks untouched. At dusk, it comes alive. EVERY OCCASION 365 nights. One install. Warm white for an ordinary Tuesday. Red & White Game Day on Saturdays, Blue & White Game Day for hoops season, a light show for the Birthday, then Halloween, Christmas and every night in between, all from your phone. Everyday Red & White Game Day Blue & White Game Day Birthday July 4th Halloween Christmas EVERYDAY · WARM WHITE · STEADY Get a Free Design LIGHT SHOW Make the birthday unmissable. Choose a pattern, pick the colors, and the whole roofline celebrates. Set it for one night or every year. 8:30 PM · CONTROL Change the night from the couch. Set warm white for every evening, team colors every Sunday, and the birthday show at 7 PM sharp. Schedules run themselves, and you can change anything in seconds from your phone. NIGHTLY · SUNSET → 11 PM · WARM WHITE SUNDAYS · GAME DAY COLORS DEC 1–31 · CHRISTMAS TWINKLE WARM TO COOL Cozy at 7. Bright at midnight. Pick any white from candle-warm to crisp daylight. Schedule warm white for the evening and a brighter, cooler white after midnight for security. 9:15 PM · REAL HOMES Real homes. Real neighbors. Three-Car Ranch JULY 4TH Modern Farmhouse OTHER Modern Two-Story JULY 4TH FREE DESIGN VISIT AT DUSK OMAHA, ELKHORN + ABOUT 50 MILES MON–FRI · 9 AM–5 PM See all our work 10:00 PM · THE PROCESS Three visits. Zero ladders for you. STEP 01 Free design We visit at dusk, measure your roofline and show you scenes on your own house. STEP 02 Install day The trim-matched track goes up and disappears into your fascia. STEP 03 Walkthrough We set up the app with you and program your first scenes. How pricing works Every home is quoted on three things: ROOFLINE LENGTH NUMBER OF STORIES CONTROLLER AND ZONES Start my free design 10:45 PM · QUICK ANSWERS Before you ask. How much does permanent roofline lighting cost? Can you see the lights during the day? Do I control the lights from my phone? What areas do you serve? How long does installation take? All questions 11:59 PM Your home, after dark. Let’s design it. Tell us about your house. We’ll reply within one business day to set up a free design visit at dusk. 402-699-6256 MON–FRI · 9 AM–5 PM FREE · NO OBLIGATION Locally owned by Scot Ballan, serving Omaha, Elkhorn and nearby. Your home, after dark. Let's design it. STEP 1 OF 3 · YOUR ADDRESS Company website Street address ZIP code Continue Free and no obligation. We use your details only to plan your design. ILLUMINATED EXTERIORS Permanent roofline lighting for homes in Omaha, Elkhorn and within about 50 miles. EXPLORE Our Work How It Works FAQ About Get a Free Design CONTACT 402-699-6256 info@illuminated-exteriors.com Mon–Fri · 9 AM–5 PM Facebook SERVICE AREAS Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln © 2026 Illuminated Exteriors ❚❚ PAUSE MOTION Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:0 nav:1 main:0 footer:1",
+  "links": [
+   "./",
+   "./our-work",
+   "./how-it-works",
+   "./faq",
+   "tel:+14026996256",
+   "/free-design",
+   "#occasions",
+   "./our-work/three-car-ranch",
+   "./our-work/modern-farmhouse",
+   "./our-work/modern-two-story",
+   "./about",
+   "./free-design",
+   "mailto:info@illuminated-exteriors.com",
+   "https://www.facebook.com/illuminatedexteriors",
+   "./areas/elkhorn",
+   "./areas/omaha",
+   "./areas/papillion",
+   "./areas/bellevue",
+   "./areas/gretna",
+   "./areas/bennington",
+   "./areas/council-bluffs",
+   "./areas/lincoln",
+   "https://www.framer.com"
+  ],
+  "reqCount": 378,
+  "bytes": 17212056,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "framerusercontent.com": 39,
+   "fonts.gstatic.com": 3,
+   "events.framer.com": 4,
+   "framer.com": 1,
+   "illuminated-exteriors-media.higgsfield.app": 330
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED",
+   "https://framerusercontent.com/assets/kKerVgfmKBm1By2NqaZAwuDnSjY.mp4 net::ERR_ABORTED",
+   "https://framerusercontent.com/assets/SDIPBAu1YlHqSSzm4GsBPTl0.mp4 net::ERR_ABORTED",
+   "https://framerusercontent.com/assets/HUCqlG75gwNCgrPnatj2GimNYU.mp4 net::ERR_ABORTED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "1152KB media https://framerusercontent.com/assets/kKerVgfmKBm1By2NqaZAwuDnSjY.mp4",
+   "1026KB media https://framerusercontent.com/assets/HUCqlG75gwNCgrPnatj2GimNYU.mp4",
+   "509KB media https://framerusercontent.com/assets/SDIPBAu1YlHqSSzm4GsBPTl0.mp4",
+   "53KB image https://illuminated-exteriors-media.higgsfield.app/hero/v2/16x9/0002.webp",
+   "53KB image https://illuminated-exteriors-media.higgsfield.app/hero/v2/16x9/0003.webp",
+   "52KB image https://illuminated-exteriors-media.higgsfield.app/hero/v2/16x9/0001.webp",
+   "52KB image https://illuminated-exteriors-media.higgsfield.app/hero/v2/16x9/0004.webp",
+   "52KB image https://illuminated-exteriors-media.higgsfield.app/hero/v2/16x9/0005.webp"
+  ]
+ },
+ {
+  "page": "our-work",
+  "w": 390,
+  "title": "Our Work · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 390,
+  "clientW": 390,
+  "scrollH": 4880,
+  "bodyScrollW": 390,
+  "heads": [
+   "H1: Our work, after dark."
+  ],
+  "allH1": 1,
+  "imgCount": 9,
+  "visImgs": 9,
+  "noAlt": [
+   "auzDo8tKXN1nx7AdYB2x6gW5Q.jpg?width=960&height=720 349x262@350",
+   "vVMZYjwUHNIwvi1yl47IgnjNylI.jpg?scale-down-to=1024&width=240 350x262@350",
+   "46NEBAyrtFixGHOsvMhFQdMqJM.jpg?scale-down-to=1024&width=2048 350x262@350",
+   "AWNS6tFGtxvOhXQNUrPdEuBgE.jpg?scale-down-to=1024&width=2400& 350x233@350",
+   "zbhLo3DmA89E0uf6kVBxtu9DExs.jpg?scale-down-to=1024&width=240 350x233@350",
+   "7aARq6ndlPNEOnKYt7zt5wVRpvw.jpg?scale-down-to=1024&width=240 350x233@350",
+   "Ov0tWMRbLab5ZA1oZzbykAmIo.jpg?scale-down-to=1024&width=2400& 350x262@350",
+   "2tM6o0zBBSThnmXVskq5H43cecc.jpg?width=1024&height=768 350x262@350",
+   "vPuf6oNKvE2lsRxIa5F8YYi7Ms.jpg?scale-down-to=1024&width=2400 350x262@350"
+  ],
+  "alts": [],
+  "overTop": [],
+  "smallCount": 21,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "./"
+   },
+   {
+    "t": "Call 402-699-6256",
+    "w": 154,
+    "h": 20,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "Our Work",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 100,
+    "h": 19,
+    "tag": "A",
+    "href": "./how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "About",
+    "w": 47,
+    "h": 19,
+    "tag": "A",
+    "href": "./about"
+   },
+   {
+    "t": "Get a Free Design",
+    "w": 134,
+    "h": 19,
+    "tag": "A",
+    "href": "./free-design"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "info@illuminated-exteriors.com",
+    "w": 237,
+    "h": 19,
+    "tag": "A",
+    "href": "mailto:info@illuminated-exteriors.com"
+   },
+   {
+    "t": "Facebook",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "https://www.facebook.com/illuminatedexteriors"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 59,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 56,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 52,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 91,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 55,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/lincoln"
+   },
+   {
+    "t": "Call",
+    "w": 173,
+    "h": 43,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "Free Design",
+    "w": 173,
+    "h": 43,
+    "tag": "A",
+    "href": "./free-design"
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   11.5,
+   12,
+   14,
+   15,
+   16,
+   17,
+   18,
+   40,
+   44
+  ],
+  "tiny": [
+   "11.5px \"OUR WORK\"",
+   "11.5px \"FILTER BY OCCASION\"",
+   "11.5px \"OTHER\"",
+   "11.5px \"JULY 4TH\"",
+   "11.5px \"OTHER\"",
+   "11.5px \"OTHER\"",
+   "11.5px \"OTHER\"",
+   "11.5px \"OTHER\"",
+   "11.5px \"JULY 4TH\"",
+   "11.5px \"OTHER\""
+  ],
+  "text": "ILLUMINATED EXTERIORS Our Work How It Works FAQ About Free Design Call 402-699-6256 Serving Omaha, Elkhorn and homes within about 50 miles. OUR WORK Our work, after dark. Real homes we’ve lit around Omaha and beyond. Every photo here is one of our own installs. FILTER BY OCCASION All Everyday Game Day Birthday July 4th Halloween Christmas Other FL Rambler OTHER Three-Car Ranch JULY 4TH Midwestern Metal Build Home OTHER Stone-Front Home OTHER Two-Story with Porch OTHER Modern Farmhouse OTHER Modern Two-Story JULY 4TH Two-Story in Purple OTHER Ranch in Amber OTHER ILLUMINATED EXTERIORS Permanent roofline lighting for homes in Omaha, Elkhorn and within about 50 miles. EXPLORE Our Work How It Works FAQ About Get a Free Design CONTACT 402-699-6256 info@illuminated-exteriors.com Mon–Fri · 9 AM–5 PM Facebook SERVICE AREAS Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln © 2026 Illuminated Exteriors ❚❚ PAUSE MOTION Call Free Design Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:0 nav:1 main:0 footer:1",
+  "links": [
+   "./",
+   "./our-work",
+   "./how-it-works",
+   "./faq",
+   "./about",
+   "./free-design",
+   "tel:+14026996256",
+   "./our-work/fl-rambler",
+   "./our-work/three-car-ranch",
+   "./our-work/midwestern-metal-build-home",
+   "./our-work/stone-front-home",
+   "./our-work/two-story-with-porch",
+   "./our-work/modern-farmhouse",
+   "./our-work/modern-two-story",
+   "./our-work/two-story-in-purple",
+   "./our-work/ranch-in-amber",
+   "mailto:info@illuminated-exteriors.com",
+   "https://www.facebook.com/illuminatedexteriors",
+   "./areas/elkhorn",
+   "./areas/omaha",
+   "./areas/papillion",
+   "./areas/bellevue",
+   "./areas/gretna",
+   "./areas/bennington",
+   "./areas/council-bluffs",
+   "./areas/lincoln",
+   "https://www.framer.com"
+  ],
+  "reqCount": 31,
+  "bytes": 100077,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "framerusercontent.com": 25,
+   "fonts.gstatic.com": 2,
+   "events.framer.com": 2,
+   "framer.com": 1
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "39KB font https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+   "27KB font https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zcZj1bIkNo.woff2",
+   "20KB document https://nuanced-checkbox-084836.framer.app/our-work",
+   "11KB script https://events.framer.com/script?v=2",
+   "1KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/cEP0h8DfM.BSGrpVxH.mjs",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/rolldown-runtime.Bi-D_2cA.mjs",
+   "0KB other https://framerusercontent.com/sites/icons/default-favicon-light.v1.png",
+   "0KB image https://framerusercontent.com/images/auzDo8tKXN1nx7AdYB2x6gW5Q.jpg?width=960&height=720"
+  ]
+ },
+ {
+  "page": "our-work",
+  "w": 810,
+  "title": "Our Work · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 810,
+  "clientW": 810,
+  "scrollH": 3161,
+  "bodyScrollW": 810,
+  "heads": [
+   "H1: Our work, after dark."
+  ],
+  "allH1": 1,
+  "imgCount": 9,
+  "visImgs": 9,
+  "noAlt": [
+   "auzDo8tKXN1nx7AdYB2x6gW5Q.jpg?scale-down-to=512&width=960&he 359x269@359",
+   "46NEBAyrtFixGHOsvMhFQdMqJM.jpg?scale-down-to=512&width=2048& 359x269@359",
+   "zbhLo3DmA89E0uf6kVBxtu9DExs.jpg?scale-down-to=512&width=2400 359x239@359",
+   "Ov0tWMRbLab5ZA1oZzbykAmIo.jpg?scale-down-to=512&width=2400&h 359x269@359",
+   "vPuf6oNKvE2lsRxIa5F8YYi7Ms.jpg?scale-down-to=512&width=2400& 359x269@359",
+   "vVMZYjwUHNIwvi1yl47IgnjNylI.jpg?scale-down-to=512&width=2400 359x269@359",
+   "AWNS6tFGtxvOhXQNUrPdEuBgE.jpg?scale-down-to=512&width=2400&h 359x239@359",
+   "7aARq6ndlPNEOnKYt7zt5wVRpvw.jpg?scale-down-to=512&width=2400 359x239@359",
+   "2tM6o0zBBSThnmXVskq5H43cecc.jpg?scale-down-to=512&width=1024 359x269@359"
+  ],
+  "alts": [],
+  "overTop": [],
+  "smallCount": 19,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "./"
+   },
+   {
+    "t": "Call 402-699-6256",
+    "w": 154,
+    "h": 20,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "Our Work",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 100,
+    "h": 19,
+    "tag": "A",
+    "href": "./how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "About",
+    "w": 47,
+    "h": 19,
+    "tag": "A",
+    "href": "./about"
+   },
+   {
+    "t": "Get a Free Design",
+    "w": 134,
+    "h": 19,
+    "tag": "A",
+    "href": "./free-design"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "info@illuminated-exteriors.com",
+    "w": 237,
+    "h": 19,
+    "tag": "A",
+    "href": "mailto:info@illuminated-exteriors.com"
+   },
+   {
+    "t": "Facebook",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "https://www.facebook.com/illuminatedexteriors"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 59,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 56,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 52,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 91,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 55,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/lincoln"
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   9,
+   11,
+   11.5,
+   12,
+   14,
+   15,
+   17,
+   18,
+   40,
+   64
+  ],
+  "tiny": [
+   "11px \"Serving Omaha, Elkhorn and hom\"",
+   "9px \"OUR WORK\"",
+   "9px \"FILTER BY OCCASION\"",
+   "9px \"OTHER\"",
+   "9px \"OTHER\"",
+   "9px \"OTHER\"",
+   "9px \"JULY 4TH\"",
+   "9px \"OTHER\"",
+   "9px \"JULY 4TH\"",
+   "9px \"OTHER\""
+  ],
+  "text": "ILLUMINATED EXTERIORS Our Work How It Works FAQ About Free Design Call 402-699-6256 Serving Omaha, Elkhorn and homes within about 50 miles. OUR WORK Our work, after dark. Real homes we’ve lit around Omaha and beyond. Every photo here is one of our own installs. FILTER BY OCCASION All Everyday Game Day Birthday July 4th Halloween Christmas Other FL Rambler OTHER Midwestern Metal Build Home OTHER Two-Story with Porch OTHER Modern Two-Story JULY 4TH Ranch in Amber OTHER Three-Car Ranch JULY 4TH Stone-Front Home OTHER Modern Farmhouse OTHER Two-Story in Purple OTHER ILLUMINATED EXTERIORS Permanent roofline lighting for homes in Omaha, Elkhorn and within about 50 miles. EXPLORE Our Work How It Works FAQ About Get a Free Design CONTACT 402-699-6256 info@illuminated-exteriors.com Mon–Fri · 9 AM–5 PM Facebook SERVICE AREAS Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln © 2026 Illuminated Exteriors ❚❚ PAUSE MOTION Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:0 nav:1 main:0 footer:1",
+  "links": [
+   "./",
+   "./our-work",
+   "./how-it-works",
+   "./faq",
+   "./about",
+   "./free-design",
+   "tel:+14026996256",
+   "./our-work/fl-rambler",
+   "./our-work/midwestern-metal-build-home",
+   "./our-work/two-story-with-porch",
+   "./our-work/modern-two-story",
+   "./our-work/ranch-in-amber",
+   "./our-work/three-car-ranch",
+   "./our-work/stone-front-home",
+   "./our-work/modern-farmhouse",
+   "./our-work/two-story-in-purple",
+   "mailto:info@illuminated-exteriors.com",
+   "https://www.facebook.com/illuminatedexteriors",
+   "./areas/elkhorn",
+   "./areas/omaha",
+   "./areas/papillion",
+   "./areas/bellevue",
+   "./areas/gretna",
+   "./areas/bennington",
+   "./areas/council-bluffs",
+   "./areas/lincoln",
+   "https://www.framer.com"
+  ],
+  "reqCount": 31,
+  "bytes": 100077,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "events.framer.com": 2,
+   "framerusercontent.com": 25,
+   "fonts.gstatic.com": 2,
+   "framer.com": 1
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "39KB font https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+   "27KB font https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zcZj1bIkNo.woff2",
+   "20KB document https://nuanced-checkbox-084836.framer.app/our-work",
+   "11KB script https://events.framer.com/script?v=2",
+   "1KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/cEP0h8DfM.BSGrpVxH.mjs",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/rolldown-runtime.Bi-D_2cA.mjs",
+   "0KB other https://framerusercontent.com/sites/icons/default-favicon-light.v1.png",
+   "0KB image https://framerusercontent.com/images/46NEBAyrtFixGHOsvMhFQdMqJM.jpg?scale-down-to=512&width=2048&height=1536"
+  ]
+ },
+ {
+  "page": "our-work",
+  "w": 1440,
+  "title": "Our Work · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 1440,
+  "clientW": 1440,
+  "scrollH": 2374,
+  "bodyScrollW": 1440,
+  "heads": [
+   "H1: Our work, after dark."
+  ],
+  "allH1": 1,
+  "imgCount": 9,
+  "visImgs": 9,
+  "noAlt": [
+   "auzDo8tKXN1nx7AdYB2x6gW5Q.jpg?scale-down-to=512&width=960&he 381x286@381",
+   "AWNS6tFGtxvOhXQNUrPdEuBgE.jpg?scale-down-to=512&width=2400&h 381x254@381",
+   "Ov0tWMRbLab5ZA1oZzbykAmIo.jpg?scale-down-to=512&width=2400&h 381x286@381",
+   "vVMZYjwUHNIwvi1yl47IgnjNylI.jpg?scale-down-to=512&width=2400 381x286@381",
+   "zbhLo3DmA89E0uf6kVBxtu9DExs.jpg?scale-down-to=512&width=2400 381x254@381",
+   "2tM6o0zBBSThnmXVskq5H43cecc.jpg?scale-down-to=512&width=1024 381x286@381",
+   "46NEBAyrtFixGHOsvMhFQdMqJM.jpg?scale-down-to=512&width=2048& 381x286@381",
+   "7aARq6ndlPNEOnKYt7zt5wVRpvw.jpg?scale-down-to=512&width=2400 381x253@381",
+   "vPuf6oNKvE2lsRxIa5F8YYi7Ms.jpg?scale-down-to=512&width=2400& 381x286@381"
+  ],
+  "alts": [],
+  "overTop": [],
+  "smallCount": 22,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "./"
+   },
+   {
+    "t": "Our Work",
+    "w": 74,
+    "h": 19,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 102,
+    "h": 19,
+    "tag": "A",
+    "href": "./how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 104,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "Our Work",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 100,
+    "h": 19,
+    "tag": "A",
+    "href": "./how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "About",
+    "w": 47,
+    "h": 19,
+    "tag": "A",
+    "href": "./about"
+   },
+   {
+    "t": "Get a Free Design",
+    "w": 134,
+    "h": 19,
+    "tag": "A",
+    "href": "./free-design"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "info@illuminated-exteriors.com",
+    "w": 237,
+    "h": 19,
+    "tag": "A",
+    "href": "mailto:info@illuminated-exteriors.com"
+   },
+   {
+    "t": "Facebook",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "https://www.facebook.com/illuminatedexteriors"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 59,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 56,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 52,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 91,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 55,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/lincoln"
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   11.5,
+   12,
+   14,
+   15,
+   17,
+   18,
+   84
+  ],
+  "tiny": [
+   "11.5px \"OUR WORK\"",
+   "11.5px \"FILTER BY OCCASION\"",
+   "11.5px \"OTHER\"",
+   "11.5px \"OTHER\"",
+   "11.5px \"JULY 4TH\"",
+   "11.5px \"JULY 4TH\"",
+   "11.5px \"OTHER\"",
+   "11.5px \"OTHER\"",
+   "11.5px \"OTHER\"",
+   "11.5px \"OTHER\""
+  ],
+  "text": "ILLUMINATED EXTERIORS Our Work How It Works FAQ 402-699-6256 Get a Free Design OUR WORK Our work, after dark. Real homes we’ve lit around Omaha and beyond. Every photo here is one of our own installs. FILTER BY OCCASION All Everyday Game Day Birthday July 4th Halloween Christmas Other FL Rambler OTHER Stone-Front Home OTHER Modern Two-Story JULY 4TH Three-Car Ranch JULY 4TH Two-Story with Porch OTHER Two-Story in Purple OTHER Midwestern Metal Build Home OTHER Modern Farmhouse OTHER Ranch in Amber OTHER ILLUMINATED EXTERIORS Permanent roofline lighting for homes in Omaha, Elkhorn and within about 50 miles. EXPLORE Our Work How It Works FAQ About Get a Free Design CONTACT 402-699-6256 info@illuminated-exteriors.com Mon–Fri · 9 AM–5 PM Facebook SERVICE AREAS Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln © 2026 Illuminated Exteriors ❚❚ PAUSE MOTION Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:0 nav:1 main:0 footer:1",
+  "links": [
+   "./",
+   "./our-work",
+   "./how-it-works",
+   "./faq",
+   "tel:+14026996256",
+   "/free-design",
+   "./our-work/fl-rambler",
+   "./our-work/stone-front-home",
+   "./our-work/modern-two-story",
+   "./our-work/three-car-ranch",
+   "./our-work/two-story-with-porch",
+   "./our-work/two-story-in-purple",
+   "./our-work/midwestern-metal-build-home",
+   "./our-work/modern-farmhouse",
+   "./our-work/ranch-in-amber",
+   "./about",
+   "./free-design",
+   "mailto:info@illuminated-exteriors.com",
+   "https://www.facebook.com/illuminatedexteriors",
+   "./areas/elkhorn",
+   "./areas/omaha",
+   "./areas/papillion",
+   "./areas/bellevue",
+   "./areas/gretna",
+   "./areas/bennington",
+   "./areas/council-bluffs",
+   "./areas/lincoln",
+   "https://www.framer.com"
+  ],
+  "reqCount": 31,
+  "bytes": 100077,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "framerusercontent.com": 25,
+   "events.framer.com": 2,
+   "fonts.gstatic.com": 2,
+   "framer.com": 1
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "39KB font https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+   "27KB font https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zcZj1bIkNo.woff2",
+   "20KB document https://nuanced-checkbox-084836.framer.app/our-work",
+   "11KB script https://events.framer.com/script?v=2",
+   "1KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/cEP0h8DfM.BSGrpVxH.mjs",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/rolldown-runtime.Bi-D_2cA.mjs",
+   "0KB other https://framerusercontent.com/sites/icons/default-favicon-light.v1.png",
+   "0KB image https://framerusercontent.com/images/46NEBAyrtFixGHOsvMhFQdMqJM.jpg?scale-down-to=512&width=2048&height=1536"
+  ]
+ },
+ {
+  "page": "how-it-works",
+  "w": 390,
+  "title": "How Permanent Lights Work · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 390,
+  "clientW": 390,
+  "scrollH": 6234,
+  "bodyScrollW": 390,
+  "heads": [
+   "H1: One install. Every night after.",
+   "H2: Hidden in your trim.",
+   "H2: Every light, its own color.",
+   "H2: Built to stay up for good.",
+   "H2: Scenes, schedules, zones.",
+   "H2: Light one section or the whole house.",
+   "H2: 12 months of coverage.",
+   "H2: How pricing works"
+  ],
+  "allH1": 1,
+  "imgCount": 6,
+  "visImgs": 6,
+  "noAlt": [
+   "zAgynjK4eFaF04jmrrKTJlOr0bQ.webp?scale-down-to=1024&width=16 609x342@350",
+   "aEpEDj6nT16WLWJPfzhkdsLiWs.webp?width=1600&height=900 390x219@350"
+  ],
+  "alts": [
+   "Red permanent lights along the roofline and gable of a home at dusk",
+   "Illustration: a home in daylight, lights off",
+   "Illustration: the same home lit warm white",
+   "Illustration: relaxing on the couch with a phone while the house outside glows w"
+  ],
+  "overTop": [],
+  "smallCount": 21,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "./"
+   },
+   {
+    "t": "Call 402-699-6256",
+    "w": 154,
+    "h": 20,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "Our Work",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 100,
+    "h": 19,
+    "tag": "A",
+    "href": "./how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "About",
+    "w": 47,
+    "h": 19,
+    "tag": "A",
+    "href": "./about"
+   },
+   {
+    "t": "Get a Free Design",
+    "w": 134,
+    "h": 19,
+    "tag": "A",
+    "href": "./free-design"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "info@illuminated-exteriors.com",
+    "w": 237,
+    "h": 19,
+    "tag": "A",
+    "href": "mailto:info@illuminated-exteriors.com"
+   },
+   {
+    "t": "Facebook",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "https://www.facebook.com/illuminatedexteriors"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 59,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 56,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 52,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 91,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 55,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/lincoln"
+   },
+   {
+    "t": "Call",
+    "w": 173,
+    "h": 43,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "Free Design",
+    "w": 173,
+    "h": 43,
+    "tag": "A",
+    "href": "./free-design"
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   11.5,
+   12,
+   14,
+   15,
+   16,
+   17,
+   32,
+   38,
+   40,
+   44
+  ],
+  "tiny": [
+   "11.5px \"HOW IT WORKS\"",
+   "11.5px \"01 · THE TRACK\"",
+   "11.5px \"02 · THE LIGHTS\"",
+   "11.5px \"1:00 PM\"",
+   "11.5px \"6:46 PM\"",
+   "11.5px \"DAYTIME · THE TRACK DISAPPEARS\"",
+   "11.5px \"THE LIGHT\"",
+   "11.5px \"03 · THE APP\"",
+   "11.5px \"ZONES\"",
+   "11.5px \"04 · THE WARRANTY\""
+  ],
+  "text": "ILLUMINATED EXTERIORS Our Work How It Works FAQ About Free Design Call 402-699-6256 Serving Omaha, Elkhorn and homes within about 50 miles. HOW IT WORKS One install. Every night after. A track that matches your trim, lights you control one by one, and an app that runs the schedule for you. Here’s how the pieces fit. 01 · THE TRACK Hidden in your trim. A trim-matched aluminum channel runs along your roofline and stays out of sight by day. Ask us to bring a sample to your free design so you can see the track against your own trim. 02 · THE LIGHTS Every light, its own color. Individually controllable LED lights give you soft warm white on an ordinary night and full color when the occasion calls for it. At your free design we’ll show you the colors on your own house before you decide. 1:00 PM 6:46 PM ↔ DAYTIME · THE TRACK DISAPPEARS INTO YOUR TRIM THE LIGHT Built to stay up for good. Each light sits in a slim channel matched to your trim, so it disappears by day and shines evenly by night. 03 · THE APP Scenes, schedules, zones. Pick a scene, set it to run at sunset, and split the house into zones, all from your phone. On install day we set up the app with you and program your first scenes. ZONES Light one section or the whole house. Front porch only, the whole roofline, or anything in between. Each zone runs on its own schedule. 04 · THE WARRANTY 12 months of coverage. Your system comes with a 12-month warranty. At your free design visit we’ll walk you through exactly what it covers, in writing. PRICING How pricing works Every home is quoted on three things: the length of your roofline, the number of stories, and the controller and zones you choose. A free design visit gets you an exact number for your house. Start my free design ILLUMINATED EXTERIORS Permanent roofline lighting for homes in Omaha, Elkhorn and within about 50 miles. EXPLORE Our Work How It Works FAQ About Get a Free Design CONTACT 402-699-6256 info@illuminated-exteriors.com Mon–Fri · 9 AM–5 PM Facebook SERVICE AREAS Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln © 2026 Illuminated Exteriors ❚❚ PAUSE MOTION Call Free Design Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:0 nav:1 main:0 footer:1",
+  "links": [
+   "./",
+   "./our-work",
+   "./how-it-works",
+   "./faq",
+   "./about",
+   "./free-design",
+   "tel:+14026996256",
+   "/free-design",
+   "mailto:info@illuminated-exteriors.com",
+   "https://www.facebook.com/illuminatedexteriors",
+   "./areas/elkhorn",
+   "./areas/omaha",
+   "./areas/papillion",
+   "./areas/bellevue",
+   "./areas/gretna",
+   "./areas/bennington",
+   "./areas/council-bluffs",
+   "./areas/lincoln",
+   "https://www.framer.com"
+  ],
+  "reqCount": 38,
+  "bytes": 1226663,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "framerusercontent.com": 32,
+   "fonts.gstatic.com": 2,
+   "events.framer.com": 2,
+   "framer.com": 1
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED",
+   "https://framerusercontent.com/assets/IAvstxRfgYzJ9b4rqhvHnq1dUc.mp4 net::ERR_ABORTED",
+   "https://framerusercontent.com/assets/mY7RpSO3RV8Qycourl5VPcnt1J0.mp4 net::ERR_ABORTED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "631KB media https://framerusercontent.com/assets/mY7RpSO3RV8Qycourl5VPcnt1J0.mp4",
+   "469KB media https://framerusercontent.com/assets/IAvstxRfgYzJ9b4rqhvHnq1dUc.mp4",
+   "39KB font https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+   "27KB font https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zcZj1bIkNo.woff2",
+   "20KB document https://nuanced-checkbox-084836.framer.app/how-it-works",
+   "11KB script https://events.framer.com/script?v=2",
+   "1KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/kHuMIEb9P.BGvlVBaY.mjs",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/rolldown-runtime.Bi-D_2cA.mjs"
+  ]
+ },
+ {
+  "page": "how-it-works",
+  "w": 810,
+  "title": "How Permanent Lights Work · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 810,
+  "clientW": 810,
+  "scrollH": 4862,
+  "bodyScrollW": 810,
+  "heads": [
+   "H1: One install. Every night after.",
+   "H2: Hidden in your trim.",
+   "H2: Every light, its own color.",
+   "H2: Built to stay up for good.",
+   "H2: Scenes, schedules, zones.",
+   "H2: Light one section or the whole house.",
+   "H2: 12 months of coverage.",
+   "H2: How pricing works"
+  ],
+  "allH1": 1,
+  "imgCount": 6,
+  "visImgs": 6,
+  "noAlt": [
+   "zAgynjK4eFaF04jmrrKTJlOr0bQ.webp?scale-down-to=1024&width=16 1265x711@405",
+   "aEpEDj6nT16WLWJPfzhkdsLiWs.webp?scale-down-to=1024&width=160 809x455@300"
+  ],
+  "alts": [
+   "Red permanent lights along the roofline and gable of a home at dusk",
+   "Illustration: a home in daylight, lights off",
+   "Illustration: the same home lit warm white",
+   "Illustration: relaxing on the couch with a phone while the house outside glows w"
+  ],
+  "overTop": [],
+  "smallCount": 19,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "./"
+   },
+   {
+    "t": "Call 402-699-6256",
+    "w": 154,
+    "h": 20,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "Our Work",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 100,
+    "h": 19,
+    "tag": "A",
+    "href": "./how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "About",
+    "w": 47,
+    "h": 19,
+    "tag": "A",
+    "href": "./about"
+   },
+   {
+    "t": "Get a Free Design",
+    "w": 134,
+    "h": 19,
+    "tag": "A",
+    "href": "./free-design"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "info@illuminated-exteriors.com",
+    "w": 237,
+    "h": 19,
+    "tag": "A",
+    "href": "mailto:info@illuminated-exteriors.com"
+   },
+   {
+    "t": "Facebook",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "https://www.facebook.com/illuminatedexteriors"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 59,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 56,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 52,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 91,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 55,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/lincoln"
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   9,
+   11,
+   11.5,
+   12,
+   14,
+   15,
+   16,
+   17,
+   32,
+   40,
+   48,
+   64
+  ],
+  "tiny": [
+   "11px \"Serving Omaha, Elkhorn and hom\"",
+   "9px \"HOW IT WORKS\"",
+   "9px \"01 · THE TRACK\"",
+   "11px \"Ask us to bring a sample to yo\"",
+   "9px \"02 · THE LIGHTS\"",
+   "11px \"At your free design we’ll show\"",
+   "11.5px \"1:00 PM\"",
+   "11.5px \"6:46 PM\"",
+   "11.5px \"DAYTIME · THE TRACK DISAPPEARS\"",
+   "11.5px \"THE LIGHT\""
+  ],
+  "text": "ILLUMINATED EXTERIORS Our Work How It Works FAQ About Free Design Call 402-699-6256 Serving Omaha, Elkhorn and homes within about 50 miles. HOW IT WORKS One install. Every night after. A track that matches your trim, lights you control one by one, and an app that runs the schedule for you. Here’s how the pieces fit. 01 · THE TRACK Hidden in your trim. A trim-matched aluminum channel runs along your roofline and stays out of sight by day. Ask us to bring a sample to your free design so you can see the track against your own trim. 02 · THE LIGHTS Every light, its own color. Individually controllable LED lights give you soft warm white on an ordinary night and full color when the occasion calls for it. At your free design we’ll show you the colors on your own house before you decide. 1:00 PM 6:46 PM ↔ DAYTIME · THE TRACK DISAPPEARS INTO YOUR TRIM THE LIGHT Built to stay up for good. Each light sits in a slim channel matched to your trim, so it disappears by day and shines evenly by night. 03 · THE APP Scenes, schedules, zones. Pick a scene, set it to run at sunset, and split the house into zones, all from your phone. On install day we set up the app with you and program your first scenes. ZONES Light one section or the whole house. Front porch only, the whole roofline, or anything in between. Each zone runs on its own schedule. 04 · THE WARRANTY 12 months of coverage. Your system comes with a 12-month warranty. At your free design visit we’ll walk you through exactly what it covers, in writing. PRICING How pricing works Every home is quoted on three things: the length of your roofline, the number of stories, and the controller and zones you choose. A free design visit gets you an exact number for your house. Start my free design ILLUMINATED EXTERIORS Permanent roofline lighting for homes in Omaha, Elkhorn and within about 50 miles. EXPLORE Our Work How It Works FAQ About Get a Free Design CONTACT 402-699-6256 info@illuminated-exteriors.com Mon–Fri · 9 AM–5 PM Facebook SERVICE AREAS Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln © 2026 Illuminated Exteriors ❚❚ PAUSE MOTION Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:0 nav:1 main:0 footer:1",
+  "links": [
+   "./",
+   "./our-work",
+   "./how-it-works",
+   "./faq",
+   "./about",
+   "./free-design",
+   "tel:+14026996256",
+   "/free-design",
+   "mailto:info@illuminated-exteriors.com",
+   "https://www.facebook.com/illuminatedexteriors",
+   "./areas/elkhorn",
+   "./areas/omaha",
+   "./areas/papillion",
+   "./areas/bellevue",
+   "./areas/gretna",
+   "./areas/bennington",
+   "./areas/council-bluffs",
+   "./areas/lincoln",
+   "https://www.framer.com"
+  ],
+  "reqCount": 40,
+  "bytes": 1226663,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "framerusercontent.com": 34,
+   "events.framer.com": 2,
+   "fonts.gstatic.com": 2,
+   "framer.com": 1
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED",
+   "https://framerusercontent.com/assets/IAvstxRfgYzJ9b4rqhvHnq1dUc.mp4 net::ERR_ABORTED",
+   "https://framerusercontent.com/assets/mY7RpSO3RV8Qycourl5VPcnt1J0.mp4 net::ERR_ABORTED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "631KB media https://framerusercontent.com/assets/mY7RpSO3RV8Qycourl5VPcnt1J0.mp4",
+   "469KB media https://framerusercontent.com/assets/IAvstxRfgYzJ9b4rqhvHnq1dUc.mp4",
+   "39KB font https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+   "27KB font https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zcZj1bIkNo.woff2",
+   "20KB document https://nuanced-checkbox-084836.framer.app/how-it-works",
+   "11KB script https://events.framer.com/script?v=2",
+   "1KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/kHuMIEb9P.BGvlVBaY.mjs",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/rolldown-runtime.Bi-D_2cA.mjs"
+  ]
+ },
+ {
+  "page": "how-it-works",
+  "w": 1440,
+  "title": "How Permanent Lights Work · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 1440,
+  "clientW": 1440,
+  "scrollH": 6065,
+  "bodyScrollW": 1440,
+  "heads": [
+   "H1: One install. Every night after.",
+   "H2: Hidden in your trim.",
+   "H2: Every light, its own color.",
+   "H2: Built to stay up for good.",
+   "H2: Scenes, schedules, zones.",
+   "H2: Light one section or the whole house.",
+   "H2: 12 months of coverage.",
+   "H2: How pricing works"
+  ],
+  "allH1": 1,
+  "imgCount": 6,
+  "visImgs": 6,
+  "noAlt": [
+   "zAgynjK4eFaF04jmrrKTJlOr0bQ.webp?width=1600&height=900 1440x810@648",
+   "aEpEDj6nT16WLWJPfzhkdsLiWs.webp?width=1600&height=900 1440x810@480"
+  ],
+  "alts": [
+   "Red permanent lights along the roofline and gable of a home at dusk",
+   "Illustration: a home in daylight, lights off",
+   "Illustration: the same home lit warm white",
+   "Illustration: relaxing on the couch with a phone while the house outside glows w"
+  ],
+  "overTop": [],
+  "smallCount": 22,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "./"
+   },
+   {
+    "t": "Our Work",
+    "w": 74,
+    "h": 19,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 102,
+    "h": 19,
+    "tag": "A",
+    "href": "./how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 104,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "Our Work",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 100,
+    "h": 19,
+    "tag": "A",
+    "href": "./how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "About",
+    "w": 47,
+    "h": 19,
+    "tag": "A",
+    "href": "./about"
+   },
+   {
+    "t": "Get a Free Design",
+    "w": 134,
+    "h": 19,
+    "tag": "A",
+    "href": "./free-design"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "info@illuminated-exteriors.com",
+    "w": 237,
+    "h": 19,
+    "tag": "A",
+    "href": "mailto:info@illuminated-exteriors.com"
+   },
+   {
+    "t": "Facebook",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "https://www.facebook.com/illuminatedexteriors"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 59,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 56,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 52,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 91,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 55,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/lincoln"
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   11.5,
+   12,
+   14,
+   15,
+   16,
+   17,
+   51.84,
+   60,
+   84
+  ],
+  "tiny": [
+   "11.5px \"HOW IT WORKS\"",
+   "11.5px \"01 · THE TRACK\"",
+   "11.5px \"02 · THE LIGHTS\"",
+   "11.5px \"1:00 PM\"",
+   "11.5px \"6:46 PM\"",
+   "11.5px \"DAYTIME · THE TRACK DISAPPEARS\"",
+   "11.5px \"THE LIGHT\"",
+   "11.5px \"03 · THE APP\"",
+   "11.5px \"ZONES\"",
+   "11.5px \"04 · THE WARRANTY\""
+  ],
+  "text": "ILLUMINATED EXTERIORS Our Work How It Works FAQ 402-699-6256 Get a Free Design HOW IT WORKS One install. Every night after. A track that matches your trim, lights you control one by one, and an app that runs the schedule for you. Here’s how the pieces fit. 01 · THE TRACK Hidden in your trim. A trim-matched aluminum channel runs along your roofline and stays out of sight by day. Ask us to bring a sample to your free design so you can see the track against your own trim. 02 · THE LIGHTS Every light, its own color. Individually controllable LED lights give you soft warm white on an ordinary night and full color when the occasion calls for it. At your free design we’ll show you the colors on your own house before you decide. 1:00 PM 6:46 PM ↔ DAYTIME · THE TRACK DISAPPEARS INTO YOUR TRIM THE LIGHT Built to stay up for good. Each light sits in a slim channel matched to your trim, so it disappears by day and shines evenly by night. 03 · THE APP Scenes, schedules, zones. Pick a scene, set it to run at sunset, and split the house into zones, all from your phone. On install day we set up the app with you and program your first scenes. ZONES Light one section or the whole house. Front porch only, the whole roofline, or anything in between. Each zone runs on its own schedule. 04 · THE WARRANTY 12 months of coverage. Your system comes with a 12-month warranty. At your free design visit we’ll walk you through exactly what it covers, in writing. PRICING How pricing works Every home is quoted on three things: the length of your roofline, the number of stories, and the controller and zones you choose. A free design visit gets you an exact number for your house. Start my free design ILLUMINATED EXTERIORS Permanent roofline lighting for homes in Omaha, Elkhorn and within about 50 miles. EXPLORE Our Work How It Works FAQ About Get a Free Design CONTACT 402-699-6256 info@illuminated-exteriors.com Mon–Fri · 9 AM–5 PM Facebook SERVICE AREAS Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln © 2026 Illuminated Exteriors ❚❚ PAUSE MOTION Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:0 nav:1 main:0 footer:1",
+  "links": [
+   "./",
+   "./our-work",
+   "./how-it-works",
+   "./faq",
+   "tel:+14026996256",
+   "/free-design",
+   "./about",
+   "./free-design",
+   "mailto:info@illuminated-exteriors.com",
+   "https://www.facebook.com/illuminatedexteriors",
+   "./areas/elkhorn",
+   "./areas/omaha",
+   "./areas/papillion",
+   "./areas/bellevue",
+   "./areas/gretna",
+   "./areas/bennington",
+   "./areas/council-bluffs",
+   "./areas/lincoln",
+   "https://www.framer.com"
+  ],
+  "reqCount": 38,
+  "bytes": 1226663,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "framerusercontent.com": 32,
+   "fonts.gstatic.com": 2,
+   "events.framer.com": 2,
+   "framer.com": 1
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED",
+   "https://framerusercontent.com/assets/IAvstxRfgYzJ9b4rqhvHnq1dUc.mp4 net::ERR_ABORTED",
+   "https://framerusercontent.com/assets/mY7RpSO3RV8Qycourl5VPcnt1J0.mp4 net::ERR_ABORTED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "631KB media https://framerusercontent.com/assets/mY7RpSO3RV8Qycourl5VPcnt1J0.mp4",
+   "469KB media https://framerusercontent.com/assets/IAvstxRfgYzJ9b4rqhvHnq1dUc.mp4",
+   "39KB font https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+   "27KB font https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zcZj1bIkNo.woff2",
+   "20KB document https://nuanced-checkbox-084836.framer.app/how-it-works",
+   "11KB script https://events.framer.com/script?v=2",
+   "1KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/kHuMIEb9P.BGvlVBaY.mjs",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/rolldown-runtime.Bi-D_2cA.mjs"
+  ]
+ },
+ {
+  "page": "faq",
+  "w": 390,
+  "title": "Permanent Lighting FAQ · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 390,
+  "clientW": 390,
+  "scrollH": 3455,
+  "bodyScrollW": 390,
+  "heads": [
+   "H1: Straight answers about permanent lighting.",
+   "H2: Cost",
+   "H3: How much does permanent roofline lighting cost?",
+   "H3: How do I get started?",
+   "H2: Installation",
+   "H3: What areas do you serve?",
+   "H3: How long does installation take?",
+   "H3: What does the warranty cover?",
+   "H2: The lights",
+   "H3: Can you see the lights during the day?",
+   "H2: The app",
+   "H3: Do I control the lights from my phone?",
+   "H2: Weather and durability",
+   "H3: How do the lights hold up in Nebraska winters?",
+   "H2: HOA and neighbors",
+   "H3: Will my HOA allow permanent lights?",
+   "H2: Still have a question?"
+  ],
+  "allH1": 1,
+  "imgCount": 0,
+  "visImgs": 0,
+  "noAlt": [],
+  "alts": [],
+  "overTop": [],
+  "smallCount": 22,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "./"
+   },
+   {
+    "t": "Call 402-699-6256",
+    "w": 154,
+    "h": 20,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 154,
+    "h": 27,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "Our Work",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 100,
+    "h": 19,
+    "tag": "A",
+    "href": "./how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "About",
+    "w": 47,
+    "h": 19,
+    "tag": "A",
+    "href": "./about"
+   },
+   {
+    "t": "Get a Free Design",
+    "w": 134,
+    "h": 19,
+    "tag": "A",
+    "href": "./free-design"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "info@illuminated-exteriors.com",
+    "w": 237,
+    "h": 19,
+    "tag": "A",
+    "href": "mailto:info@illuminated-exteriors.com"
+   },
+   {
+    "t": "Facebook",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "https://www.facebook.com/illuminatedexteriors"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 59,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 56,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 52,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 91,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 55,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/lincoln"
+   },
+   {
+    "t": "Call",
+    "w": 173,
+    "h": 43,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "Free Design",
+    "w": 173,
+    "h": 43,
+    "tag": "A",
+    "href": "./free-design"
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   11.5,
+   12,
+   14,
+   15,
+   16,
+   17,
+   19,
+   22,
+   38,
+   40,
+   44
+  ],
+  "tiny": [
+   "11.5px \"FAQ\"",
+   "11.5px \"EXPLORE\"",
+   "11.5px \"CONTACT\"",
+   "11.5px \"SERVICE AREAS\"",
+   "11.5px \"❚❚\nPAUSE MOTION\""
+  ],
+  "text": "ILLUMINATED EXTERIORS Our Work How It Works FAQ About Free Design Call 402-699-6256 Serving Omaha, Elkhorn and homes within about 50 miles. FAQ Straight answers about permanent lighting. Cost How much does permanent roofline lighting cost? How do I get started? Installation What areas do you serve? How long does installation take? What does the warranty cover? The lights Can you see the lights during the day? The app Do I control the lights from my phone? Weather and durability How do the lights hold up in Nebraska winters? HOA and neighbors Will my HOA allow permanent lights? Still have a question? Call us Monday to Friday, 9 AM to 5 PM, or start a free design and ask us there. 402-699-6256 Get a Free Design ILLUMINATED EXTERIORS Permanent roofline lighting for homes in Omaha, Elkhorn and within about 50 miles. EXPLORE Our Work How It Works FAQ About Get a Free Design CONTACT 402-699-6256 info@illuminated-exteriors.com Mon–Fri · 9 AM–5 PM Facebook SERVICE AREAS Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln © 2026 Illuminated Exteriors ❚❚ PAUSE MOTION Call Free Design Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:0 nav:1 main:0 footer:1",
+  "links": [
+   "./",
+   "./our-work",
+   "./how-it-works",
+   "./faq",
+   "./about",
+   "./free-design",
+   "tel:+14026996256",
+   "/free-design",
+   "mailto:info@illuminated-exteriors.com",
+   "https://www.facebook.com/illuminatedexteriors",
+   "./areas/elkhorn",
+   "./areas/omaha",
+   "./areas/papillion",
+   "./areas/bellevue",
+   "./areas/gretna",
+   "./areas/bennington",
+   "./areas/council-bluffs",
+   "./areas/lincoln",
+   "https://www.framer.com"
+  ],
+  "reqCount": 24,
+  "bytes": 99788,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "framerusercontent.com": 18,
+   "fonts.gstatic.com": 2,
+   "events.framer.com": 2,
+   "framer.com": 1
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "39KB font https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+   "27KB font https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zcZj1bIkNo.woff2",
+   "20KB document https://nuanced-checkbox-084836.framer.app/faq",
+   "11KB script https://events.framer.com/script?v=2",
+   "1KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/uTEBxsOGA.Cg_rDprt.mjs",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/rolldown-runtime.Bi-D_2cA.mjs",
+   "0KB other https://framerusercontent.com/sites/icons/default-favicon-light.v1.png",
+   "0KB font https://framerusercontent.com/third-party-assets/fontshare/wf/G3U4AIP7I5YYMBY4PZ5BNYEWWVH7G7QB/WED2HATCWTE6B4X"
+  ]
+ },
+ {
+  "page": "faq",
+  "w": 810,
+  "title": "Permanent Lighting FAQ · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 810,
+  "clientW": 810,
+  "scrollH": 3073,
+  "bodyScrollW": 810,
+  "heads": [
+   "H1: Straight answers about permanent lighting.",
+   "H2: Cost",
+   "H3: How much does permanent roofline lighting cost?",
+   "H3: How do I get started?",
+   "H2: Installation",
+   "H3: What areas do you serve?",
+   "H3: How long does installation take?",
+   "H3: What does the warranty cover?",
+   "H2: The lights",
+   "H3: Can you see the lights during the day?",
+   "H2: The app",
+   "H3: Do I control the lights from my phone?",
+   "H2: Weather and durability",
+   "H3: How do the lights hold up in Nebraska winters?",
+   "H2: HOA and neighbors",
+   "H3: Will my HOA allow permanent lights?",
+   "H2: Still have a question?"
+  ],
+  "allH1": 1,
+  "imgCount": 0,
+  "visImgs": 0,
+  "noAlt": [],
+  "alts": [],
+  "overTop": [],
+  "smallCount": 20,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "./"
+   },
+   {
+    "t": "Call 402-699-6256",
+    "w": 154,
+    "h": 20,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 154,
+    "h": 27,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "Our Work",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 100,
+    "h": 19,
+    "tag": "A",
+    "href": "./how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "About",
+    "w": 47,
+    "h": 19,
+    "tag": "A",
+    "href": "./about"
+   },
+   {
+    "t": "Get a Free Design",
+    "w": 134,
+    "h": 19,
+    "tag": "A",
+    "href": "./free-design"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "info@illuminated-exteriors.com",
+    "w": 237,
+    "h": 19,
+    "tag": "A",
+    "href": "mailto:info@illuminated-exteriors.com"
+   },
+   {
+    "t": "Facebook",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "https://www.facebook.com/illuminatedexteriors"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 59,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 56,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 52,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 91,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 55,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/lincoln"
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   9,
+   11,
+   11.5,
+   12,
+   14,
+   15,
+   17,
+   20,
+   22,
+   40,
+   48,
+   64
+  ],
+  "tiny": [
+   "11px \"Serving Omaha, Elkhorn and hom\"",
+   "9px \"FAQ\"",
+   "11px \"Permanent roofline lighting fo\"",
+   "9px \"EXPLORE\"",
+   "9px \"CONTACT\"",
+   "11px \"Mon–Fri · 9 AM–5 PM\"",
+   "9px \"SERVICE AREAS\"",
+   "11px \"© 2026 Illuminated Exteriors\"",
+   "11.5px \"❚❚\nPAUSE MOTION\""
+  ],
+  "text": "ILLUMINATED EXTERIORS Our Work How It Works FAQ About Free Design Call 402-699-6256 Serving Omaha, Elkhorn and homes within about 50 miles. FAQ Straight answers about permanent lighting. Cost How much does permanent roofline lighting cost? How do I get started? Installation What areas do you serve? How long does installation take? What does the warranty cover? The lights Can you see the lights during the day? The app Do I control the lights from my phone? Weather and durability How do the lights hold up in Nebraska winters? HOA and neighbors Will my HOA allow permanent lights? Still have a question? Call us Monday to Friday, 9 AM to 5 PM, or start a free design and ask us there. 402-699-6256 Get a Free Design ILLUMINATED EXTERIORS Permanent roofline lighting for homes in Omaha, Elkhorn and within about 50 miles. EXPLORE Our Work How It Works FAQ About Get a Free Design CONTACT 402-699-6256 info@illuminated-exteriors.com Mon–Fri · 9 AM–5 PM Facebook SERVICE AREAS Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln © 2026 Illuminated Exteriors ❚❚ PAUSE MOTION Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:0 nav:1 main:0 footer:1",
+  "links": [
+   "./",
+   "./our-work",
+   "./how-it-works",
+   "./faq",
+   "./about",
+   "./free-design",
+   "tel:+14026996256",
+   "/free-design",
+   "mailto:info@illuminated-exteriors.com",
+   "https://www.facebook.com/illuminatedexteriors",
+   "./areas/elkhorn",
+   "./areas/omaha",
+   "./areas/papillion",
+   "./areas/bellevue",
+   "./areas/gretna",
+   "./areas/bennington",
+   "./areas/council-bluffs",
+   "./areas/lincoln",
+   "https://www.framer.com"
+  ],
+  "reqCount": 24,
+  "bytes": 99788,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "fonts.gstatic.com": 2,
+   "framerusercontent.com": 18,
+   "events.framer.com": 2,
+   "framer.com": 1
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "39KB font https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+   "27KB font https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zcZj1bIkNo.woff2",
+   "20KB document https://nuanced-checkbox-084836.framer.app/faq",
+   "11KB script https://events.framer.com/script?v=2",
+   "1KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/uTEBxsOGA.Cg_rDprt.mjs",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/rolldown-runtime.Bi-D_2cA.mjs",
+   "0KB other https://framerusercontent.com/sites/icons/default-favicon-light.v1.png",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/yhrTDmeRY.Lxsq-FuI.mjs"
+  ]
+ },
+ {
+  "page": "faq",
+  "w": 1440,
+  "title": "Permanent Lighting FAQ · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 1440,
+  "clientW": 1440,
+  "scrollH": 3121,
+  "bodyScrollW": 1440,
+  "heads": [
+   "H1: Straight answers about permanent lighting.",
+   "H2: Cost",
+   "H3: How much does permanent roofline lighting cost?",
+   "H3: How do I get started?",
+   "H2: Installation",
+   "H3: What areas do you serve?",
+   "H3: How long does installation take?",
+   "H3: What does the warranty cover?",
+   "H2: The lights",
+   "H3: Can you see the lights during the day?",
+   "H2: The app",
+   "H3: Do I control the lights from my phone?",
+   "H2: Weather and durability",
+   "H3: How do the lights hold up in Nebraska winters?",
+   "H2: HOA and neighbors",
+   "H3: Will my HOA allow permanent lights?",
+   "H2: Still have a question?"
+  ],
+  "allH1": 1,
+  "imgCount": 0,
+  "visImgs": 0,
+  "noAlt": [],
+  "alts": [],
+  "overTop": [],
+  "smallCount": 29,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "./"
+   },
+   {
+    "t": "Our Work",
+    "w": 74,
+    "h": 19,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 102,
+    "h": 19,
+    "tag": "A",
+    "href": "./how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 104,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "Cost",
+    "w": 34,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq#cost"
+   },
+   {
+    "t": "Installation",
+    "w": 85,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq#installation"
+   },
+   {
+    "t": "The lights",
+    "w": 75,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq#the-lights"
+   },
+   {
+    "t": "The app",
+    "w": 62,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq#the-app"
+   },
+   {
+    "t": "Weather and durability",
+    "w": 175,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq#weather"
+   },
+   {
+    "t": "HOA and neighbors",
+    "w": 151,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq#hoa"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 154,
+    "h": 27,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "Our Work",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 100,
+    "h": 19,
+    "tag": "A",
+    "href": "./how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "About",
+    "w": 47,
+    "h": 19,
+    "tag": "A",
+    "href": "./about"
+   },
+   {
+    "t": "Get a Free Design",
+    "w": 134,
+    "h": 19,
+    "tag": "A",
+    "href": "./free-design"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "info@illuminated-exteriors.com",
+    "w": 237,
+    "h": 19,
+    "tag": "A",
+    "href": "mailto:info@illuminated-exteriors.com"
+   },
+   {
+    "t": "Facebook",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "https://www.facebook.com/illuminatedexteriors"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 59,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 56,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 52,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 91,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 55,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/lincoln"
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   11.5,
+   12,
+   14,
+   15,
+   17,
+   22,
+   60,
+   84
+  ],
+  "tiny": [
+   "11.5px \"FAQ\"",
+   "11.5px \"CATEGORIES\"",
+   "11.5px \"EXPLORE\"",
+   "11.5px \"CONTACT\"",
+   "11.5px \"SERVICE AREAS\"",
+   "11.5px \"❚❚\nPAUSE MOTION\""
+  ],
+  "text": "ILLUMINATED EXTERIORS Our Work How It Works FAQ 402-699-6256 Get a Free Design FAQ Straight answers about permanent lighting. CATEGORIES Cost Installation The lights The app Weather and durability HOA and neighbors Cost How much does permanent roofline lighting cost? How do I get started? Installation What areas do you serve? How long does installation take? What does the warranty cover? The lights Can you see the lights during the day? The app Do I control the lights from my phone? Weather and durability How do the lights hold up in Nebraska winters? HOA and neighbors Will my HOA allow permanent lights? Still have a question? Call us Monday to Friday, 9 AM to 5 PM, or start a free design and ask us there. 402-699-6256 Get a Free Design ILLUMINATED EXTERIORS Permanent roofline lighting for homes in Omaha, Elkhorn and within about 50 miles. EXPLORE Our Work How It Works FAQ About Get a Free Design CONTACT 402-699-6256 info@illuminated-exteriors.com Mon–Fri · 9 AM–5 PM Facebook SERVICE AREAS Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln © 2026 Illuminated Exteriors ❚❚ PAUSE MOTION Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:0 nav:1 main:0 footer:1",
+  "links": [
+   "./",
+   "./our-work",
+   "./how-it-works",
+   "./faq",
+   "tel:+14026996256",
+   "/free-design",
+   "./faq#cost",
+   "./faq#installation",
+   "./faq#the-lights",
+   "./faq#the-app",
+   "./faq#weather",
+   "./faq#hoa",
+   "./about",
+   "./free-design",
+   "mailto:info@illuminated-exteriors.com",
+   "https://www.facebook.com/illuminatedexteriors",
+   "./areas/elkhorn",
+   "./areas/omaha",
+   "./areas/papillion",
+   "./areas/bellevue",
+   "./areas/gretna",
+   "./areas/bennington",
+   "./areas/council-bluffs",
+   "./areas/lincoln",
+   "https://www.framer.com"
+  ],
+  "reqCount": 24,
+  "bytes": 99788,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "fonts.gstatic.com": 2,
+   "framerusercontent.com": 18,
+   "events.framer.com": 2,
+   "framer.com": 1
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "39KB font https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+   "27KB font https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zcZj1bIkNo.woff2",
+   "20KB document https://nuanced-checkbox-084836.framer.app/faq",
+   "11KB script https://events.framer.com/script?v=2",
+   "1KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/uTEBxsOGA.Cg_rDprt.mjs",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/rolldown-runtime.Bi-D_2cA.mjs",
+   "0KB other https://framerusercontent.com/sites/icons/default-favicon-light.v1.png",
+   "0KB font https://framerusercontent.com/third-party-assets/fontshare/wf/DELXRVKO253LHPYOBD6KD7EW3TJKXCXF/L6SILXET3P727LN"
+  ]
+ },
+ {
+  "page": "about",
+  "w": 390,
+  "title": "About Us · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 390,
+  "clientW": 390,
+  "scrollH": 4024,
+  "bodyScrollW": 390,
+  "heads": [
+   "H1: Your neighbors, lighting your street.",
+   "H3: Quality you can see.",
+   "H3: Designed for your house.",
+   "H3: Light that’s efficient.",
+   "H2: Omaha, Elkhorn and about 50 miles out."
+  ],
+  "allH1": 1,
+  "imgCount": 2,
+  "visImgs": 2,
+  "noAlt": [],
+  "alts": [
+   "Ranch home with red, white and blue permanent roofline lights at night",
+   "Map of the Illuminated Exteriors service area: about 50 miles around Elkhorn, in"
+  ],
+  "overTop": [],
+  "smallCount": 29,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "./"
+   },
+   {
+    "t": "Call 402-699-6256",
+    "w": 154,
+    "h": 20,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 67,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 64,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 75,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 74,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 59,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 104,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 119,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 63,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/lincoln"
+   },
+   {
+    "t": "Our Work",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 100,
+    "h": 19,
+    "tag": "A",
+    "href": "./how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "About",
+    "w": 47,
+    "h": 19,
+    "tag": "A",
+    "href": "./about"
+   },
+   {
+    "t": "Get a Free Design",
+    "w": 134,
+    "h": 19,
+    "tag": "A",
+    "href": "./free-design"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "info@illuminated-exteriors.com",
+    "w": 237,
+    "h": 19,
+    "tag": "A",
+    "href": "mailto:info@illuminated-exteriors.com"
+   },
+   {
+    "t": "Facebook",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "https://www.facebook.com/illuminatedexteriors"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 59,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 56,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 52,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 91,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 55,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/lincoln"
+   },
+   {
+    "t": "Call",
+    "w": 173,
+    "h": 43,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "Free Design",
+    "w": 173,
+    "h": 43,
+    "tag": "A",
+    "href": "./free-design"
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   11.5,
+   12,
+   14,
+   15,
+   16,
+   17,
+   19,
+   38,
+   40,
+   44
+  ],
+  "tiny": [
+   "11.5px \"ABOUT US\"",
+   "11.5px \"WHY WE DO THIS\"",
+   "11.5px \"WHERE WE WORK\"",
+   "11.5px \"EXPLORE\"",
+   "11.5px \"CONTACT\"",
+   "11.5px \"SERVICE AREAS\"",
+   "11.5px \"❚❚\nPAUSE MOTION\""
+  ],
+  "text": "ILLUMINATED EXTERIORS Our Work How It Works FAQ About Free Design Call 402-699-6256 Serving Omaha, Elkhorn and homes within about 50 miles. ABOUT US Your neighbors, lighting your street. WHY WE DO THIS At Illuminated Exteriors, we install high-quality permanent lighting that makes your home more beautiful and easier to enjoy after dark. Our goal is simple: light your home with thoughtful designs and energy-efficient LEDs, then get out of the way so it just works, every night. Illuminated Exteriors is owned and run by Scot Ballan, right here in Omaha. Quality you can see. High-quality permanent lighting, installed with care and built to look right on your home. Designed for your house. Every design starts at dusk, on your own roofline, not from a template. Light that’s efficient. Energy-efficient LEDs, so you can enjoy it every night without thinking twice. WHERE WE WORK Omaha, Elkhorn and about 50 miles out. Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln Get a Free Design ILLUMINATED EXTERIORS Permanent roofline lighting for homes in Omaha, Elkhorn and within about 50 miles. EXPLORE Our Work How It Works FAQ About Get a Free Design CONTACT 402-699-6256 info@illuminated-exteriors.com Mon–Fri · 9 AM–5 PM Facebook SERVICE AREAS Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln © 2026 Illuminated Exteriors ❚❚ PAUSE MOTION Call Free Design Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:0 nav:1 main:0 footer:1",
+  "links": [
+   "./",
+   "./our-work",
+   "./how-it-works",
+   "./faq",
+   "./about",
+   "./free-design",
+   "tel:+14026996256",
+   "./areas/elkhorn",
+   "./areas/omaha",
+   "./areas/papillion",
+   "./areas/bellevue",
+   "./areas/gretna",
+   "./areas/bennington",
+   "./areas/council-bluffs",
+   "./areas/lincoln",
+   "/free-design",
+   "mailto:info@illuminated-exteriors.com",
+   "https://www.facebook.com/illuminatedexteriors",
+   "https://www.framer.com"
+  ],
+  "reqCount": 25,
+  "bytes": 97926,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "framerusercontent.com": 19,
+   "fonts.gstatic.com": 2,
+   "events.framer.com": 2,
+   "framer.com": 1
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "39KB font https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+   "27KB font https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zcZj1bIkNo.woff2",
+   "18KB document https://nuanced-checkbox-084836.framer.app/about",
+   "11KB script https://events.framer.com/script?v=2",
+   "1KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/Fn9ByU01p.BjaBaOve.mjs",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/rolldown-runtime.Bi-D_2cA.mjs",
+   "0KB other https://framerusercontent.com/sites/icons/default-favicon-light.v1.png",
+   "0KB image https://framerusercontent.com/images/vVMZYjwUHNIwvi1yl47IgnjNylI.jpg?scale-down-to=1024&width=2400&height=1800"
+  ]
+ },
+ {
+  "page": "about",
+  "w": 810,
+  "title": "About Us · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 810,
+  "clientW": 810,
+  "scrollH": 3216,
+  "bodyScrollW": 810,
+  "heads": [
+   "H1: Your neighbors, lighting your street.",
+   "H3: Quality you can see.",
+   "H3: Designed for your house.",
+   "H3: Light that’s efficient.",
+   "H2: Omaha, Elkhorn and about 50 miles out."
+  ],
+  "allH1": 1,
+  "imgCount": 2,
+  "visImgs": 2,
+  "noAlt": [],
+  "alts": [
+   "Ranch home with red, white and blue permanent roofline lights at night",
+   "Map of the Illuminated Exteriors service area: about 50 miles around Elkhorn, in"
+  ],
+  "overTop": [],
+  "smallCount": 27,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "./"
+   },
+   {
+    "t": "Call 402-699-6256",
+    "w": 154,
+    "h": 20,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 67,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 64,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 75,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 74,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 59,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 104,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 119,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 63,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/lincoln"
+   },
+   {
+    "t": "Our Work",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 100,
+    "h": 19,
+    "tag": "A",
+    "href": "./how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "About",
+    "w": 47,
+    "h": 19,
+    "tag": "A",
+    "href": "./about"
+   },
+   {
+    "t": "Get a Free Design",
+    "w": 134,
+    "h": 19,
+    "tag": "A",
+    "href": "./free-design"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "info@illuminated-exteriors.com",
+    "w": 237,
+    "h": 19,
+    "tag": "A",
+    "href": "mailto:info@illuminated-exteriors.com"
+   },
+   {
+    "t": "Facebook",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "https://www.facebook.com/illuminatedexteriors"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 59,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 56,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 52,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 91,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 55,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/lincoln"
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   9,
+   11,
+   11.5,
+   12,
+   14,
+   15,
+   17,
+   20,
+   40,
+   48,
+   64
+  ],
+  "tiny": [
+   "11px \"Serving Omaha, Elkhorn and hom\"",
+   "9px \"ABOUT US\"",
+   "9px \"WHY WE DO THIS\"",
+   "9px \"WHERE WE WORK\"",
+   "11px \"Permanent roofline lighting fo\"",
+   "9px \"EXPLORE\"",
+   "9px \"CONTACT\"",
+   "11px \"Mon–Fri · 9 AM–5 PM\"",
+   "9px \"SERVICE AREAS\"",
+   "11px \"© 2026 Illuminated Exteriors\""
+  ],
+  "text": "ILLUMINATED EXTERIORS Our Work How It Works FAQ About Free Design Call 402-699-6256 Serving Omaha, Elkhorn and homes within about 50 miles. ABOUT US Your neighbors, lighting your street. WHY WE DO THIS At Illuminated Exteriors, we install high-quality permanent lighting that makes your home more beautiful and easier to enjoy after dark. Our goal is simple: light your home with thoughtful designs and energy-efficient LEDs, then get out of the way so it just works, every night. Illuminated Exteriors is owned and run by Scot Ballan, right here in Omaha. Quality you can see. High-quality permanent lighting, installed with care and built to look right on your home. Designed for your house. Every design starts at dusk, on your own roofline, not from a template. Light that’s efficient. Energy-efficient LEDs, so you can enjoy it every night without thinking twice. WHERE WE WORK Omaha, Elkhorn and about 50 miles out. Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln Get a Free Design ILLUMINATED EXTERIORS Permanent roofline lighting for homes in Omaha, Elkhorn and within about 50 miles. EXPLORE Our Work How It Works FAQ About Get a Free Design CONTACT 402-699-6256 info@illuminated-exteriors.com Mon–Fri · 9 AM–5 PM Facebook SERVICE AREAS Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln © 2026 Illuminated Exteriors ❚❚ PAUSE MOTION Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:0 nav:1 main:0 footer:1",
+  "links": [
+   "./",
+   "./our-work",
+   "./how-it-works",
+   "./faq",
+   "./about",
+   "./free-design",
+   "tel:+14026996256",
+   "./areas/elkhorn",
+   "./areas/omaha",
+   "./areas/papillion",
+   "./areas/bellevue",
+   "./areas/gretna",
+   "./areas/bennington",
+   "./areas/council-bluffs",
+   "./areas/lincoln",
+   "/free-design",
+   "mailto:info@illuminated-exteriors.com",
+   "https://www.facebook.com/illuminatedexteriors",
+   "https://www.framer.com"
+  ],
+  "reqCount": 25,
+  "bytes": 97926,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "framerusercontent.com": 19,
+   "fonts.gstatic.com": 2,
+   "events.framer.com": 2,
+   "framer.com": 1
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "39KB font https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+   "27KB font https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zcZj1bIkNo.woff2",
+   "18KB document https://nuanced-checkbox-084836.framer.app/about",
+   "11KB script https://events.framer.com/script?v=2",
+   "1KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/Fn9ByU01p.BjaBaOve.mjs",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/rolldown-runtime.Bi-D_2cA.mjs",
+   "0KB other https://framerusercontent.com/sites/icons/default-favicon-light.v1.png",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/shared-lib.r10jI47o.mjs"
+  ]
+ },
+ {
+  "page": "about",
+  "w": 1440,
+  "title": "About Us · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 1440,
+  "clientW": 1440,
+  "scrollH": 3281,
+  "bodyScrollW": 1440,
+  "heads": [
+   "H1: Your neighbors, lighting your street.",
+   "H3: Quality you can see.",
+   "H3: Designed for your house.",
+   "H3: Light that’s efficient.",
+   "H2: Omaha, Elkhorn and about 50 miles out."
+  ],
+  "allH1": 1,
+  "imgCount": 2,
+  "visImgs": 2,
+  "noAlt": [],
+  "alts": [
+   "Ranch home with red, white and blue permanent roofline lights at night",
+   "Map of the Illuminated Exteriors service area: about 50 miles around Elkhorn, in"
+  ],
+  "overTop": [],
+  "smallCount": 30,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "./"
+   },
+   {
+    "t": "Our Work",
+    "w": 74,
+    "h": 19,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 102,
+    "h": 19,
+    "tag": "A",
+    "href": "./how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 104,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 67,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 64,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 75,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 74,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 59,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 104,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 119,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 63,
+    "h": 20,
+    "tag": "A",
+    "href": "./areas/lincoln"
+   },
+   {
+    "t": "Our Work",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "./our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 100,
+    "h": 19,
+    "tag": "A",
+    "href": "./how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "./faq"
+   },
+   {
+    "t": "About",
+    "w": 47,
+    "h": 19,
+    "tag": "A",
+    "href": "./about"
+   },
+   {
+    "t": "Get a Free Design",
+    "w": 134,
+    "h": 19,
+    "tag": "A",
+    "href": "./free-design"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "info@illuminated-exteriors.com",
+    "w": 237,
+    "h": 19,
+    "tag": "A",
+    "href": "mailto:info@illuminated-exteriors.com"
+   },
+   {
+    "t": "Facebook",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "https://www.facebook.com/illuminatedexteriors"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 59,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 56,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 52,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 91,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 55,
+    "h": 19,
+    "tag": "A",
+    "href": "./areas/lincoln"
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   11.5,
+   12,
+   14,
+   15,
+   17,
+   22,
+   60,
+   84
+  ],
+  "tiny": [
+   "11.5px \"ABOUT US\"",
+   "11.5px \"WHY WE DO THIS\"",
+   "11.5px \"WHERE WE WORK\"",
+   "11.5px \"EXPLORE\"",
+   "11.5px \"CONTACT\"",
+   "11.5px \"SERVICE AREAS\"",
+   "11.5px \"❚❚\nPAUSE MOTION\""
+  ],
+  "text": "ILLUMINATED EXTERIORS Our Work How It Works FAQ 402-699-6256 Get a Free Design ABOUT US Your neighbors, lighting your street. WHY WE DO THIS At Illuminated Exteriors, we install high-quality permanent lighting that makes your home more beautiful and easier to enjoy after dark. Our goal is simple: light your home with thoughtful designs and energy-efficient LEDs, then get out of the way so it just works, every night. Illuminated Exteriors is owned and run by Scot Ballan, right here in Omaha. Quality you can see. High-quality permanent lighting, installed with care and built to look right on your home. Designed for your house. Every design starts at dusk, on your own roofline, not from a template. Light that’s efficient. Energy-efficient LEDs, so you can enjoy it every night without thinking twice. WHERE WE WORK Omaha, Elkhorn and about 50 miles out. Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln Get a Free Design ILLUMINATED EXTERIORS Permanent roofline lighting for homes in Omaha, Elkhorn and within about 50 miles. EXPLORE Our Work How It Works FAQ About Get a Free Design CONTACT 402-699-6256 info@illuminated-exteriors.com Mon–Fri · 9 AM–5 PM Facebook SERVICE AREAS Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln © 2026 Illuminated Exteriors ❚❚ PAUSE MOTION Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:0 nav:1 main:0 footer:1",
+  "links": [
+   "./",
+   "./our-work",
+   "./how-it-works",
+   "./faq",
+   "tel:+14026996256",
+   "/free-design",
+   "./areas/elkhorn",
+   "./areas/omaha",
+   "./areas/papillion",
+   "./areas/bellevue",
+   "./areas/gretna",
+   "./areas/bennington",
+   "./areas/council-bluffs",
+   "./areas/lincoln",
+   "./about",
+   "./free-design",
+   "mailto:info@illuminated-exteriors.com",
+   "https://www.facebook.com/illuminatedexteriors",
+   "https://www.framer.com"
+  ],
+  "reqCount": 25,
+  "bytes": 97926,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "framerusercontent.com": 19,
+   "events.framer.com": 2,
+   "fonts.gstatic.com": 2,
+   "framer.com": 1
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "39KB font https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+   "27KB font https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zcZj1bIkNo.woff2",
+   "18KB document https://nuanced-checkbox-084836.framer.app/about",
+   "11KB script https://events.framer.com/script?v=2",
+   "1KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/Fn9ByU01p.BjaBaOve.mjs",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/rolldown-runtime.Bi-D_2cA.mjs",
+   "0KB other https://framerusercontent.com/sites/icons/default-favicon-light.v1.png",
+   "0KB image https://framerusercontent.com/images/vVMZYjwUHNIwvi1yl47IgnjNylI.jpg?scale-down-to=1024&width=2400&height=1800"
+  ]
+ },
+ {
+  "page": "free-design",
+  "w": 390,
+  "title": "Book a Free Design · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 390,
+  "clientW": 390,
+  "scrollH": 1466,
+  "bodyScrollW": 390,
+  "heads": [
+   "H1: Book your free design.",
+   "H2: Tell us about your home."
+  ],
+  "allH1": 1,
+  "imgCount": 2,
+  "visImgs": 2,
+  "noAlt": [
+   "7poLAcqJbmPCjuxxdCRvuToOhc.png?scale-down-to=1024&width=5504 390x217@390"
+  ],
+  "alts": [
+   "Two-story home with red, white and blue permanent roofline lights at dusk"
+  ],
+  "overTop": [
+   "P.ie-form__trap L-9979 R-9978 \"Company website\""
+  ],
+  "smallCount": 4,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 179,
+    "h": 14,
+    "tag": "A",
+    "href": "./"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 91,
+    "h": 16,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "text",
+    "w": 163,
+    "h": 20,
+    "tag": "INPUT",
+    "href": null
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   11,
+   11.5,
+   12,
+   13,
+   14,
+   15,
+   16,
+   30,
+   44
+  ],
+  "tiny": [
+   "11px \"ILLUMINATED EXTERIORS\"",
+   "11px \"EXTERIORS\"",
+   "11.5px \"FREE · NO OBLIGATION\"",
+   "11.5px \"ONE OF OUR INSTALLS\"",
+   "11.5px \"STEP 1 OF 3 · YOUR ADDRESS\"",
+   "11.5px \"❚❚\nPAUSE MOTION\""
+  ],
+  "text": "ILLUMINATED EXTERIORS 402-699-6256 FREE · NO OBLIGATION Book your free design. Free and no obligation. We visit at dusk and show you scenes on your own house. A reply within one business day. ONE OF OUR INSTALLS Tell us about your home. STEP 1 OF 3 · YOUR ADDRESS Company website Street address ZIP code Continue Free and no obligation. We use your details only to plan your design. © 2026 Illuminated Exteriors · Mon–Fri 9 AM–5 PM ❚❚ PAUSE MOTION Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:1 nav:0 main:0 footer:1",
+  "links": [
+   "./",
+   "tel:+14026996256",
+   "https://www.framer.com"
+  ],
+  "reqCount": 23,
+  "bytes": 95006,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "framerusercontent.com": 17,
+   "fonts.gstatic.com": 2,
+   "events.framer.com": 2,
+   "framer.com": 1
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "39KB font https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+   "27KB font https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zcZj1bIkNo.woff2",
+   "15KB document https://nuanced-checkbox-084836.framer.app/free-design",
+   "11KB script https://events.framer.com/script?v=2",
+   "1KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/dBW7zf60P.DWJ2J3Bp.mjs",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/rolldown-runtime.Bi-D_2cA.mjs",
+   "0KB other https://framerusercontent.com/sites/icons/default-favicon-light.v1.png",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/uoNdKU_wnBDaHqHWTaDKARwEOc_2dObmQZy9O8VIzAg.BYSUq1i"
+  ]
+ },
+ {
+  "page": "free-design",
+  "w": 810,
+  "title": "Book a Free Design · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 810,
+  "clientW": 810,
+  "scrollH": 1772,
+  "bodyScrollW": 810,
+  "heads": [
+   "H1: Book your free design.",
+   "H2: Tell us about your home."
+  ],
+  "allH1": 1,
+  "imgCount": 2,
+  "visImgs": 2,
+  "noAlt": [
+   "7poLAcqJbmPCjuxxdCRvuToOhc.png?scale-down-to=1024&width=5504 809x452@810"
+  ],
+  "alts": [
+   "Two-story home with red, white and blue permanent roofline lights at dusk"
+  ],
+  "overTop": [
+   "P.ie-form__trap L-9967 R-9966 \"Company website\""
+  ],
+  "smallCount": 4,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "./"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 105,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "text",
+    "w": 163,
+    "h": 20,
+    "tag": "INPUT",
+    "href": null
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   9,
+   11,
+   11.5,
+   12,
+   14,
+   15,
+   17,
+   30,
+   64
+  ],
+  "tiny": [
+   "9px \"FREE · NO OBLIGATION\"",
+   "9px \"ONE OF OUR INSTALLS\"",
+   "11.5px \"STEP 1 OF 3 · YOUR ADDRESS\"",
+   "11px \"© 2026 Illuminated Exteriors ·\"",
+   "11.5px \"❚❚\nPAUSE MOTION\""
+  ],
+  "text": "ILLUMINATED EXTERIORS 402-699-6256 FREE · NO OBLIGATION Book your free design. Free and no obligation. We visit at dusk and show you scenes on your own house. A reply within one business day. ONE OF OUR INSTALLS Tell us about your home. STEP 1 OF 3 · YOUR ADDRESS Company website Street address ZIP code Continue Free and no obligation. We use your details only to plan your design. © 2026 Illuminated Exteriors · Mon–Fri 9 AM–5 PM ❚❚ PAUSE MOTION Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:1 nav:0 main:0 footer:1",
+  "links": [
+   "./",
+   "tel:+14026996256",
+   "https://www.framer.com"
+  ],
+  "reqCount": 23,
+  "bytes": 95006,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "framerusercontent.com": 17,
+   "fonts.gstatic.com": 2,
+   "events.framer.com": 2,
+   "framer.com": 1
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "39KB font https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+   "27KB font https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zcZj1bIkNo.woff2",
+   "15KB document https://nuanced-checkbox-084836.framer.app/free-design",
+   "11KB script https://events.framer.com/script?v=2",
+   "1KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/dBW7zf60P.DWJ2J3Bp.mjs",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/rolldown-runtime.Bi-D_2cA.mjs",
+   "0KB other https://framerusercontent.com/sites/icons/default-favicon-light.v1.png",
+   "0KB image https://framerusercontent.com/images/7poLAcqJbmPCjuxxdCRvuToOhc.png?scale-down-to=1024&width=5504&height=3072"
+  ]
+ },
+ {
+  "page": "free-design",
+  "w": 1440,
+  "title": "Book a Free Design · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 1440,
+  "clientW": 1440,
+  "scrollH": 1293,
+  "bodyScrollW": 1440,
+  "heads": [
+   "H1: Book your free design.",
+   "H2: Tell us about your home."
+  ],
+  "allH1": 1,
+  "imgCount": 2,
+  "visImgs": 2,
+  "noAlt": [
+   "7poLAcqJbmPCjuxxdCRvuToOhc.png?scale-down-to=2048&width=5504 1440x803@1440"
+  ],
+  "alts": [
+   "Two-story home with red, white and blue permanent roofline lights at dusk"
+  ],
+  "overTop": [
+   "P.ie-form__trap L-9243 R-9242 \"Company website\""
+  ],
+  "smallCount": 4,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "./"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 105,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "text",
+    "w": 163,
+    "h": 20,
+    "tag": "INPUT",
+    "href": null
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   11.5,
+   12,
+   14,
+   15,
+   17,
+   42,
+   84
+  ],
+  "tiny": [
+   "11.5px \"FREE · NO OBLIGATION\"",
+   "11.5px \"ONE OF OUR INSTALLS\"",
+   "11.5px \"STEP 1 OF 3 · YOUR ADDRESS\"",
+   "11.5px \"❚❚\nPAUSE MOTION\""
+  ],
+  "text": "ILLUMINATED EXTERIORS 402-699-6256 FREE · NO OBLIGATION Book your free design. Free and no obligation. We visit at dusk and show you scenes on your own house. A reply within one business day. ONE OF OUR INSTALLS Tell us about your home. STEP 1 OF 3 · YOUR ADDRESS Company website Street address ZIP code Continue Free and no obligation. We use your details only to plan your design. © 2026 Illuminated Exteriors · Mon–Fri 9 AM–5 PM ❚❚ PAUSE MOTION Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:1 nav:0 main:0 footer:1",
+  "links": [
+   "./",
+   "tel:+14026996256",
+   "https://www.framer.com"
+  ],
+  "reqCount": 23,
+  "bytes": 95006,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "events.framer.com": 2,
+   "framerusercontent.com": 17,
+   "fonts.gstatic.com": 2,
+   "framer.com": 1
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "39KB font https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+   "27KB font https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zcZj1bIkNo.woff2",
+   "15KB document https://nuanced-checkbox-084836.framer.app/free-design",
+   "11KB script https://events.framer.com/script?v=2",
+   "1KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/dBW7zf60P.DWJ2J3Bp.mjs",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/rolldown-runtime.Bi-D_2cA.mjs",
+   "0KB other https://framerusercontent.com/sites/icons/default-favicon-light.v1.png",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/gxAcI88mN.DudrzQza.mjs"
+  ]
+ },
+ {
+  "page": "areas/omaha",
+  "w": 390,
+  "title": "Permanent Christmas & Roofline Lights in Omaha · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 390,
+  "clientW": 390,
+  "scrollH": 4083,
+  "bodyScrollW": 390,
+  "heads": [
+   "H1: Permanent roofline lighting in Omaha",
+   "H2: Recent installs.",
+   "H2: Common questions.",
+   "H3: How much does permanent roofline lighting cost?",
+   "H3: Can you see the lights during the day?",
+   "H3: Do I control the lights from my phone?",
+   "H3: What areas do you serve?",
+   "H3: How long does installation take?",
+   "H2: See your house lit before you decide.",
+   "H2: Your home, after dark. Let's design it."
+  ],
+  "allH1": 1,
+  "imgCount": 5,
+  "visImgs": 5,
+  "noAlt": [
+   "Ov0tWMRbLab5ZA1oZzbykAmIo.jpg?scale-down-to=1024&width=2400& 350x262@350",
+   "auzDo8tKXN1nx7AdYB2x6gW5Q.jpg?width=960&height=720 349x262@350",
+   "vVMZYjwUHNIwvi1yl47IgnjNylI.jpg?scale-down-to=1024&width=240 350x262@350",
+   "46NEBAyrtFixGHOsvMhFQdMqJM.jpg?scale-down-to=1024&width=2048 350x262@350",
+   "7poLAcqJbmPCjuxxdCRvuToOhc.png?scale-down-to=1024&width=5504 390x217@390"
+  ],
+  "alts": [],
+  "overTop": [
+   "P.ie-form__trap L-9979 R-9978 \"Company website\""
+  ],
+  "smallCount": 26,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "../"
+   },
+   {
+    "t": "Call 402-699-6256",
+    "w": 154,
+    "h": 20,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "FL Rambler",
+    "w": 350,
+    "h": 1,
+    "tag": "A",
+    "href": "../our-work/fl-rambler"
+   },
+   {
+    "t": "Three-Car Ranch",
+    "w": 350,
+    "h": 1,
+    "tag": "A",
+    "href": "../our-work/three-car-ranch"
+   },
+   {
+    "t": "Midwestern Metal Build Home",
+    "w": 350,
+    "h": 1,
+    "tag": "A",
+    "href": "../our-work/midwestern-metal-build-home"
+   },
+   {
+    "t": "All questions",
+    "w": 126,
+    "h": 18,
+    "tag": "A",
+    "href": "../faq"
+   },
+   {
+    "t": "text",
+    "w": 163,
+    "h": 20,
+    "tag": "INPUT",
+    "href": null
+   },
+   {
+    "t": "Our Work",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "../our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 100,
+    "h": 19,
+    "tag": "A",
+    "href": "../how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "../faq"
+   },
+   {
+    "t": "About",
+    "w": 47,
+    "h": 19,
+    "tag": "A",
+    "href": "../about"
+   },
+   {
+    "t": "Get a Free Design",
+    "w": 134,
+    "h": 19,
+    "tag": "A",
+    "href": "../free-design"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "info@illuminated-exteriors.com",
+    "w": 237,
+    "h": 19,
+    "tag": "A",
+    "href": "mailto:info@illuminated-exteriors.com"
+   },
+   {
+    "t": "Facebook",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "https://www.facebook.com/illuminatedexteriors"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 59,
+    "h": 19,
+    "tag": "A",
+    "href": "./elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 56,
+    "h": 19,
+    "tag": "A",
+    "href": "./omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 52,
+    "h": 19,
+    "tag": "A",
+    "href": "./gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 91,
+    "h": 19,
+    "tag": "A",
+    "href": "./bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "./council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 55,
+    "h": 19,
+    "tag": "A",
+    "href": "./lincoln"
+   },
+   {
+    "t": "Call",
+    "w": 173,
+    "h": 43,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "Free Design",
+    "w": 173,
+    "h": 43,
+    "tag": "A",
+    "href": "../free-design"
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   11.5,
+   12,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   30,
+   38,
+   40,
+   44
+  ],
+  "tiny": [
+   "11.5px \"SERVICE AREA\"",
+   "11.5px \"REAL HOMES NEARBY\"",
+   "11.5px \"FREE DESIGN\"",
+   "11.5px \"STEP 1 OF 3 · YOUR ADDRESS\"",
+   "11.5px \"EXPLORE\"",
+   "11.5px \"CONTACT\"",
+   "11.5px \"SERVICE AREAS\"",
+   "11.5px \"❚❚\nPAUSE MOTION\""
+  ],
+  "text": "ILLUMINATED EXTERIORS Our Work How It Works FAQ About Free Design Call 402-699-6256 Serving Omaha, Elkhorn and homes within about 50 miles. SERVICE AREA Permanent roofline lighting in Omaha Permanent roofline lighting for Omaha homes: warm white every night and color for holidays, game days and birthdays, all from your phone. We design at dusk on your own house, install it, and set up your first scenes with you. Get a Free Design REAL HOMES NEARBY Recent installs. FL Rambler Three-Car Ranch Midwestern Metal Build Home Common questions. How much does permanent roofline lighting cost? Can you see the lights during the day? Do I control the lights from my phone? What areas do you serve? How long does installation take? All questions FREE DESIGN See your house lit before you decide. We visit at dusk, measure your roofline and show you scenes on your own home. Free and no obligation. Your home, after dark. Let's design it. STEP 1 OF 3 · YOUR ADDRESS Company website Street address ZIP code Continue Free and no obligation. We use your details only to plan your design. ILLUMINATED EXTERIORS Permanent roofline lighting for homes in Omaha, Elkhorn and within about 50 miles. EXPLORE Our Work How It Works FAQ About Get a Free Design CONTACT 402-699-6256 info@illuminated-exteriors.com Mon–Fri · 9 AM–5 PM Facebook SERVICE AREAS Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln © 2026 Illuminated Exteriors ❚❚ PAUSE MOTION Call Free Design Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:0 nav:1 main:0 footer:1",
+  "links": [
+   "../",
+   "../our-work",
+   "../how-it-works",
+   "../faq",
+   "../about",
+   "../free-design",
+   "tel:+14026996256",
+   "/free-design",
+   "../our-work/fl-rambler",
+   "../our-work/three-car-ranch",
+   "../our-work/midwestern-metal-build-home",
+   "mailto:info@illuminated-exteriors.com",
+   "https://www.facebook.com/illuminatedexteriors",
+   "./elkhorn",
+   "./omaha",
+   "./papillion",
+   "./bellevue",
+   "./gretna",
+   "./bennington",
+   "./council-bluffs",
+   "./lincoln",
+   "https://www.framer.com"
+  ],
+  "reqCount": 35,
+  "bytes": 101600,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "fonts.gstatic.com": 2,
+   "framerusercontent.com": 29,
+   "events.framer.com": 2,
+   "framer.com": 1
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "39KB font https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+   "27KB font https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zcZj1bIkNo.woff2",
+   "22KB document https://nuanced-checkbox-084836.framer.app/areas/omaha",
+   "11KB script https://events.framer.com/script?v=2",
+   "0KB fetch https://framerusercontent.com/cms/NLyg56sGQHBXiWMXUuCt/yKG4FHkKr0Dtj9epTg2Y/TDhujU1wE-indexes-default-0.framer",
+   "0KB fetch https://framerusercontent.com/cms/NLyg56sGQHBXiWMXUuCt/yKG4FHkKr0Dtj9epTg2Y/TDhujU1wE-indexes-default-0.framer",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/rolldown-runtime.Bi-D_2cA.mjs",
+   "0KB other https://framerusercontent.com/sites/icons/default-favicon-light.v1.png"
+  ]
+ },
+ {
+  "page": "areas/omaha",
+  "w": 810,
+  "title": "Permanent Christmas & Roofline Lights in Omaha · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 810,
+  "clientW": 810,
+  "scrollH": 4746,
+  "bodyScrollW": 810,
+  "heads": [
+   "H1: Permanent roofline lighting in Omaha",
+   "H2: Recent installs.",
+   "H2: Common questions.",
+   "H3: How much does permanent roofline lighting cost?",
+   "H3: Can you see the lights during the day?",
+   "H3: Do I control the lights from my phone?",
+   "H3: What areas do you serve?",
+   "H3: How long does installation take?",
+   "H2: See your house lit before you decide.",
+   "H2: Your home, after dark. Let's design it."
+  ],
+  "allH1": 1,
+  "imgCount": 5,
+  "visImgs": 5,
+  "noAlt": [
+   "Ov0tWMRbLab5ZA1oZzbykAmIo.jpg?scale-down-to=1024&width=2400& 746x559@746",
+   "auzDo8tKXN1nx7AdYB2x6gW5Q.jpg?scale-down-to=512&width=960&he 361x270@361",
+   "vVMZYjwUHNIwvi1yl47IgnjNylI.jpg?scale-down-to=512&width=2400 361x270@361",
+   "46NEBAyrtFixGHOsvMhFQdMqJM.jpg?scale-down-to=512&width=2048& 361x270@361",
+   "7poLAcqJbmPCjuxxdCRvuToOhc.png?scale-down-to=1024&width=5504 809x452@810"
+  ],
+  "alts": [],
+  "overTop": [
+   "P.ie-form__trap L-9967 R-9966 \"Company website\""
+  ],
+  "smallCount": 21,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "../"
+   },
+   {
+    "t": "Call 402-699-6256",
+    "w": 154,
+    "h": 20,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "All questions",
+    "w": 126,
+    "h": 18,
+    "tag": "A",
+    "href": "../faq"
+   },
+   {
+    "t": "text",
+    "w": 163,
+    "h": 20,
+    "tag": "INPUT",
+    "href": null
+   },
+   {
+    "t": "Our Work",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "../our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 100,
+    "h": 19,
+    "tag": "A",
+    "href": "../how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "../faq"
+   },
+   {
+    "t": "About",
+    "w": 47,
+    "h": 19,
+    "tag": "A",
+    "href": "../about"
+   },
+   {
+    "t": "Get a Free Design",
+    "w": 134,
+    "h": 19,
+    "tag": "A",
+    "href": "../free-design"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "info@illuminated-exteriors.com",
+    "w": 237,
+    "h": 19,
+    "tag": "A",
+    "href": "mailto:info@illuminated-exteriors.com"
+   },
+   {
+    "t": "Facebook",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "https://www.facebook.com/illuminatedexteriors"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 59,
+    "h": 19,
+    "tag": "A",
+    "href": "./elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 56,
+    "h": 19,
+    "tag": "A",
+    "href": "./omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 52,
+    "h": 19,
+    "tag": "A",
+    "href": "./gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 91,
+    "h": 19,
+    "tag": "A",
+    "href": "./bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "./council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 55,
+    "h": 19,
+    "tag": "A",
+    "href": "./lincoln"
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   9,
+   11,
+   11.5,
+   12,
+   14,
+   15,
+   17,
+   18,
+   20,
+   30,
+   40,
+   48,
+   64
+  ],
+  "tiny": [
+   "11px \"Serving Omaha, Elkhorn and hom\"",
+   "9px \"SERVICE AREA\"",
+   "9px \"REAL HOMES NEARBY\"",
+   "9px \"FREE DESIGN\"",
+   "11.5px \"STEP 1 OF 3 · YOUR ADDRESS\"",
+   "11px \"Permanent roofline lighting fo\"",
+   "9px \"EXPLORE\"",
+   "9px \"CONTACT\"",
+   "11px \"Mon–Fri · 9 AM–5 PM\"",
+   "9px \"SERVICE AREAS\""
+  ],
+  "text": "ILLUMINATED EXTERIORS Our Work How It Works FAQ About Free Design Call 402-699-6256 Serving Omaha, Elkhorn and homes within about 50 miles. SERVICE AREA Permanent roofline lighting in Omaha Permanent roofline lighting for Omaha homes: warm white every night and color for holidays, game days and birthdays, all from your phone. We design at dusk on your own house, install it, and set up your first scenes with you. Get a Free Design REAL HOMES NEARBY Recent installs. FL Rambler Three-Car Ranch Midwestern Metal Build Home Common questions. How much does permanent roofline lighting cost? Can you see the lights during the day? Do I control the lights from my phone? What areas do you serve? How long does installation take? All questions FREE DESIGN See your house lit before you decide. We visit at dusk, measure your roofline and show you scenes on your own home. Free and no obligation. Your home, after dark. Let's design it. STEP 1 OF 3 · YOUR ADDRESS Company website Street address ZIP code Continue Free and no obligation. We use your details only to plan your design. ILLUMINATED EXTERIORS Permanent roofline lighting for homes in Omaha, Elkhorn and within about 50 miles. EXPLORE Our Work How It Works FAQ About Get a Free Design CONTACT 402-699-6256 info@illuminated-exteriors.com Mon–Fri · 9 AM–5 PM Facebook SERVICE AREAS Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln © 2026 Illuminated Exteriors ❚❚ PAUSE MOTION Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:0 nav:1 main:0 footer:1",
+  "links": [
+   "../",
+   "../our-work",
+   "../how-it-works",
+   "../faq",
+   "../about",
+   "../free-design",
+   "tel:+14026996256",
+   "/free-design",
+   "../our-work/fl-rambler",
+   "../our-work/three-car-ranch",
+   "../our-work/midwestern-metal-build-home",
+   "mailto:info@illuminated-exteriors.com",
+   "https://www.facebook.com/illuminatedexteriors",
+   "./elkhorn",
+   "./omaha",
+   "./papillion",
+   "./bellevue",
+   "./gretna",
+   "./bennington",
+   "./council-bluffs",
+   "./lincoln",
+   "https://www.framer.com"
+  ],
+  "reqCount": 35,
+  "bytes": 101600,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "events.framer.com": 2,
+   "framerusercontent.com": 29,
+   "fonts.gstatic.com": 2,
+   "framer.com": 1
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "39KB font https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+   "27KB font https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zcZj1bIkNo.woff2",
+   "22KB document https://nuanced-checkbox-084836.framer.app/areas/omaha",
+   "11KB script https://events.framer.com/script?v=2",
+   "0KB fetch https://framerusercontent.com/cms/NLyg56sGQHBXiWMXUuCt/yKG4FHkKr0Dtj9epTg2Y/TDhujU1wE-indexes-default-0.framer",
+   "0KB fetch https://framerusercontent.com/cms/NLyg56sGQHBXiWMXUuCt/yKG4FHkKr0Dtj9epTg2Y/TDhujU1wE-indexes-default-0.framer",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/rolldown-runtime.Bi-D_2cA.mjs",
+   "0KB other https://framerusercontent.com/sites/icons/default-favicon-light.v1.png"
+  ]
+ },
+ {
+  "page": "areas/omaha",
+  "w": 1440,
+  "title": "Permanent Christmas & Roofline Lights in Omaha · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 1440,
+  "clientW": 1440,
+  "scrollH": 4529,
+  "bodyScrollW": 1440,
+  "heads": [
+   "H1: Permanent roofline lighting in Omaha",
+   "H2: Recent installs.",
+   "H2: Common questions.",
+   "H3: How much does permanent roofline lighting cost?",
+   "H3: Can you see the lights during the day?",
+   "H3: Do I control the lights from my phone?",
+   "H3: What areas do you serve?",
+   "H3: How long does installation take?",
+   "H2: See your house lit before you decide.",
+   "H2: Your home, after dark. Let's design it."
+  ],
+  "allH1": 1,
+  "imgCount": 5,
+  "visImgs": 5,
+  "noAlt": [
+   "Ov0tWMRbLab5ZA1oZzbykAmIo.jpg?scale-down-to=2048&width=2400& 1200x900@1200",
+   "auzDo8tKXN1nx7AdYB2x6gW5Q.jpg?scale-down-to=512&width=960&he 384x288@384",
+   "vVMZYjwUHNIwvi1yl47IgnjNylI.jpg?scale-down-to=512&width=2400 384x288@384",
+   "46NEBAyrtFixGHOsvMhFQdMqJM.jpg?scale-down-to=512&width=2048& 384x288@384",
+   "7poLAcqJbmPCjuxxdCRvuToOhc.png?scale-down-to=2048&width=5504 1440x803@1440"
+  ],
+  "alts": [],
+  "overTop": [
+   "P.ie-form__trap L-9247 R-9246 \"Company website\""
+  ],
+  "smallCount": 24,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "../"
+   },
+   {
+    "t": "Our Work",
+    "w": 74,
+    "h": 19,
+    "tag": "A",
+    "href": "../our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 102,
+    "h": 19,
+    "tag": "A",
+    "href": "../how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "../faq"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 104,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "All questions",
+    "w": 126,
+    "h": 18,
+    "tag": "A",
+    "href": "../faq"
+   },
+   {
+    "t": "text",
+    "w": 163,
+    "h": 20,
+    "tag": "INPUT",
+    "href": null
+   },
+   {
+    "t": "Our Work",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "../our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 100,
+    "h": 19,
+    "tag": "A",
+    "href": "../how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "../faq"
+   },
+   {
+    "t": "About",
+    "w": 47,
+    "h": 19,
+    "tag": "A",
+    "href": "../about"
+   },
+   {
+    "t": "Get a Free Design",
+    "w": 134,
+    "h": 19,
+    "tag": "A",
+    "href": "../free-design"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "info@illuminated-exteriors.com",
+    "w": 237,
+    "h": 19,
+    "tag": "A",
+    "href": "mailto:info@illuminated-exteriors.com"
+   },
+   {
+    "t": "Facebook",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "https://www.facebook.com/illuminatedexteriors"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 59,
+    "h": 19,
+    "tag": "A",
+    "href": "./elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 56,
+    "h": 19,
+    "tag": "A",
+    "href": "./omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 52,
+    "h": 19,
+    "tag": "A",
+    "href": "./gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 91,
+    "h": 19,
+    "tag": "A",
+    "href": "./bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "./council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 55,
+    "h": 19,
+    "tag": "A",
+    "href": "./lincoln"
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   11.5,
+   12,
+   14,
+   15,
+   17,
+   18,
+   22,
+   42,
+   60,
+   84
+  ],
+  "tiny": [
+   "11.5px \"SERVICE AREA\"",
+   "11.5px \"REAL HOMES NEARBY\"",
+   "11.5px \"FREE DESIGN\"",
+   "11.5px \"STEP 1 OF 3 · YOUR ADDRESS\"",
+   "11.5px \"EXPLORE\"",
+   "11.5px \"CONTACT\"",
+   "11.5px \"SERVICE AREAS\"",
+   "11.5px \"❚❚\nPAUSE MOTION\""
+  ],
+  "text": "ILLUMINATED EXTERIORS Our Work How It Works FAQ 402-699-6256 Get a Free Design SERVICE AREA Permanent roofline lighting in Omaha Permanent roofline lighting for Omaha homes: warm white every night and color for holidays, game days and birthdays, all from your phone. We design at dusk on your own house, install it, and set up your first scenes with you. Get a Free Design REAL HOMES NEARBY Recent installs. FL Rambler Three-Car Ranch Midwestern Metal Build Home Common questions. How much does permanent roofline lighting cost? Can you see the lights during the day? Do I control the lights from my phone? What areas do you serve? How long does installation take? All questions FREE DESIGN See your house lit before you decide. We visit at dusk, measure your roofline and show you scenes on your own home. Free and no obligation. Your home, after dark. Let's design it. STEP 1 OF 3 · YOUR ADDRESS Company website Street address ZIP code Continue Free and no obligation. We use your details only to plan your design. ILLUMINATED EXTERIORS Permanent roofline lighting for homes in Omaha, Elkhorn and within about 50 miles. EXPLORE Our Work How It Works FAQ About Get a Free Design CONTACT 402-699-6256 info@illuminated-exteriors.com Mon–Fri · 9 AM–5 PM Facebook SERVICE AREAS Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln © 2026 Illuminated Exteriors ❚❚ PAUSE MOTION Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:0 nav:1 main:0 footer:1",
+  "links": [
+   "../",
+   "../our-work",
+   "../how-it-works",
+   "../faq",
+   "tel:+14026996256",
+   "/free-design",
+   "../our-work/fl-rambler",
+   "../our-work/three-car-ranch",
+   "../our-work/midwestern-metal-build-home",
+   "../about",
+   "../free-design",
+   "mailto:info@illuminated-exteriors.com",
+   "https://www.facebook.com/illuminatedexteriors",
+   "./elkhorn",
+   "./omaha",
+   "./papillion",
+   "./bellevue",
+   "./gretna",
+   "./bennington",
+   "./council-bluffs",
+   "./lincoln",
+   "https://www.framer.com"
+  ],
+  "reqCount": 35,
+  "bytes": 101600,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "events.framer.com": 2,
+   "fonts.gstatic.com": 2,
+   "framerusercontent.com": 29,
+   "framer.com": 1
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "39KB font https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+   "27KB font https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zcZj1bIkNo.woff2",
+   "22KB document https://nuanced-checkbox-084836.framer.app/areas/omaha",
+   "11KB script https://events.framer.com/script?v=2",
+   "0KB fetch https://framerusercontent.com/cms/NLyg56sGQHBXiWMXUuCt/yKG4FHkKr0Dtj9epTg2Y/TDhujU1wE-indexes-default-0.framer",
+   "0KB fetch https://framerusercontent.com/cms/NLyg56sGQHBXiWMXUuCt/yKG4FHkKr0Dtj9epTg2Y/TDhujU1wE-indexes-default-0.framer",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/rolldown-runtime.Bi-D_2cA.mjs",
+   "0KB other https://framerusercontent.com/sites/icons/default-favicon-light.v1.png"
+  ]
+ },
+ {
+  "page": "areas/elkhorn",
+  "w": 390,
+  "title": "Permanent Christmas & Roofline Lights in Elkhorn · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 390,
+  "clientW": 390,
+  "scrollH": 4083,
+  "bodyScrollW": 390,
+  "heads": [
+   "H1: Permanent roofline lighting in Elkhorn",
+   "H2: Recent installs.",
+   "H2: Common questions.",
+   "H3: How much does permanent roofline lighting cost?",
+   "H3: Can you see the lights during the day?",
+   "H3: Do I control the lights from my phone?",
+   "H3: What areas do you serve?",
+   "H3: How long does installation take?",
+   "H2: See your house lit before you decide.",
+   "H2: Your home, after dark. Let's design it."
+  ],
+  "allH1": 1,
+  "imgCount": 5,
+  "visImgs": 5,
+  "noAlt": [
+   "auzDo8tKXN1nx7AdYB2x6gW5Q.jpg?width=960&height=720 349x262@350",
+   "auzDo8tKXN1nx7AdYB2x6gW5Q.jpg?width=960&height=720 349x262@350",
+   "vVMZYjwUHNIwvi1yl47IgnjNylI.jpg?scale-down-to=1024&width=240 350x262@350",
+   "46NEBAyrtFixGHOsvMhFQdMqJM.jpg?scale-down-to=1024&width=2048 350x262@350",
+   "7poLAcqJbmPCjuxxdCRvuToOhc.png?scale-down-to=1024&width=5504 390x217@390"
+  ],
+  "alts": [],
+  "overTop": [
+   "P.ie-form__trap L-9979 R-9978 \"Company website\""
+  ],
+  "smallCount": 26,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "../"
+   },
+   {
+    "t": "Call 402-699-6256",
+    "w": 154,
+    "h": 20,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "FL Rambler",
+    "w": 350,
+    "h": 1,
+    "tag": "A",
+    "href": "../our-work/fl-rambler"
+   },
+   {
+    "t": "Three-Car Ranch",
+    "w": 350,
+    "h": 1,
+    "tag": "A",
+    "href": "../our-work/three-car-ranch"
+   },
+   {
+    "t": "Midwestern Metal Build Home",
+    "w": 350,
+    "h": 1,
+    "tag": "A",
+    "href": "../our-work/midwestern-metal-build-home"
+   },
+   {
+    "t": "All questions",
+    "w": 126,
+    "h": 18,
+    "tag": "A",
+    "href": "../faq"
+   },
+   {
+    "t": "text",
+    "w": 163,
+    "h": 20,
+    "tag": "INPUT",
+    "href": null
+   },
+   {
+    "t": "Our Work",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "../our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 100,
+    "h": 19,
+    "tag": "A",
+    "href": "../how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "../faq"
+   },
+   {
+    "t": "About",
+    "w": 47,
+    "h": 19,
+    "tag": "A",
+    "href": "../about"
+   },
+   {
+    "t": "Get a Free Design",
+    "w": 134,
+    "h": 19,
+    "tag": "A",
+    "href": "../free-design"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "info@illuminated-exteriors.com",
+    "w": 237,
+    "h": 19,
+    "tag": "A",
+    "href": "mailto:info@illuminated-exteriors.com"
+   },
+   {
+    "t": "Facebook",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "https://www.facebook.com/illuminatedexteriors"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 59,
+    "h": 19,
+    "tag": "A",
+    "href": "./elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 56,
+    "h": 19,
+    "tag": "A",
+    "href": "./omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 52,
+    "h": 19,
+    "tag": "A",
+    "href": "./gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 91,
+    "h": 19,
+    "tag": "A",
+    "href": "./bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "./council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 55,
+    "h": 19,
+    "tag": "A",
+    "href": "./lincoln"
+   },
+   {
+    "t": "Call",
+    "w": 173,
+    "h": 43,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "Free Design",
+    "w": 173,
+    "h": 43,
+    "tag": "A",
+    "href": "../free-design"
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   11.5,
+   12,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   30,
+   38,
+   40,
+   44
+  ],
+  "tiny": [
+   "11.5px \"SERVICE AREA\"",
+   "11.5px \"REAL HOMES NEARBY\"",
+   "11.5px \"FREE DESIGN\"",
+   "11.5px \"STEP 1 OF 3 · YOUR ADDRESS\"",
+   "11.5px \"EXPLORE\"",
+   "11.5px \"CONTACT\"",
+   "11.5px \"SERVICE AREAS\"",
+   "11.5px \"❚❚\nPAUSE MOTION\""
+  ],
+  "text": "ILLUMINATED EXTERIORS Our Work How It Works FAQ About Free Design Call 402-699-6256 Serving Omaha, Elkhorn and homes within about 50 miles. SERVICE AREA Permanent roofline lighting in Elkhorn Permanent roofline lighting for Elkhorn homes: warm white every night and color for holidays, game days and birthdays, all from your phone. We design at dusk on your own house, install it, and set up your first scenes with you. Get a Free Design REAL HOMES NEARBY Recent installs. FL Rambler Three-Car Ranch Midwestern Metal Build Home Common questions. How much does permanent roofline lighting cost? Can you see the lights during the day? Do I control the lights from my phone? What areas do you serve? How long does installation take? All questions FREE DESIGN See your house lit before you decide. We visit at dusk, measure your roofline and show you scenes on your own home. Free and no obligation. Your home, after dark. Let's design it. STEP 1 OF 3 · YOUR ADDRESS Company website Street address ZIP code Continue Free and no obligation. We use your details only to plan your design. ILLUMINATED EXTERIORS Permanent roofline lighting for homes in Omaha, Elkhorn and within about 50 miles. EXPLORE Our Work How It Works FAQ About Get a Free Design CONTACT 402-699-6256 info@illuminated-exteriors.com Mon–Fri · 9 AM–5 PM Facebook SERVICE AREAS Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln © 2026 Illuminated Exteriors ❚❚ PAUSE MOTION Call Free Design Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:0 nav:1 main:0 footer:1",
+  "links": [
+   "../",
+   "../our-work",
+   "../how-it-works",
+   "../faq",
+   "../about",
+   "../free-design",
+   "tel:+14026996256",
+   "/free-design",
+   "../our-work/fl-rambler",
+   "../our-work/three-car-ranch",
+   "../our-work/midwestern-metal-build-home",
+   "mailto:info@illuminated-exteriors.com",
+   "https://www.facebook.com/illuminatedexteriors",
+   "./elkhorn",
+   "./omaha",
+   "./papillion",
+   "./bellevue",
+   "./gretna",
+   "./bennington",
+   "./council-bluffs",
+   "./lincoln",
+   "https://www.framer.com"
+  ],
+  "reqCount": 34,
+  "bytes": 101535,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "events.framer.com": 2,
+   "framerusercontent.com": 28,
+   "fonts.gstatic.com": 2,
+   "framer.com": 1
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "39KB font https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+   "27KB font https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zcZj1bIkNo.woff2",
+   "22KB document https://nuanced-checkbox-084836.framer.app/areas/elkhorn",
+   "11KB script https://events.framer.com/script?v=2",
+   "0KB fetch https://framerusercontent.com/cms/NLyg56sGQHBXiWMXUuCt/yKG4FHkKr0Dtj9epTg2Y/TDhujU1wE-indexes-default-0.framer",
+   "0KB fetch https://framerusercontent.com/cms/NLyg56sGQHBXiWMXUuCt/yKG4FHkKr0Dtj9epTg2Y/TDhujU1wE-indexes-default-0.framer",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/rolldown-runtime.Bi-D_2cA.mjs",
+   "0KB other https://framerusercontent.com/sites/icons/default-favicon-light.v1.png"
+  ]
+ },
+ {
+  "page": "areas/elkhorn",
+  "w": 810,
+  "title": "Permanent Christmas & Roofline Lights in Elkhorn · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 810,
+  "clientW": 810,
+  "scrollH": 4746,
+  "bodyScrollW": 810,
+  "heads": [
+   "H1: Permanent roofline lighting in Elkhorn",
+   "H2: Recent installs.",
+   "H2: Common questions.",
+   "H3: How much does permanent roofline lighting cost?",
+   "H3: Can you see the lights during the day?",
+   "H3: Do I control the lights from my phone?",
+   "H3: What areas do you serve?",
+   "H3: How long does installation take?",
+   "H2: See your house lit before you decide.",
+   "H2: Your home, after dark. Let's design it."
+  ],
+  "allH1": 1,
+  "imgCount": 5,
+  "visImgs": 5,
+  "noAlt": [
+   "auzDo8tKXN1nx7AdYB2x6gW5Q.jpg?width=960&height=720 745x559@746",
+   "auzDo8tKXN1nx7AdYB2x6gW5Q.jpg?width=960&height=720 745x559@361",
+   "vVMZYjwUHNIwvi1yl47IgnjNylI.jpg?scale-down-to=512&width=2400 361x270@361",
+   "46NEBAyrtFixGHOsvMhFQdMqJM.jpg?scale-down-to=512&width=2048& 361x270@361",
+   "7poLAcqJbmPCjuxxdCRvuToOhc.png?scale-down-to=1024&width=5504 809x452@810"
+  ],
+  "alts": [],
+  "overTop": [
+   "P.ie-form__trap L-9967 R-9966 \"Company website\""
+  ],
+  "smallCount": 21,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "../"
+   },
+   {
+    "t": "Call 402-699-6256",
+    "w": 154,
+    "h": 20,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "All questions",
+    "w": 126,
+    "h": 18,
+    "tag": "A",
+    "href": "../faq"
+   },
+   {
+    "t": "text",
+    "w": 163,
+    "h": 20,
+    "tag": "INPUT",
+    "href": null
+   },
+   {
+    "t": "Our Work",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "../our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 100,
+    "h": 19,
+    "tag": "A",
+    "href": "../how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "../faq"
+   },
+   {
+    "t": "About",
+    "w": 47,
+    "h": 19,
+    "tag": "A",
+    "href": "../about"
+   },
+   {
+    "t": "Get a Free Design",
+    "w": 134,
+    "h": 19,
+    "tag": "A",
+    "href": "../free-design"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "info@illuminated-exteriors.com",
+    "w": 237,
+    "h": 19,
+    "tag": "A",
+    "href": "mailto:info@illuminated-exteriors.com"
+   },
+   {
+    "t": "Facebook",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "https://www.facebook.com/illuminatedexteriors"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 59,
+    "h": 19,
+    "tag": "A",
+    "href": "./elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 56,
+    "h": 19,
+    "tag": "A",
+    "href": "./omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 52,
+    "h": 19,
+    "tag": "A",
+    "href": "./gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 91,
+    "h": 19,
+    "tag": "A",
+    "href": "./bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "./council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 55,
+    "h": 19,
+    "tag": "A",
+    "href": "./lincoln"
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   9,
+   11,
+   11.5,
+   12,
+   14,
+   15,
+   17,
+   18,
+   20,
+   30,
+   40,
+   48,
+   64
+  ],
+  "tiny": [
+   "11px \"Serving Omaha, Elkhorn and hom\"",
+   "9px \"SERVICE AREA\"",
+   "9px \"REAL HOMES NEARBY\"",
+   "9px \"FREE DESIGN\"",
+   "11.5px \"STEP 1 OF 3 · YOUR ADDRESS\"",
+   "11px \"Permanent roofline lighting fo\"",
+   "9px \"EXPLORE\"",
+   "9px \"CONTACT\"",
+   "11px \"Mon–Fri · 9 AM–5 PM\"",
+   "9px \"SERVICE AREAS\""
+  ],
+  "text": "ILLUMINATED EXTERIORS Our Work How It Works FAQ About Free Design Call 402-699-6256 Serving Omaha, Elkhorn and homes within about 50 miles. SERVICE AREA Permanent roofline lighting in Elkhorn Permanent roofline lighting for Elkhorn homes: warm white every night and color for holidays, game days and birthdays, all from your phone. We design at dusk on your own house, install it, and set up your first scenes with you. Get a Free Design REAL HOMES NEARBY Recent installs. FL Rambler Three-Car Ranch Midwestern Metal Build Home Common questions. How much does permanent roofline lighting cost? Can you see the lights during the day? Do I control the lights from my phone? What areas do you serve? How long does installation take? All questions FREE DESIGN See your house lit before you decide. We visit at dusk, measure your roofline and show you scenes on your own home. Free and no obligation. Your home, after dark. Let's design it. STEP 1 OF 3 · YOUR ADDRESS Company website Street address ZIP code Continue Free and no obligation. We use your details only to plan your design. ILLUMINATED EXTERIORS Permanent roofline lighting for homes in Omaha, Elkhorn and within about 50 miles. EXPLORE Our Work How It Works FAQ About Get a Free Design CONTACT 402-699-6256 info@illuminated-exteriors.com Mon–Fri · 9 AM–5 PM Facebook SERVICE AREAS Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln © 2026 Illuminated Exteriors ❚❚ PAUSE MOTION Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:0 nav:1 main:0 footer:1",
+  "links": [
+   "../",
+   "../our-work",
+   "../how-it-works",
+   "../faq",
+   "../about",
+   "../free-design",
+   "tel:+14026996256",
+   "/free-design",
+   "../our-work/fl-rambler",
+   "../our-work/three-car-ranch",
+   "../our-work/midwestern-metal-build-home",
+   "mailto:info@illuminated-exteriors.com",
+   "https://www.facebook.com/illuminatedexteriors",
+   "./elkhorn",
+   "./omaha",
+   "./papillion",
+   "./bellevue",
+   "./gretna",
+   "./bennington",
+   "./council-bluffs",
+   "./lincoln",
+   "https://www.framer.com"
+  ],
+  "reqCount": 34,
+  "bytes": 101535,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "framerusercontent.com": 28,
+   "events.framer.com": 2,
+   "fonts.gstatic.com": 2,
+   "framer.com": 1
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "39KB font https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+   "27KB font https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zcZj1bIkNo.woff2",
+   "22KB document https://nuanced-checkbox-084836.framer.app/areas/elkhorn",
+   "11KB script https://events.framer.com/script?v=2",
+   "0KB fetch https://framerusercontent.com/cms/NLyg56sGQHBXiWMXUuCt/yKG4FHkKr0Dtj9epTg2Y/TDhujU1wE-indexes-default-0.framer",
+   "0KB fetch https://framerusercontent.com/cms/NLyg56sGQHBXiWMXUuCt/yKG4FHkKr0Dtj9epTg2Y/TDhujU1wE-indexes-default-0.framer",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/rolldown-runtime.Bi-D_2cA.mjs",
+   "0KB other https://framerusercontent.com/sites/icons/default-favicon-light.v1.png"
+  ]
+ },
+ {
+  "page": "areas/elkhorn",
+  "w": 1440,
+  "title": "Permanent Christmas & Roofline Lights in Elkhorn · Illuminated Exteriors",
+  "lang": "en-US",
+  "scrollW": 1440,
+  "clientW": 1440,
+  "scrollH": 4529,
+  "bodyScrollW": 1440,
+  "heads": [
+   "H1: Permanent roofline lighting in Elkhorn",
+   "H2: Recent installs.",
+   "H2: Common questions.",
+   "H3: How much does permanent roofline lighting cost?",
+   "H3: Can you see the lights during the day?",
+   "H3: Do I control the lights from my phone?",
+   "H3: What areas do you serve?",
+   "H3: How long does installation take?",
+   "H2: See your house lit before you decide.",
+   "H2: Your home, after dark. Let's design it."
+  ],
+  "allH1": 1,
+  "imgCount": 5,
+  "visImgs": 5,
+  "noAlt": [
+   "auzDo8tKXN1nx7AdYB2x6gW5Q.jpg?width=960&height=720 1200x900@1200",
+   "auzDo8tKXN1nx7AdYB2x6gW5Q.jpg?width=960&height=720 1200x900@384",
+   "vVMZYjwUHNIwvi1yl47IgnjNylI.jpg?scale-down-to=512&width=2400 384x288@384",
+   "46NEBAyrtFixGHOsvMhFQdMqJM.jpg?scale-down-to=512&width=2048& 384x288@384",
+   "7poLAcqJbmPCjuxxdCRvuToOhc.png?scale-down-to=2048&width=5504 1440x803@1440"
+  ],
+  "alts": [],
+  "overTop": [
+   "P.ie-form__trap L-9247 R-9246 \"Company website\""
+  ],
+  "smallCount": 24,
+  "small": [
+   {
+    "t": "ILLUMINATED EXTERIORS",
+    "w": 245,
+    "h": 18,
+    "tag": "A",
+    "href": "../"
+   },
+   {
+    "t": "Our Work",
+    "w": 74,
+    "h": 19,
+    "tag": "A",
+    "href": "../our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 102,
+    "h": 19,
+    "tag": "A",
+    "href": "../how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "../faq"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 104,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "All questions",
+    "w": 126,
+    "h": 18,
+    "tag": "A",
+    "href": "../faq"
+   },
+   {
+    "t": "text",
+    "w": 163,
+    "h": 20,
+    "tag": "INPUT",
+    "href": null
+   },
+   {
+    "t": "Our Work",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "../our-work"
+   },
+   {
+    "t": "How It Works",
+    "w": 100,
+    "h": 19,
+    "tag": "A",
+    "href": "../how-it-works"
+   },
+   {
+    "t": "FAQ",
+    "w": 32,
+    "h": 19,
+    "tag": "A",
+    "href": "../faq"
+   },
+   {
+    "t": "About",
+    "w": 47,
+    "h": 19,
+    "tag": "A",
+    "href": "../about"
+   },
+   {
+    "t": "Get a Free Design",
+    "w": 134,
+    "h": 19,
+    "tag": "A",
+    "href": "../free-design"
+   },
+   {
+    "t": "402-699-6256",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "tel:+14026996256"
+   },
+   {
+    "t": "info@illuminated-exteriors.com",
+    "w": 237,
+    "h": 19,
+    "tag": "A",
+    "href": "mailto:info@illuminated-exteriors.com"
+   },
+   {
+    "t": "Facebook",
+    "w": 73,
+    "h": 19,
+    "tag": "A",
+    "href": "https://www.facebook.com/illuminatedexteriors"
+   },
+   {
+    "t": "Elkhorn",
+    "w": 59,
+    "h": 19,
+    "tag": "A",
+    "href": "./elkhorn"
+   },
+   {
+    "t": "Omaha",
+    "w": 56,
+    "h": 19,
+    "tag": "A",
+    "href": "./omaha"
+   },
+   {
+    "t": "Papillion",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./papillion"
+   },
+   {
+    "t": "Bellevue",
+    "w": 65,
+    "h": 19,
+    "tag": "A",
+    "href": "./bellevue"
+   },
+   {
+    "t": "Gretna",
+    "w": 52,
+    "h": 19,
+    "tag": "A",
+    "href": "./gretna"
+   },
+   {
+    "t": "Bennington",
+    "w": 91,
+    "h": 19,
+    "tag": "A",
+    "href": "./bennington"
+   },
+   {
+    "t": "Council Bluffs",
+    "w": 103,
+    "h": 19,
+    "tag": "A",
+    "href": "./council-bluffs"
+   },
+   {
+    "t": "Lincoln",
+    "w": 55,
+    "h": 19,
+    "tag": "A",
+    "href": "./lincoln"
+   },
+   {
+    "t": "Create a free website with Framer, the w",
+    "w": 140,
+    "h": 38,
+    "tag": "A",
+    "href": "https://www.framer.com"
+   }
+  ],
+  "unnamed": [],
+  "dup": [],
+  "fonts": [
+   11.5,
+   12,
+   14,
+   15,
+   17,
+   18,
+   22,
+   42,
+   60,
+   84
+  ],
+  "tiny": [
+   "11.5px \"SERVICE AREA\"",
+   "11.5px \"REAL HOMES NEARBY\"",
+   "11.5px \"FREE DESIGN\"",
+   "11.5px \"STEP 1 OF 3 · YOUR ADDRESS\"",
+   "11.5px \"EXPLORE\"",
+   "11.5px \"CONTACT\"",
+   "11.5px \"SERVICE AREAS\"",
+   "11.5px \"❚❚\nPAUSE MOTION\""
+  ],
+  "text": "ILLUMINATED EXTERIORS Our Work How It Works FAQ 402-699-6256 Get a Free Design SERVICE AREA Permanent roofline lighting in Elkhorn Permanent roofline lighting for Elkhorn homes: warm white every night and color for holidays, game days and birthdays, all from your phone. We design at dusk on your own house, install it, and set up your first scenes with you. Get a Free Design REAL HOMES NEARBY Recent installs. FL Rambler Three-Car Ranch Midwestern Metal Build Home Common questions. How much does permanent roofline lighting cost? Can you see the lights during the day? Do I control the lights from my phone? What areas do you serve? How long does installation take? All questions FREE DESIGN See your house lit before you decide. We visit at dusk, measure your roofline and show you scenes on your own home. Free and no obligation. Your home, after dark. Let's design it. STEP 1 OF 3 · YOUR ADDRESS Company website Street address ZIP code Continue Free and no obligation. We use your details only to plan your design. ILLUMINATED EXTERIORS Permanent roofline lighting for homes in Omaha, Elkhorn and within about 50 miles. EXPLORE Our Work How It Works FAQ About Get a Free Design CONTACT 402-699-6256 info@illuminated-exteriors.com Mon–Fri · 9 AM–5 PM Facebook SERVICE AREAS Elkhorn Omaha Papillion Bellevue Gretna Bennington Council Bluffs Lincoln © 2026 Illuminated Exteriors ❚❚ PAUSE MOTION Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "landmarks": "header:0 nav:1 main:0 footer:1",
+  "links": [
+   "../",
+   "../our-work",
+   "../how-it-works",
+   "../faq",
+   "tel:+14026996256",
+   "/free-design",
+   "../our-work/fl-rambler",
+   "../our-work/three-car-ranch",
+   "../our-work/midwestern-metal-build-home",
+   "../about",
+   "../free-design",
+   "mailto:info@illuminated-exteriors.com",
+   "https://www.facebook.com/illuminatedexteriors",
+   "./elkhorn",
+   "./omaha",
+   "./papillion",
+   "./bellevue",
+   "./gretna",
+   "./bennington",
+   "./council-bluffs",
+   "./lincoln",
+   "https://www.framer.com"
+  ],
+  "reqCount": 34,
+  "bytes": 101535,
+  "hosts": {
+   "nuanced-checkbox-084836.framer.app": 1,
+   "events.framer.com": 2,
+   "framerusercontent.com": 28,
+   "fonts.gstatic.com": 2,
+   "framer.com": 1
+  },
+  "bad": [],
+  "failed": [
+   "https://app.framerstatic.com/chunk-HA3TJUCE.mjs net::ERR_TUNNEL_CONNECTION_FAILED"
+  ],
+  "cons": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "TypeError: Failed to fetch dynamically imported module: https://framer.com/edit/init.mjs"
+  ],
+  "big": [
+   "39KB font https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+   "27KB font https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zcZj1bIkNo.woff2",
+   "22KB document https://nuanced-checkbox-084836.framer.app/areas/elkhorn",
+   "11KB script https://events.framer.com/script?v=2",
+   "0KB fetch https://framerusercontent.com/cms/NLyg56sGQHBXiWMXUuCt/yKG4FHkKr0Dtj9epTg2Y/TDhujU1wE-indexes-default-0.framer",
+   "0KB fetch https://framerusercontent.com/cms/NLyg56sGQHBXiWMXUuCt/yKG4FHkKr0Dtj9epTg2Y/TDhujU1wE-indexes-default-0.framer",
+   "0KB script https://framerusercontent.com/sites/73IizwHh9WNmSOZiEsfwPk/rolldown-runtime.Bi-D_2cA.mjs",
+   "0KB other https://framerusercontent.com/sites/icons/default-favicon-light.v1.png"
+  ]
+ }
+]
