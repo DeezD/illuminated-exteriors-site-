@@ -137,8 +137,8 @@ const CSS = `
   border:1px solid ${color.line};font-size:14px;transition:border-color .2s,background .2s}
 .ie-form__option input:checked + span{border-color:${color.goldBright};background:rgba(217,180,106,.1);color:#fff}
 .ie-form__option input:focus-visible + span{box-shadow:0 0 0 2px ${color.night},0 0 0 4px ${color.goldBright}}
-.ie-form__check{display:flex;gap:10px;align-items:flex-start;font-size:13px;color:${color.dim};font-weight:400}
-.ie-form__check input{margin-top:2px;width:18px;height:18px;accent-color:${color.gold}}
+.ie-form .ie-form__check{display:flex;gap:12px;align-items:flex-start;font-size:13px;color:${color.dim};font-weight:400;padding:10px 0;cursor:pointer}
+.ie-form__check input{margin-top:0;width:22px;height:22px;flex:none;accent-color:${color.gold}}
 .ie-form__actions{display:flex;gap:12px;align-items:center;justify-content:space-between;margin-top:26px;flex-wrap:wrap}
 .ie-form__next{position:relative;overflow:hidden;min-height:50px;padding:0 26px;border:0;border-radius:999px;background:${color.gold};
   color:#1A1209;font:600 15px/1 ${font.body};cursor:pointer;box-shadow:0 0 26px rgba(217,180,106,.4)}
@@ -178,6 +178,7 @@ export default function BookingForm(props: Props) {
     const [f, setF] = useState<Fields>(EMPTY)
     const [errors, setErrors] = useState<Partial<Record<FieldName, string>>>({})
     const [photo, setPhoto] = useState<File | null>(null)
+    const [photoTooBig, setPhotoTooBig] = useState(false)
     const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error" | "waitlisted">("idle")
     const [announce, setAnnounce] = useState("")
     const [trap, setTrap] = useState("")
@@ -354,7 +355,7 @@ export default function BookingForm(props: Props) {
                     ✓ {status === "sent" ? "Request sent" : "On the list"}
                 </p>
                 <h2 className="ie-form__title" style={{ marginTop: 12 }}>
-                    {status === "sent" ? "You're booked in." : "We'll be in touch."}
+                    {status === "sent" ? "Request received." : "We'll be in touch."}
                 </h2>
                 <p style={{ margin: "8px 0 0", lineHeight: 1.6 }}>
                     {status === "sent"
@@ -364,7 +365,9 @@ export default function BookingForm(props: Props) {
                 {phoneDisplay ? (
                     <p className="ie-form__fine">
                         Questions sooner? Call or text{" "}
-                        <strong style={{ color: color.moonstone, userSelect: "all" }}>{phoneDisplay}</strong>
+                        <a href={`tel:${phoneDisplay.replace(/[^\d+]/g, "")}`} style={{ color: color.moonstone, fontWeight: 600 }}>
+                            {phoneDisplay}
+                        </a>
                     </p>
                 ) : null}
             </div>
@@ -523,10 +526,17 @@ export default function BookingForm(props: Props) {
                                     accept="image/*"
                                     onChange={(e) => {
                                         const file = e.target.files?.[0] ?? null
-                                        setPhoto(file && file.size <= 10 * 1024 * 1024 ? file : null)
+                                        const tooBig = !!file && file.size > 10 * 1024 * 1024
+                                        setPhotoTooBig(tooBig)
+                                        setPhoto(file && !tooBig ? file : null)
                                     }}
                                 />
                                 {photo ? <p className="ie-form__ok">✓ {photo.name}</p> : null}
+                                {photoTooBig ? (
+                                    <p className="ie-form__error" role="alert">
+                                        That photo is over 10 MB. Try a smaller one, or skip it and we'll take one at the visit.
+                                    </p>
+                                ) : null}
                             </div>
                             {field(
                                 "notes",
@@ -644,7 +654,7 @@ BookingForm.defaultProps = {
     sceneOptions: "Everyday, Red & White Game Day, Blue & White Game Day, Birthday, July 4th, Halloween, Christmas",
     responseTime: "one business day",
     phoneDisplay: "402-699-6256",
-    heading: "Your home, after dark. Let's design it.",
+    heading: "Tell us about your home.",
 }
 
 addPropertyControls(BookingForm, {

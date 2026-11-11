@@ -72,6 +72,8 @@ type Props = {
     clockFrom: string
     clockTo: string
     hudTop: number
+    topOffset: number
+    mobileBottomInset: number
     style?: CSSProperties
 }
 
@@ -90,7 +92,7 @@ function formatClock(minutes: number) {
 
 const CSS = `
 .ie-hero{position:relative;background:${color.night};color:${color.moonstone}}
-.ie-hero__stage{position:sticky;top:0;height:100svh;min-height:560px;overflow:hidden}
+.ie-hero__stage{position:sticky;top:var(--ie-top,0px);height:calc(100svh - var(--ie-top,0px));min-height:520px;overflow:hidden}
 .ie-hero__media,.ie-hero__canvas{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 .ie-hero__canvas{opacity:0;transition:opacity .6s ${cssEase.dusk}}
 .ie-hero__canvas.is-ready{opacity:1}
@@ -122,7 +124,8 @@ const CSS = `
 @keyframes ie-cue{0%{transform:scaleY(0)}60%{transform:scaleY(1)}100%{transform:scaleY(1);opacity:0}}
 .ie-hero__cue.is-on{animation:ie-cue 1.6s ${cssEase.ignite} infinite}
 @media (max-width:809px){
-  .ie-hero__overlay{padding-bottom:32px}
+  .ie-hero__overlay{padding-bottom:calc(32px + var(--ie-bar,0px))}
+  .ie-hero__scrim{height:78%;background:linear-gradient(180deg,rgba(5,7,11,0) 0%,rgba(5,7,11,.72) 45%,rgba(5,7,11,.95) 100%)}
   .ie-hero__hud .ie-hero__hudlabel{display:none}
   .ie-hero__cue{display:none}
 }
@@ -130,6 +133,7 @@ const CSS = `
 `
 
 const PACK_SLOTS = 6
+const PHONE_MEDIA = "(max-width: 809px), (orientation: portrait) and (max-width: 1199px)"
 
 // The filled pack slots, in order (empty slots are skipped).
 function packList(p: Props, prefix: "desktopPack" | "mobilePack"): string[] {
@@ -167,7 +171,8 @@ export default function ScrollVideoHero(props: Props) {
     const device = useDeviceTier()
     const paused = useStore((s) => s.motionPaused)
 
-    const mobile = device.narrow
+    // Phones and portrait tablets get the 9:16 film.
+    const mobile = device.narrow || device.portrait
     // Frame packs uploaded to Framer win over URL patterns; phones fall back to
     // the desktop set if no 9:16 set is given.
     const desktopPacks = packList(p, "desktopPack")
@@ -297,7 +302,8 @@ export default function ScrollVideoHero(props: Props) {
                 lastChapter = ci
                 setChapter(ci)
             }
-            if (cur !== target || intro < 1 || seq.loadedCount < count) schedule()
+            // New frames schedule their own redraw (onFrameLoaded), so the loop can rest.
+            if (cur !== target || (introStart && intro < 1)) schedule()
         }
 
         const resize = () => {
@@ -319,6 +325,7 @@ export default function ScrollVideoHero(props: Props) {
             scrollP = span > 0 ? clamp01(-r.top / span) : 0
             if (!hasScrolled && scrollP > 0.01) {
                 hasScrolled = true
+                seq.expand() // the visitor is scrubbing: fetch the full-detail frames
                 intro = 1 // the visitor's scroll wins over the intro
                 setScrolled(true)
             }
@@ -326,7 +333,12 @@ export default function ScrollVideoHero(props: Props) {
         }
 
         seq.onFrameLoaded = schedule
-        seq.start()
+        // Only the coarse set (pack 1) loads up front; the rest follows the first
+        // scroll, or a few seconds after the intro on desktop-class devices.
+        seq.start(true)
+        const introTimer = window.setTimeout(schedule, 2600) // intro starts by 2.5 s even with no frames
+        const idleTimer =
+            device.tier === "high" ? window.setTimeout(() => seq.expand(), p.introSeconds * 1000 + 3000) : 0
         const ro = new ResizeObserver(resize)
         ro.observe(canvas)
         const io = new IntersectionObserver(([e]) => {
@@ -338,6 +350,8 @@ export default function ScrollVideoHero(props: Props) {
         onScroll()
 
         return () => {
+            window.clearTimeout(introTimer)
+            window.clearTimeout(idleTimer)
             seq.cancel()
             ro.disconnect()
             io.disconnect()
@@ -347,7 +361,8 @@ export default function ScrollVideoHero(props: Props) {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [animated, sourceKey, count, p.framePad, device.ready, device.tier, mobile, p.introTo, p.introSeconds])
 
-    const poster = (mobile && p.mobilePoster?.src ? p.mobilePoster : p.poster) as Img | undefined
+    const poster = (p.poster?.src ? p.poster : p.mobilePoster) as Img | undefined
+    const phonePoster = p.mobilePoster?.src && p.poster?.src ? p.mobilePoster : undefined
     const still = p.finalFrame?.src ? p.finalFrame : poster
     const clock = formatClock(minutes)
     const length = animated ? (mobile ? Math.max(160, p.scrollLength * 0.7) : p.scrollLength) : 100
@@ -372,19 +387,32 @@ export default function ScrollVideoHero(props: Props) {
             className="ie-hero"
             aria-label={p.eyebrow || "Illuminated Exteriors"}
             data-lumen=""
-            style={{ height: isEditor ? 760 : `${length}svh`, ...p.style }}
+            style={
+                {
+                    height: isEditor ? 760 : `${length}svh`,
+                    "--ie-top": `${p.topOffset || 0}px`,
+                    "--ie-bar": `${p.mobileBottomInset || 0}px`,
+                    ...p.style,
+                } as CSSProperties
+            }
         >
             <style>{CSS}</style>
             <div className="ie-hero__stage" style={isEditor ? { position: "relative", height: 760 } : undefined}>
                 {animated ? (
                     poster?.src ? (
-                        <img
-                            className="ie-hero__media"
-                            src={poster.src}
-                            srcSet={poster.srcSet}
-                            alt=""
-                            fetchPriority="high"
-                        />
+                        // <picture> so the server HTML already names the phone poster (LCP).
+                        <picture>
+                            {phonePoster ? (
+                                <source media={PHONE_MEDIA} srcSet={phonePoster.srcSet || phonePoster.src} />
+                            ) : null}
+                            <img
+                                className="ie-hero__media"
+                                src={poster.src}
+                                srcSet={poster.srcSet}
+                                alt=""
+                                fetchPriority="high"
+                            />
+                        </picture>
                     ) : null
                 ) : still?.src ? (
                     <img
@@ -575,6 +603,8 @@ ScrollVideoHero.defaultProps = {
     clockFrom: "18:12",
     clockTo: "18:46",
     hudTop: 96,
+    topOffset: 0,
+    mobileBottomInset: 0,
 }
 
 addPropertyControls(ScrollVideoHero, {
@@ -644,4 +674,20 @@ addPropertyControls(ScrollVideoHero, {
     clockFrom: { type: ControlType.String, title: "Clock from", placeholder: "18:12" },
     clockTo: { type: ControlType.String, title: "Clock to", placeholder: "18:46" },
     hudTop: { type: ControlType.Number, title: "HUD top", min: 0, max: 200, step: 4 },
+    topOffset: {
+        type: ControlType.Number,
+        title: "Nav height",
+        min: 0,
+        max: 160,
+        step: 1,
+        description: "Height of a fixed nav above the hero; the film fits below it.",
+    },
+    mobileBottomInset: {
+        type: ControlType.Number,
+        title: "Phone bar",
+        min: 0,
+        max: 160,
+        step: 1,
+        description: "Height of a fixed bottom bar on phones; hero buttons sit above it.",
+    },
 })

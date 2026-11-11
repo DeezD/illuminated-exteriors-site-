@@ -13,6 +13,7 @@ export type DeviceInfo = {
     finePointer: boolean // mouse or trackpad with real hover
     reducedMotion: boolean
     narrow: boolean // under 810px, Framer's tablet breakpoint
+    portrait: boolean // a portrait tablet (taller than wide, under 1200px wide)
     ready: boolean // false until the browser has been checked (first render only)
 }
 
@@ -21,6 +22,7 @@ const SSR_DEFAULT: DeviceInfo = {
     finePointer: false,
     reducedMotion: false,
     narrow: false,
+    portrait: false,
     ready: false,
 }
 
@@ -29,6 +31,7 @@ function detect(): DeviceInfo {
     const reducedMotion = mq("(prefers-reduced-motion: reduce)")
     const finePointer = mq("(hover: hover) and (pointer: fine)")
     const narrow = mq("(max-width: 809px)")
+    const portrait = mq("(orientation: portrait) and (max-width: 1199px)")
 
     const nav = navigator as Navigator & {
         connection?: { saveData?: boolean; effectiveType?: string }
@@ -42,7 +45,7 @@ function detect(): DeviceInfo {
     let tier: Tier = finePointer && !narrow ? "high" : "medium"
     if (saveData || slowNet || lowMemory || fewCores) tier = "low"
     if (reducedMotion) tier = "still"
-    return { tier, finePointer, reducedMotion, narrow, ready: true }
+    return { tier, finePointer, reducedMotion, narrow, portrait, ready: true }
 }
 
 export function useDeviceTier(): DeviceInfo {
@@ -54,6 +57,7 @@ export function useDeviceTier(): DeviceInfo {
             "(prefers-reduced-motion: reduce)",
             "(hover: hover) and (pointer: fine)",
             "(max-width: 809px)",
+            "(orientation: portrait) and (max-width: 1199px)",
         ].map((q) => window.matchMedia(q))
         queries.forEach((q) => q.addEventListener("change", update))
         return () => queries.forEach((q) => q.removeEventListener("change", update))
